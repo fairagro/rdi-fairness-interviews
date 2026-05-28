@@ -1,10 +1,10 @@
 1:"$Sreact.fragment"
-2:I[31528,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0anqt3~ffntl9.js"],"default"]
-3:I[15738,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0anqt3~ffntl9.js"],"default"]
-4:I[56883,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0anqt3~ffntl9.js"],"default"]
-5:I[31361,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0anqt3~ffntl9.js"],"default"]
-6:I[81536,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0anqt3~ffntl9.js"],"default"]
-7:I[81070,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0anqt3~ffntl9.js"],"default"]
+2:I[31528,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
+3:I[15738,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
+4:I[56883,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
+5:I[31361,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
+6:I[81536,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
+7:I[81070,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
 e:I[42616,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"OutletBoundary"]
 f:"$Sreact.suspense"
 8:T1517,{
@@ -174,10 +174,10 @@ f:"$Sreact.suspense"
     "typeClass": "primitive",
     "value": ""
   }
-}0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"md","sx":{"py":4},"children":["$","$L3",null,{"sx":{"p":4,"borderRadius":3},"children":[["$","$L4",null,{"variant":"h4","sx":{"fontWeight":"bold","mb":2},"children":"HUB - Long-term field tests"}],["$","$L5",null,{"sx":{"mb":2}}],["$","$L4",null,{"variant":"body1","sx":{"mb":2},"children":"The station manages multiple multi-decade agricultural field trials at two sites (Berlin-Dahlem and Thyrow, Brandenburg). Key experiments include long-term fertilizer, irrigation and nutrient-deficiency trials (e.g. a winter rye nutrient-deficiency experiment started in 1937) that track crop yields, soil properties and carbon dynamics"}],["$","$L6",null,{"sx":{"mb":2},"children":[["$","$L4",null,{"variant":"subtitle2","children":"Subject:"}],["$","$L6",null,{"sx":{"display":"flex","flexWrap":"wrap","gap":0.5,"mt":0.5},"children":[["$","$L7","Agricultural Sciences",{"label":"Agricultural Sciences","size":"small"}]]}]]}],["$","$L5",null,{"sx":{"my":2}}],["$","$L4",null,{"variant":"h6","children":"FAIRness (raw):"}],["$","pre",null,{"style":{"fontSize":13,"background":"#f7f7f7","padding":8,"borderRadius":4,"maxHeight":300,"overflow":"auto"},"children":"$8"}],"$L9","$La","$undefined"]}]}],["$Lb","$Lc"],"$Ld"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TmA2axr4Fc3VefBGQ28wE"}
+}0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"md","sx":{"py":4},"children":["$","$L3",null,{"sx":{"p":4,"borderRadius":3},"children":[["$","$L4",null,{"variant":"h4","sx":{"fontWeight":"bold","mb":2},"children":"HUB - Long-term field tests"}],["$","$L5",null,{"sx":{"mb":2}}],["$","$L4",null,{"variant":"body1","sx":{"mb":2},"children":"The station manages multiple multi-decade agricultural field trials at two sites (Berlin-Dahlem and Thyrow, Brandenburg). Key experiments include long-term fertilizer, irrigation and nutrient-deficiency trials (e.g. a winter rye nutrient-deficiency experiment started in 1937) that track crop yields, soil properties and carbon dynamics"}],["$","$L6",null,{"sx":{"mb":2},"children":[["$","$L4",null,{"variant":"subtitle2","children":"Subject:"}],["$","$L6",null,{"sx":{"display":"flex","flexWrap":"wrap","gap":0.5,"mt":0.5},"children":[["$","$L7","Agricultural Sciences",{"label":"Agricultural Sciences","size":"small"}]]}]]}],["$","$L5",null,{"sx":{"my":2}}],["$","$L4",null,{"variant":"h6","children":"FAIRness (raw):"}],["$","pre",null,{"style":{"fontSize":13,"background":"#f7f7f7","padding":8,"borderRadius":4,"maxHeight":300,"overflow":"auto"},"children":"$8"}],"$L9","$La","$undefined"]}]}],["$Lb","$Lc"],"$Ld"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"E_QUhzKDEhNDEHVedD4nK"}
 9:["$","$L5",null,{"sx":{"my":2}}]
 a:["$","$L4",null,{"variant":"h6","sx":{"mb":2},"children":"Law And Ethics"}]
 b:["$","script","script-0",{"src":"/_next/static/chunks/14v49gximnp7a.js","async":true}]
-c:["$","script","script-1",{"src":"/_next/static/chunks/0anqt3~ffntl9.js","async":true}]
+c:["$","script","script-1",{"src":"/_next/static/chunks/0tik5o~24_51q.js","async":true}]
 d:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
 10:null

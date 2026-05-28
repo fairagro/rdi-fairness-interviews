@@ -1,10 +1,10 @@
 1:"$Sreact.fragment"
-2:I[31528,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0anqt3~ffntl9.js"],"default"]
-3:I[15738,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0anqt3~ffntl9.js"],"default"]
-4:I[56883,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0anqt3~ffntl9.js"],"default"]
-5:I[31361,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0anqt3~ffntl9.js"],"default"]
-7:I[81536,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0anqt3~ffntl9.js"],"default"]
-8:I[81070,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0anqt3~ffntl9.js"],"default"]
+2:I[31528,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
+3:I[15738,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
+4:I[56883,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
+5:I[31361,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
+7:I[81536,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
+8:I[81070,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
 f:I[42616,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"OutletBoundary"]
 10:"$Sreact.suspense"
 6:T4ed,GFZ Data Services is a repository for research data and scientific software across the Earth System Sciences, hosted at GFZ. The curated data are archived, persistently accessible and published with digital object identifier (DOI). They range from large dynamic datasets from global monitoring networks with real-time aquisition, to international services in geodesy and geophysics, to the full suite of small and highly heterogeneous datasets collected by individual researchers or small teams ("long-tail data"). In addition to the DOI registration and data archiving itself, GFZ Data Services team offers comprehensive consultation by domain scientists and IT specialists. Among others, GFZ Data Services is data publisher for the IAG Services ICGEM, IGETS and ISG (IAG = Int. Association for Geodesy; ICGEM = Int. Center for Global Earth Models; IGETS = Int. Geodynamics and Earth Tide Service; ISG = Int. Service for the Geoid), the World Stress Map, INTERMAGNET, GEOFON, the Geophysical Instrument Pool Potsdam GIPP, TERENO, EnMAP Flight Campaigns, the Potsdam Institute for Climate Impact Research PIK, the Specialised Information Service for Solid Earth Geosciences (FID GEO) and hosts the GFZ Catalogue for the International Generic Sample Number IGSN.9:T1518,{
@@ -174,10 +174,10 @@ f:I[42616,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"OutletBoundary"]
     "typeClass": "primitive",
     "value": ""
   }
-}0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"md","sx":{"py":4},"children":["$","$L3",null,{"sx":{"p":4,"borderRadius":3},"children":[["$","$L4",null,{"variant":"h4","sx":{"fontWeight":"bold","mb":2},"children":"GFZ Data Services"}],["$","$L5",null,{"sx":{"mb":2}}],["$","$L4",null,{"variant":"body1","sx":{"mb":2},"children":"$6"}],["$","$L7",null,{"sx":{"mb":2},"children":[["$","$L4",null,{"variant":"subtitle2","children":"Subject:"}],["$","$L7",null,{"sx":{"display":"flex","flexWrap":"wrap","gap":0.5,"mt":0.5},"children":[["$","$L8","Other",{"label":"Other","size":"small"}]]}]]}],["$","$L5",null,{"sx":{"my":2}}],["$","$L4",null,{"variant":"h6","children":"FAIRness (raw):"}],["$","pre",null,{"style":{"fontSize":13,"background":"#f7f7f7","padding":8,"borderRadius":4,"maxHeight":300,"overflow":"auto"},"children":"$9"}],"$La","$Lb","$undefined"]}]}],["$Lc","$Ld"],"$Le"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TmA2axr4Fc3VefBGQ28wE"}
+}0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"md","sx":{"py":4},"children":["$","$L3",null,{"sx":{"p":4,"borderRadius":3},"children":[["$","$L4",null,{"variant":"h4","sx":{"fontWeight":"bold","mb":2},"children":"GFZ Data Services"}],["$","$L5",null,{"sx":{"mb":2}}],["$","$L4",null,{"variant":"body1","sx":{"mb":2},"children":"$6"}],["$","$L7",null,{"sx":{"mb":2},"children":[["$","$L4",null,{"variant":"subtitle2","children":"Subject:"}],["$","$L7",null,{"sx":{"display":"flex","flexWrap":"wrap","gap":0.5,"mt":0.5},"children":[["$","$L8","Other",{"label":"Other","size":"small"}]]}]]}],["$","$L5",null,{"sx":{"my":2}}],["$","$L4",null,{"variant":"h6","children":"FAIRness (raw):"}],["$","pre",null,{"style":{"fontSize":13,"background":"#f7f7f7","padding":8,"borderRadius":4,"maxHeight":300,"overflow":"auto"},"children":"$9"}],"$La","$Lb","$undefined"]}]}],["$Lc","$Ld"],"$Le"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"E_QUhzKDEhNDEHVedD4nK"}
 a:["$","$L5",null,{"sx":{"my":2}}]
 b:["$","$L4",null,{"variant":"h6","sx":{"mb":2},"children":"Law And Ethics"}]
 c:["$","script","script-0",{"src":"/_next/static/chunks/14v49gximnp7a.js","async":true}]
-d:["$","script","script-1",{"src":"/_next/static/chunks/0anqt3~ffntl9.js","async":true}]
+d:["$","script","script-1",{"src":"/_next/static/chunks/0tik5o~24_51q.js","async":true}]
 e:["$","$Lf",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@11"}]}]
 11:null
