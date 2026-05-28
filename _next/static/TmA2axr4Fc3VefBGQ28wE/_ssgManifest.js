@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fresource\u002Frepository\u002F[rdiId]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

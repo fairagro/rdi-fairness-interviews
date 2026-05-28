@@ -1,0 +1,194 @@
+1:"$Sreact.fragment"
+2:I[42398,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"default"]
+3:I[37260,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"default"]
+5:I[42616,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
+9:I[42616,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"ViewportBoundary"]
+b:I[42616,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"MetadataBoundary"]
+d:I[1075,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"default",1]
+:HL["/_next/static/chunks/0jd79f9~n-hd2.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.09zddjkbdep5a.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.09~u27dqhyhd6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"c":["","resource","repository","RFId026202604272"],"q":"","i":false,"f":[[["",{"children":["resource",{"children":["repository",{"children":[["rdiId","RFId026202604272","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0jd79f9~n-hd2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0-4hnl1rtpjhy.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/_next/static/chunks/14v49gximnp7a.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0anqt3~ffntl9.js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,"$@8"]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0jd79f9~n-hd2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"TmA2axr4Fc3VefBGQ28wE"}
+e:[]
+8:"$We"
+f:I[31528,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0anqt3~ffntl9.js"],"default"]
+10:I[15738,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0anqt3~ffntl9.js"],"default"]
+11:I[56883,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0anqt3~ffntl9.js"],"default"]
+12:I[31361,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0anqt3~ffntl9.js"],"default"]
+13:I[81536,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0anqt3~ffntl9.js"],"default"]
+14:I[81070,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0anqt3~ffntl9.js"],"default"]
+15:T1517,{
+  "findability": {
+    "typeName": "MDS_fairagro.fairagroData.FAIRness.findability",
+    "multiple": false,
+    "typeClass": "compound",
+    "value": {
+      "persistentIdentifier": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.persistentIdentifier",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "na"
+      },
+      "richMetadata": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.richMetadata",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "na"
+      },
+      "indexedInSearchEngines": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.indexedInSearchEngines",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "no"
+      },
+      "metadataSchema": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.metadataSchema",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "na"
+      },
+      "metadataPersistence": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.metadataPersistence",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "na"
+      }
+    }
+  },
+  "accessibility": {
+    "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility",
+    "multiple": false,
+    "typeClass": "compound",
+    "value": {
+      "retrievalProtocol": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.retrievalProtocol",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "na"
+      },
+      "authenticationRequired": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationRequired",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "no"
+      },
+      "authenticationType": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationType",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "na"
+      },
+      "metadataAlwaysAvailable": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.metadataAlwaysAvailable",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "yes"
+      },
+      "dataAvailability": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.dataAvailability",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "na"
+      }
+    }
+  },
+  "interoperability": {
+    "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability",
+    "multiple": false,
+    "typeClass": "compound",
+    "value": {
+      "knowledgeRepresentation": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.knowledgeRepresentation",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "na"
+      },
+      "vocabulariesUsed": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.vocabulariesUsed",
+        "multiple": true,
+        "typeClass": "primitive",
+        "value": []
+      },
+      "qualifiedReferences": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.qualifiedReferences",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "no"
+      },
+      "dataFormats": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.dataFormats",
+        "multiple": true,
+        "typeClass": "primitive",
+        "value": []
+      },
+      "apiAvailability": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.apiAvailability",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "na"
+      }
+    }
+  },
+  "reusability": {
+    "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability",
+    "multiple": false,
+    "typeClass": "compound",
+    "value": {
+      "licenseClarity": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.licenseClarity",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "na"
+      },
+      "provenanceInfo": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.provenanceInfo",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "na"
+      },
+      "communityStandards": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.communityStandards",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "no"
+      },
+      "documentationQuality": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.documentationQuality",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "na"
+      },
+      "citationGuidelines": {
+        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.citationGuidelines",
+        "multiple": false,
+        "typeClass": "primitive",
+        "value": "no"
+      }
+    }
+  },
+  "assessmentDate": {
+    "typeName": "MDS_fairagro.fairagroData.FAIRness.assessmentDate",
+    "multiple": false,
+    "typeClass": "primitive",
+    "value": ""
+  },
+  "assessmentMethod": {
+    "typeName": "MDS_fairagro.fairagroData.FAIRness.assessmentMethod",
+    "multiple": false,
+    "typeClass": "primitive",
+    "value": ""
+  },
+  "overallFAIRScore": {
+    "typeName": "MDS_fairagro.fairagroData.FAIRness.overallFAIRScore",
+    "multiple": false,
+    "typeClass": "primitive",
+    "value": ""
+  }
+}4:["$","$Lf",null,{"maxWidth":"md","sx":{"py":4},"children":["$","$L10",null,{"sx":{"p":4,"borderRadius":3},"children":[["$","$L11",null,{"variant":"h4","sx":{"fontWeight":"bold","mb":2},"children":"JKI Data Cube"}],["$","$L12",null,{"sx":{"mb":2}}],["$","$L11",null,{"variant":"body1","sx":{"mb":2},"children":"JKI Data Cube stores and provides multi-dimensional time series of gridded geodata"}],["$","$L13",null,{"sx":{"mb":2},"children":[["$","$L11",null,{"variant":"subtitle2","children":"Subject:"}],["$","$L13",null,{"sx":{"display":"flex","flexWrap":"wrap","gap":0.5,"mt":0.5},"children":[["$","$L14","Other",{"label":"Other","size":"small"}],["$","$L14","Agricultural Sciences",{"label":"Agricultural Sciences","size":"small"}]]}]]}],["$","$L12",null,{"sx":{"my":2}}],["$","$L11",null,{"variant":"h6","children":"FAIRness (raw):"}],["$","pre",null,{"style":{"fontSize":13,"background":"#f7f7f7","padding":8,"borderRadius":4,"maxHeight":300,"overflow":"auto"},"children":"$15"}],"$L16","$L17","$undefined"]}]}]
+16:["$","$L12",null,{"sx":{"my":2}}]
+17:["$","$L11",null,{"variant":"h6","sx":{"mb":2},"children":"Law And Ethics"}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+18:I[45455,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"IconMark"]
+7:null
+c:[["$","title","0",{"children":"Create Next App"}],["$","meta","1",{"name":"description","content":"Generated by create next app"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L18","3",{}]]

@@ -1,4 +1,4 @@
-# FAIRagro RDI FAIRness Assessment Survey & Scoring Framework
+# FAIRagro RDI FAIRness Assessment Framework
 
 This repository contains the core methodology, operationalized survey schema, automated scoring code, and data artifacts for evaluating the FAIRness of Research Data Infrastructures (RDIs) within the German agrosystem research landscape.
 
