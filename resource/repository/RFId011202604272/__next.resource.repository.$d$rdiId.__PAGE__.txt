@@ -1,12 +1,13 @@
 1:"$Sreact.fragment"
-2:I[31528,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-3:I[15738,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-4:I[56883,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-5:I[31361,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-7:I[81536,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-8:I[81070,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-f:I[42616,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"OutletBoundary"]
-10:"$Sreact.suspense"
+2:I[66919,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+3:I[66052,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+4:I[53488,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+5:I[23262,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+7:I[36729,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+8:I[5573,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+28:I[31713,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"FairnessTable"]
+29:I[97367,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+2a:"$Sreact.suspense"
 6:T63a,Edaphobase is a non-commercial data infrastructure developed and hosted by the Senckenberg Museum of Natural History Görlitz in Germany, combining data from heterogeneous sources on soil animals, their distribution and habitat parameters of their sites of occurrence and making this data available to the public in open access.
 
 Edaphobase currently includes data on Nematoda, Collembola, Oribatida, Gamasina, Chilopoda, Diplopoda, Isopoda, Enchytraeidae, and Lumbricidae. Edaphobase lives from the cooperation with numerous soil zoologists who upload their data to the database and thus make them available for overarching analyses and insight. The database currently focusses on Europe-wide soil-biodiversity data, but includes data from around the globe.
@@ -15,181 +16,43 @@ Edaphobase is strongly geared towards common data re-use and provision of data a
 
 All data (provided it is not anonymized or in an embargo period) can be queried and collated via multiple filters and be downloaded by registered users. Simple queries are possible as well as more sophisticated analyses of different data groups. Specific applications include, e.g., mapping taxa’s distributions, the elucidation of species-specific habitat preferences (niche space), or environmental correlations with population densities.
 
-Edaphobase is a data provider to the Global Biodiversity Information Facility (GBIF).9:T1550,{
-  "findability": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.findability",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "persistentIdentifier": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.persistentIdentifier",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "richMetadata": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.richMetadata",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "indexedInSearchEngines": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.indexedInSearchEngines",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      },
-      "metadataSchema": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.metadataSchema",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "metadataPersistence": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.metadataPersistence",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "yes"
-      }
-    }
-  },
-  "accessibility": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "retrievalProtocol": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.retrievalProtocol",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "authenticationRequired": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationRequired",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      },
-      "authenticationType": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationType",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "metadataAlwaysAvailable": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.metadataAlwaysAvailable",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "yes"
-      },
-      "dataAvailability": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.dataAvailability",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      }
-    }
-  },
-  "interoperability": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "knowledgeRepresentation": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.knowledgeRepresentation",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "vocabulariesUsed": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.vocabulariesUsed",
-        "multiple": true,
-        "typeClass": "primitive",
-        "value": [
-          "True"
-        ]
-      },
-      "qualifiedReferences": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.qualifiedReferences",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "yes"
-      },
-      "dataFormats": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.dataFormats",
-        "multiple": true,
-        "typeClass": "primitive",
-        "value": [
-          "True"
-        ]
-      },
-      "apiAvailability": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.apiAvailability",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      }
-    }
-  },
-  "reusability": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "licenseClarity": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.licenseClarity",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "provenanceInfo": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.provenanceInfo",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "yes"
-      },
-      "communityStandards": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.communityStandards",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "yes"
-      },
-      "documentationQuality": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.documentationQuality",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "citationGuidelines": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.citationGuidelines",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "yes"
-      }
-    }
-  },
-  "assessmentDate": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.assessmentDate",
-    "multiple": false,
-    "typeClass": "primitive",
-    "value": ""
-  },
-  "assessmentMethod": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.assessmentMethod",
-    "multiple": false,
-    "typeClass": "primitive",
-    "value": ""
-  },
-  "overallFAIRScore": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.overallFAIRScore",
-    "multiple": false,
-    "typeClass": "primitive",
-    "value": ""
-  }
-}0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"md","sx":{"py":4},"children":["$","$L3",null,{"sx":{"p":4,"borderRadius":3},"children":[["$","$L4",null,{"variant":"h4","sx":{"fontWeight":"bold","mb":2},"children":"Edaphobase"}],["$","$L5",null,{"sx":{"mb":2}}],["$","$L4",null,{"variant":"body1","sx":{"mb":2},"children":"$6"}],["$","$L7",null,{"sx":{"mb":2},"children":[["$","$L4",null,{"variant":"subtitle2","children":"Subject:"}],["$","$L7",null,{"sx":{"display":"flex","flexWrap":"wrap","gap":0.5,"mt":0.5},"children":[["$","$L8","Other",{"label":"Other","size":"small"}]]}]]}],["$","$L5",null,{"sx":{"my":2}}],["$","$L4",null,{"variant":"h6","children":"FAIRness (raw):"}],["$","pre",null,{"style":{"fontSize":13,"background":"#f7f7f7","padding":8,"borderRadius":4,"maxHeight":300,"overflow":"auto"},"children":"$9"}],"$La","$Lb","$undefined"]}]}],["$Lc","$Ld"],"$Le"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"-wO_D6IgG7OdMpmcSnRyd"}
-a:["$","$L5",null,{"sx":{"my":2}}]
-b:["$","$L4",null,{"variant":"h6","sx":{"mb":2},"children":"Law And Ethics"}]
-c:["$","script","script-0",{"src":"/_next/static/chunks/14v49gximnp7a.js","async":true}]
-d:["$","script","script-1",{"src":"/_next/static/chunks/0tik5o~24_51q.js","async":true}]
-e:["$","$Lf",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@11"}]}]
-11:null
+Edaphobase is a data provider to the Global Biodiversity Information Facility (GBIF).9:T63a,Edaphobase is a non-commercial data infrastructure developed and hosted by the Senckenberg Museum of Natural History Görlitz in Germany, combining data from heterogeneous sources on soil animals, their distribution and habitat parameters of their sites of occurrence and making this data available to the public in open access.
+
+Edaphobase currently includes data on Nematoda, Collembola, Oribatida, Gamasina, Chilopoda, Diplopoda, Isopoda, Enchytraeidae, and Lumbricidae. Edaphobase lives from the cooperation with numerous soil zoologists who upload their data to the database and thus make them available for overarching analyses and insight. The database currently focusses on Europe-wide soil-biodiversity data, but includes data from around the globe.
+
+Edaphobase is strongly geared towards common data re-use and provision of data and online analysis tools. It follows the FAIR principles and can offer DOIs for submitted data sets. The data warehouse is publically available (open access) via a web-based browser portal, the Edaphobase data-query portal.
+
+All data (provided it is not anonymized or in an embargo period) can be queried and collated via multiple filters and be downloaded by registered users. Simple queries are possible as well as more sophisticated analyses of different data groups. Specific applications include, e.g., mapping taxa’s distributions, the elucidation of species-specific habitat preferences (niche space), or environmental correlations with population densities.
+
+Edaphobase is a data provider to the Global Biodiversity Information Facility (GBIF).0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"md","sx":{"py":4},"children":["$","$L3",null,{"sx":{"p":4,"borderRadius":3},"children":[["$","$L4",null,{"variant":"h4","sx":{"fontWeight":"bold","mb":2},"children":"Edaphobase"}],["$","$L5",null,{"sx":{"mb":2}}],["$","$L4",null,{"variant":"body1","sx":{"mb":2},"children":"$6"}],["$","$L7",null,{"sx":{"mb":2},"children":[["$","$L4",null,{"variant":"subtitle2","children":"Subject:"}],["$","$L7",null,{"sx":{"display":"flex","flexWrap":"wrap","gap":0.5,"mt":0.5},"children":[["$","$L8","Other",{"label":"Other","size":"small"}]]}]]}],["$","$L7",null,{"sx":{"mb":3},"children":[["$","$L5",null,{"sx":{"my":2}}],["$","$L4",null,{"variant":"h6","sx":{"mb":1},"children":"re3data.org Profile"}],["$","$L7",null,{"component":"table","sx":{"width":"100%","mb":2,"borderCollapse":"collapse","background":"#fafafa","borderRadius":2},"children":["$","tbody",null,{"children":[["$","tr","Repository Name",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Repository Name"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"Edaphobase"}]]}],["$","tr","Repository URL",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Repository URL"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":["$","a",null,{"href":"https://portal.edaphobase.org","target":"_blank","rel":"noopener noreferrer","children":"https://portal.edaphobase.org"}]}]]}],["$","tr","re3data.org ID",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"re3data.org ID"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"r3d100014734"}]]}],["$","tr","Description",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Description"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"$9"}]]}],"$La","$Lb","$Lc","$Ld","$Le","$Lf","$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21"]}]}]]}],"$L22","$L23","$L24"]}]}],["$L25","$L26"],"$L27"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"vM55lQZvw8OBzjP2c66Fl"}
+a:["$","tr","Contact",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Contact"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"developers@edaphobase.org, info@edaphobase.org"}]]}]
+b:["$","tr","Start Date",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Start Date"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"2009-11-01"}]]}]
+c:["$","tr","Size",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Size"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"500.000 data records"}]]}]
+d:["$","tr","Languages",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Languages"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"deu, eng"}]]}]
+e:["$","tr","Keywords",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Keywords"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"biodiversity, soil"}]]}]
+f:["$","tr","Mission Statement URL",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Mission Statement URL"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":["$","a",null,{"href":"https://edaphobase.org","target":"_blank","rel":"noopener noreferrer","children":"https://edaphobase.org"}]}]]}]
+10:["$","tr","Provider Type",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Provider Type"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"dataProvider"}]]}]
+11:["$","tr","Type",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Type"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"disciplinary"}]]}]
+12:["$","tr","Versioning",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Versioning"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"no"}]]}]
+13:["$","tr","PID System",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"PID System"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"DOI"}]]}]
+14:["$","tr","Citation Guideline URL",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Citation Guideline URL"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":["$","a",null,{"href":"https://service.edaphobase.org/edaphobase-citation-guidelines","target":"_blank","rel":"noopener noreferrer","children":"https://service.edaphobase.org/edaphobase-citation-guidelines"}]}]]}]
+15:["$","tr","Enhanced Publication",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Enhanced Publication"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"yes"}]]}]
+16:["$","tr","Quality Management",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Quality Management"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"yes"}]]}]
+17:["$","tr","Remarks",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Remarks"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"PIDs are optional"}]]}]
+18:["$","tr","Entry Date",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Entry Date"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"2025-11-28"}]]}]
+19:["$","tr","Last Update",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Last Update"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"2025-11-30"}]]}]
+1a:["$","tr","Institution(s)",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Institution(s)"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"Senckenberg - Leibniz Institution for Biodiversity and Earth System Research"}]," (non-profit)",["$","br",null,{}],["Country: ","DEU",["$","br",null,{}]],["Additional: ","Senckenberg Gesellschaft für Naturforschung",["$","br",null,{}]],["Responsibility: ","funding, general, technical",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://www.senckenberg.de/","target":"_blank","rel":"noopener noreferrer","children":"https://www.senckenberg.de/"}],["$","br",null,{}]],["Identifier: ","ISNI:0000000109440975, ROR:00xmqmx64, Wikidata:Q880568, GRID:grid.438154.f"]]}]]}]]}]
+1b:["$","tr","Policy(s)",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Policy(s)"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"Edaphobase Data Policy"}],[" (",["$","a",null,{"href":"https://service.edaphobase.org/Edaphobase_Data_Policy","target":"_blank","rel":"noopener noreferrer","children":"https://service.edaphobase.org/Edaphobase_Data_Policy"}],")"]]}]]}]]}]
+1c:["$","tr","Database Access",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Database Access"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":"open"}]]}]]}]
+1d:["$","tr","Database License",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Database License"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":[["$","b",null,{"children":"CC"}],[" (",["$","a",null,{"href":"https://creativecommons.org/licenses/by-nc/4.0/","target":"_blank","rel":"noopener noreferrer","children":"https://creativecommons.org/licenses/by-nc/4.0/"}],")"]]}]]}]]}]
+1e:["$","tr","Data Access",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Data Access"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":"restricted"}]]}]]}]
+1f:["$","tr","Data License",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Data License"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":[["$","b",null,{"children":"CC"}],[" (",["$","a",null,{"href":"https://creativecommons.org/","target":"_blank","rel":"noopener noreferrer","children":"https://creativecommons.org/"}],")"]]}]]}]]}]
+20:["$","tr","Data Upload",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Data Upload"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":[["$","b",null,{"children":"restricted"}],[" (Restriction: ","registration",")"]]}]]}]]}]
+21:["$","tr","Data Upload License",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Data Upload License"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":[["$","b",null,{"children":"Upload Data"}],[" (",["$","a",null,{"href":"https://www.senckenberg.de/en/science/research-infrastructure/databases-and-digital-resources/edaphobase-database-on-soil-zoology/edaphobase-upload-data/","target":"_blank","rel":"noopener noreferrer","children":"https://www.senckenberg.de/en/science/research-infrastructure/databases-and-digital-resources/edaphobase-database-on-soil-zoology/edaphobase-upload-data/"}],")"]]}]]}]]}]
+22:["$","$L5",null,{"sx":{"my":2}}]
+23:["$","$L4",null,{"variant":"h6","children":"FAIRness Assessment:"}]
+24:["$","$L28",null,{"fairness":{"findability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability","multiple":false,"typeClass":"compound","value":{"persistentIdentifier":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.persistentIdentifier","multiple":false,"typeClass":"primitive","value":"na"},"richMetadata":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.richMetadata","multiple":false,"typeClass":"primitive","value":"na"},"indexedInSearchEngines":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.indexedInSearchEngines","multiple":false,"typeClass":"primitive","value":"no"},"metadataSchema":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.metadataSchema","multiple":false,"typeClass":"primitive","value":"na"},"metadataPersistence":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.metadataPersistence","multiple":false,"typeClass":"primitive","value":"yes"}}},"accessibility":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility","multiple":false,"typeClass":"compound","value":{"retrievalProtocol":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.retrievalProtocol","multiple":false,"typeClass":"primitive","value":"na"},"authenticationRequired":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationRequired","multiple":false,"typeClass":"primitive","value":"no"},"authenticationType":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationType","multiple":false,"typeClass":"primitive","value":"na"},"metadataAlwaysAvailable":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.metadataAlwaysAvailable","multiple":false,"typeClass":"primitive","value":"yes"},"dataAvailability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.dataAvailability","multiple":false,"typeClass":"primitive","value":"na"}}},"interoperability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability","multiple":false,"typeClass":"compound","value":{"knowledgeRepresentation":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.knowledgeRepresentation","multiple":false,"typeClass":"primitive","value":"na"},"vocabulariesUsed":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.vocabulariesUsed","multiple":true,"typeClass":"primitive","value":["True"]},"qualifiedReferences":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.qualifiedReferences","multiple":false,"typeClass":"primitive","value":"yes"},"dataFormats":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.dataFormats","multiple":true,"typeClass":"primitive","value":["True"]},"apiAvailability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.apiAvailability","multiple":false,"typeClass":"primitive","value":"na"}}},"reusability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability","multiple":false,"typeClass":"compound","value":{"licenseClarity":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.licenseClarity","multiple":false,"typeClass":"primitive","value":"na"},"provenanceInfo":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.provenanceInfo","multiple":false,"typeClass":"primitive","value":"yes"},"communityStandards":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.communityStandards","multiple":false,"typeClass":"primitive","value":"yes"},"documentationQuality":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.documentationQuality","multiple":false,"typeClass":"primitive","value":"na"},"citationGuidelines":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.citationGuidelines","multiple":false,"typeClass":"primitive","value":"yes"}}},"assessmentDate":{"typeName":"MDS_fairagro.fairagroData.FAIRness.assessmentDate","multiple":false,"typeClass":"primitive","value":""},"assessmentMethod":{"typeName":"MDS_fairagro.fairagroData.FAIRness.assessmentMethod","multiple":false,"typeClass":"primitive","value":""},"overallFAIRScore":{"typeName":"MDS_fairagro.fairagroData.FAIRness.overallFAIRScore","multiple":false,"typeClass":"primitive","value":""}}}]
+25:["$","script","script-0",{"src":"/_next/static/chunks/0sy-f1nfxssde.js","async":true}]
+26:["$","script","script-1",{"src":"/_next/static/chunks/0r3.hgmrz7e-j.js","async":true}]
+27:["$","$L29",null,{"children":["$","$2a",null,{"name":"Next.MetadataOutlet","children":"$@2b"}]}]
+2b:null

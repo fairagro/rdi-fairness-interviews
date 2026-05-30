@@ -1,196 +1,65 @@
 1:"$Sreact.fragment"
-2:I[42398,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"default"]
-3:I[37260,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"default"]
-5:I[42616,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"OutletBoundary"]
-6:"$Sreact.suspense"
-9:I[42616,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"ViewportBoundary"]
-b:I[42616,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"MetadataBoundary"]
-d:I[1075,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"default",1]
-:HL["/_next/static/chunks/0jd79f9~n-hd2.css","style"]
+2:I[53501,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+3:I[39756,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+4:I[37457,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+5:I[28129,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+7:I[97367,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+b:I[97367,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+d:I[97367,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+f:I[68027,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
+:HL["/_next/static/chunks/0eno30exi88vv.css","style"]
 :HL["/_next/static/media/797e433ab948586e-s.p.09zddjkbdep5a.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/caa3a2e1cccd8315-s.p.09~u27dqhyhd6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"c":["","resource","repository","RFId055202604272"],"q":"","i":false,"f":[[["",{"children":["resource",{"children":["repository",{"children":[["rdiId","RFId055202604272","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0jd79f9~n-hd2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0-4hnl1rtpjhy.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/_next/static/chunks/14v49gximnp7a.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0tik5o~24_51q.js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,"$@8"]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0jd79f9~n-hd2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"-wO_D6IgG7OdMpmcSnRyd"}
-e:[]
-8:"$We"
-f:I[31528,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-10:I[15738,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-11:I[56883,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-12:I[31361,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-14:I[81536,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-15:I[81070,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-13:T6b6,The German Human Genome-Phenome Archive (GHGA) is a dedicated repository for storing and sharing diverse genomic and phenotypic data from a wide range of scientific studies, including clinical trials, population research, routine healthcare, and biomedical investigations usually coming from research institutions in Germany. By connecting with international initiatives such as the European Genome-phenome Archive (EGA) and the European Genomic Data Infrastructure (GDI), GHGA ensures that data is FAIRly stored, accessible, and interoperable across the globe.
+0:{"P":null,"c":["","resource","repository","RFId055202604272"],"q":"","i":false,"f":[[["",{"children":["resource",{"children":["repository",{"children":[["rdiId","RFId055202604272","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0eno30exi88vv.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/019hg-s3c.7d5.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0qfh254pw0lel.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col","children":[["$","$L2",null,{}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L5",null,{}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/0sy-f1nfxssde.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0r3.hgmrz7e-j.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,null]},null,false,"$@a"]},null,false,"$@a"]},null,false,"$@a"]},null,false,null],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$8",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0eno30exi88vv.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"vM55lQZvw8OBzjP2c66Fl"}
+10:[]
+a:"$W10"
+11:I[66919,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+12:I[66052,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+13:I[53488,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+14:I[23262,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+16:I[36729,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+17:I[5573,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+15:T6b6,The German Human Genome-Phenome Archive (GHGA) is a dedicated repository for storing and sharing diverse genomic and phenotypic data from a wide range of scientific studies, including clinical trials, population research, routine healthcare, and biomedical investigations usually coming from research institutions in Germany. By connecting with international initiatives such as the European Genome-phenome Archive (EGA) and the European Genomic Data Infrastructure (GDI), GHGA ensures that data is FAIRly stored, accessible, and interoperable across the globe.
 GHGA has set up a trusted, long-term repository, with plans to preserve data at every stage, from raw sequencing files to processed data and research results. Developed in phases, GHGA will continually add features that support secondary research, including secure processing environments, data statistics, and data analysis tools. In this way, GHGA provides a secure and evolving resource for researchers, accelerating scientific discoveries and the development of innovative healthcare solutions.
-Recognizing the sensitivity of human omics data, GHGA ensures strict data protection through robust security systems that maintain patient privacy and comply with ethical standards. Access to restricted datasets is not managed by GHGA, but by relevant Data Access Committees (DACs) appointed by the respective data controllers. DACs oversee requests based on established ethical and legal guidelines, while complying with the data subject’s consent. GHGA functions as an intermediate - who facilitates access for authorized users, such as researchers and healthcare professionals, ensuring that only those with proper clearance can access controlled data.16:T1518,{
-  "findability": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.findability",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "persistentIdentifier": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.persistentIdentifier",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "yes"
-      },
-      "richMetadata": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.richMetadata",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "indexedInSearchEngines": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.indexedInSearchEngines",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      },
-      "metadataSchema": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.metadataSchema",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "metadataPersistence": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.metadataPersistence",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      }
-    }
-  },
-  "accessibility": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "retrievalProtocol": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.retrievalProtocol",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "authenticationRequired": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationRequired",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      },
-      "authenticationType": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationType",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "metadataAlwaysAvailable": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.metadataAlwaysAvailable",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "yes"
-      },
-      "dataAvailability": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.dataAvailability",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      }
-    }
-  },
-  "interoperability": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "knowledgeRepresentation": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.knowledgeRepresentation",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "vocabulariesUsed": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.vocabulariesUsed",
-        "multiple": true,
-        "typeClass": "primitive",
-        "value": []
-      },
-      "qualifiedReferences": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.qualifiedReferences",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      },
-      "dataFormats": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.dataFormats",
-        "multiple": true,
-        "typeClass": "primitive",
-        "value": []
-      },
-      "apiAvailability": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.apiAvailability",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      }
-    }
-  },
-  "reusability": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "licenseClarity": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.licenseClarity",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "provenanceInfo": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.provenanceInfo",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "communityStandards": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.communityStandards",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      },
-      "documentationQuality": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.documentationQuality",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "citationGuidelines": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.citationGuidelines",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      }
-    }
-  },
-  "assessmentDate": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.assessmentDate",
-    "multiple": false,
-    "typeClass": "primitive",
-    "value": ""
-  },
-  "assessmentMethod": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.assessmentMethod",
-    "multiple": false,
-    "typeClass": "primitive",
-    "value": ""
-  },
-  "overallFAIRScore": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.overallFAIRScore",
-    "multiple": false,
-    "typeClass": "primitive",
-    "value": ""
-  }
-}4:["$","$Lf",null,{"maxWidth":"md","sx":{"py":4},"children":["$","$L10",null,{"sx":{"p":4,"borderRadius":3},"children":[["$","$L11",null,{"variant":"h4","sx":{"fontWeight":"bold","mb":2},"children":"German Human Genome-Phenome Archive"}],["$","$L12",null,{"sx":{"mb":2}}],["$","$L11",null,{"variant":"body1","sx":{"mb":2},"children":"$13"}],["$","$L14",null,{"sx":{"mb":2},"children":[["$","$L11",null,{"variant":"subtitle2","children":"Subject:"}],["$","$L14",null,{"sx":{"display":"flex","flexWrap":"wrap","gap":0.5,"mt":0.5},"children":[["$","$L15","Other",{"label":"Other","size":"small"}]]}]]}],["$","$L12",null,{"sx":{"my":2}}],["$","$L11",null,{"variant":"h6","children":"FAIRness (raw):"}],["$","pre",null,{"style":{"fontSize":13,"background":"#f7f7f7","padding":8,"borderRadius":4,"maxHeight":300,"overflow":"auto"},"children":"$16"}],"$L17","$L18","$undefined"]}]}]
-17:["$","$L12",null,{"sx":{"my":2}}]
-18:["$","$L11",null,{"variant":"h6","sx":{"mb":2},"children":"Law And Ethics"}]
-a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-19:I[45455,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"IconMark"]
-7:null
-c:[["$","title","0",{"children":"Create Next App"}],["$","meta","1",{"name":"description","content":"Generated by create next app"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L19","3",{}]]
+Recognizing the sensitivity of human omics data, GHGA ensures strict data protection through robust security systems that maintain patient privacy and comply with ethical standards. Access to restricted datasets is not managed by GHGA, but by relevant Data Access Committees (DACs) appointed by the respective data controllers. DACs oversee requests based on established ethical and legal guidelines, while complying with the data subject’s consent. GHGA functions as an intermediate - who facilitates access for authorized users, such as researchers and healthcare professionals, ensuring that only those with proper clearance can access controlled data.18:T6b6,The German Human Genome-Phenome Archive (GHGA) is a dedicated repository for storing and sharing diverse genomic and phenotypic data from a wide range of scientific studies, including clinical trials, population research, routine healthcare, and biomedical investigations usually coming from research institutions in Germany. By connecting with international initiatives such as the European Genome-phenome Archive (EGA) and the European Genomic Data Infrastructure (GDI), GHGA ensures that data is FAIRly stored, accessible, and interoperable across the globe.
+GHGA has set up a trusted, long-term repository, with plans to preserve data at every stage, from raw sequencing files to processed data and research results. Developed in phases, GHGA will continually add features that support secondary research, including secure processing environments, data statistics, and data analysis tools. In this way, GHGA provides a secure and evolving resource for researchers, accelerating scientific discoveries and the development of innovative healthcare solutions.
+Recognizing the sensitivity of human omics data, GHGA ensures strict data protection through robust security systems that maintain patient privacy and comply with ethical standards. Access to restricted datasets is not managed by GHGA, but by relevant Data Access Committees (DACs) appointed by the respective data controllers. DACs oversee requests based on established ethical and legal guidelines, while complying with the data subject’s consent. GHGA functions as an intermediate - who facilitates access for authorized users, such as researchers and healthcare professionals, ensuring that only those with proper clearance can access controlled data.6:["$","$L11",null,{"maxWidth":"md","sx":{"py":4},"children":["$","$L12",null,{"sx":{"p":4,"borderRadius":3},"children":[["$","$L13",null,{"variant":"h4","sx":{"fontWeight":"bold","mb":2},"children":"German Human Genome-Phenome Archive"}],["$","$L14",null,{"sx":{"mb":2}}],["$","$L13",null,{"variant":"body1","sx":{"mb":2},"children":"$15"}],["$","$L16",null,{"sx":{"mb":2},"children":[["$","$L13",null,{"variant":"subtitle2","children":"Subject:"}],["$","$L16",null,{"sx":{"display":"flex","flexWrap":"wrap","gap":0.5,"mt":0.5},"children":[["$","$L17","Other",{"label":"Other","size":"small"}]]}]]}],["$","$L16",null,{"sx":{"mb":3},"children":[["$","$L14",null,{"sx":{"my":2}}],["$","$L13",null,{"variant":"h6","sx":{"mb":1},"children":"re3data.org Profile"}],["$","$L16",null,{"component":"table","sx":{"width":"100%","mb":2,"borderCollapse":"collapse","background":"#fafafa","borderRadius":2},"children":["$","tbody",null,{"children":[["$","tr","Repository Name",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Repository Name"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"German Human Genome-Phenome Archive"}]]}],["$","tr","Repository URL",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Repository URL"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":["$","a",null,{"href":"https://data.ghga.de/","target":"_blank","rel":"noopener noreferrer","children":"https://data.ghga.de/"}]}]]}],["$","tr","re3data.org ID",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"re3data.org ID"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"r3d100014563"}]]}],["$","tr","Description",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Description"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"$18"}]]}],"$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e","$L2f"]}]}]]}],"$L30","$L31","$L32"]}]}]
+3a:I[31713,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"FairnessTable"]
+19:["$","tr","Contact",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Contact"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"contact@ghga.de, https://www.ghga.de/about-us/contact"}]]}]
+1a:["$","tr","Start Date",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Start Date"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"2020-10-01"}]]}]
+1b:["$","tr","Size",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Size"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"66 datasets, 2.046 donors, 11.802 files"}]]}]
+1c:["$","tr","Languages",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Languages"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"eng"}]]}]
+1d:["$","tr","Keywords",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Keywords"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"EGA, FAIR, Genomics, NFDI, cancer, human data, rare disease"}]]}]
+1e:["$","tr","Mission Statement URL",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Mission Statement URL"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":["$","a",null,{"href":"https://www.ghga.de/about-us/mission","target":"_blank","rel":"noopener noreferrer","children":"https://www.ghga.de/about-us/mission"}]}]]}]
+1f:["$","tr","Provider Type",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Provider Type"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"dataProvider, serviceProvider"}]]}]
+20:["$","tr","Type",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Type"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"disciplinary"}]]}]
+21:["$","tr","Versioning",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Versioning"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"yes"}]]}]
+22:["$","tr","PID System",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"PID System"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"other"}]]}]
+23:["$","tr","Enhanced Publication",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Enhanced Publication"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"yes"}]]}]
+24:["$","tr","Quality Management",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Quality Management"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"yes"}]]}]
+25:["$","tr","Remarks",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Remarks"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"For datasets with access restrictions, a designated Data Access Committee (DAC) is responsible for determining permissions. GHGA itself does not review data access requests; they are evaluated by the relevant DAC. The GHGA data infrastructure is designed as a federated network: https://www.ghga.de/about-us/how-we-work/data-hubs"}]]}]
+26:["$","tr","Entry Date",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Entry Date"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"2025-03-13"}]]}]
+27:["$","tr","Last Update",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Last Update"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"2025-05-27"}]]}]
+28:["$","tr","Institution(s)",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Institution(s)"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"German Cancer Research Center"}]," (non-profit)",["$","br",null,{}],["Country: ","DEU",["$","br",null,{}]],["Additional: ","DKFZ, Deutsches Krebsforschungszentrum",["$","br",null,{}]],["Responsibility: ","general",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://www.dkfz.de/en/","target":"_blank","rel":"noopener noreferrer","children":"https://www.dkfz.de/en/"}],["$","br",null,{}]],["Identifier: ","ISNI:0000000404920584, ROR:04cdgtt98, RRID:SCR_012942, GRID:grid.7497.d"]]}],["$","div","1",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"German Human Genome-Phenome Archive"}]," (non-profit)",["$","br",null,{}],["Country: ","DEU",["$","br",null,{}]],["Additional: ","Deutsches Humangenom-Phänomarchiv",["$","br",null,{}]],["Responsibility: ","general",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://www.ghga.de/","target":"_blank","rel":"noopener noreferrer","children":"https://www.ghga.de/"}],["$","br",null,{}]],["Identifier: ","ROR:05nfk7108"]]}],["$","div","2",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"German Research Foundation"}]," (non-profit)",["$","br",null,{}],["Country: ","DEU",["$","br",null,{}]],["Additional: ","DFG, Deutsche Forschungsgemeinschaft",["$","br",null,{}]],["Responsibility: ","funding",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://www.dfg.de/en","target":"_blank","rel":"noopener noreferrer","children":"https://www.dfg.de/en"}],["$","br",null,{}]],["Identifier: ","ROR:018mejw64, RRID:SCR_012420"]]}],["$","div","3",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"Max Delbrück Center for Molecular Medicine"}]," (non-profit)",["$","br",null,{}],["Country: ","DEU",["$","br",null,{}]],["Additional: ","MDC-Berlin, Max Delbruck Center for Molecular Medicine",["$","br",null,{}]],["Responsibility: ","general",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://www.mdc-berlin.de/","target":"_blank","rel":"noopener noreferrer","children":"https://www.mdc-berlin.de/"}],["$","br",null,{}]],["Identifier: ","ROR:04p5ggc03, RRID:SCR_011369"]]}],["$","div","4",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"TU Dresden"}]," (non-profit)",["$","br",null,{}],["Country: ","DEU",["$","br",null,{}]],["Additional: ","Dresden University of Technology, Technische Universität Dresden",["$","br",null,{}]],["Responsibility: ","general",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://tu-dresden.de/","target":"_blank","rel":"noopener noreferrer","children":"https://tu-dresden.de/"}],["$","br",null,{}]],["Identifier: ","ROR:042aqky30, RRID:SCR_004799"]]}],["$","div","5",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"Technical University of Munich"}]," (non-profit)",["$","br",null,{}],["Country: ","DEU",["$","br",null,{}]],["Additional: ","TUM, Technische Universität München",["$","br",null,{}]],["Responsibility: ","general",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://www.tum.de/en/","target":"_blank","rel":"noopener noreferrer","children":"https://www.tum.de/en/"}],["$","br",null,{}]],["Identifier: ","ROR:02kkvpp62, RRID:SCR_011560"]]}],["$","div","6",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"University Hospital Schleswig-Holstein"}]," (non-profit)",["$","br",null,{}],["Country: ","DEU",["$","br",null,{}]],["Additional: ","UKSH, Universitätsklinikum Schleswig-Holstein",["$","br",null,{}]],["Responsibility: ","general",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://www.uksh.de/en/","target":"_blank","rel":"noopener noreferrer","children":"https://www.uksh.de/en/"}],["$","br",null,{}]],["Identifier: ","ROR:01tvm6f46"]]}],["$","div","7",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"University of Cologne"}]," (non-profit)",["$","br",null,{}],["Country: ","DEU",["$","br",null,{}]],["Additional: ","Universität zu Köln, UzK",["$","br",null,{}]],["Responsibility: ","general",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://www.uni-koeln.de/en/","target":"_blank","rel":"noopener noreferrer","children":"https://www.uni-koeln.de/en/"}],["$","br",null,{}]],["Identifier: ","ROR:00rcxh774, RRID:SCR_002903"]]}],["$","div","8",{"style":{"marginBottom":4},"children":["$L33"," (non-profit)","$L34","$L35","$L36","$L37","$L38","$L39"]}]]}]]}]
+29:["$","tr","Policy(s)",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Policy(s)"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"GHGA Data Protection Policy"}],[" (",["$","a",null,{"href":"https://www.ghga.de/data-protection","target":"_blank","rel":"noopener noreferrer","children":"https://www.ghga.de/data-protection"}],")"]]}],["$","div","1",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"GHGA Legal Documents"}],[" (",["$","a",null,{"href":"https://www.ghga.de/datenportal/legal-documents","target":"_blank","rel":"noopener noreferrer","children":"https://www.ghga.de/datenportal/legal-documents"}],")"]]}],["$","div","2",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"GHGA Terms of Use"}],[" (",["$","a",null,{"href":"https://zenodo.org/records/14357642","target":"_blank","rel":"noopener noreferrer","children":"https://zenodo.org/records/14357642"}],")"]]}],["$","div","3",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"GHGA User Documentation"}],[" (",["$","a",null,{"href":"https://docs.ghga.de/","target":"_blank","rel":"noopener noreferrer","children":"https://docs.ghga.de/"}],")"]]}]]}]]}]
+2a:["$","tr","Database Access",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Database Access"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":"open"}]]}]]}]
+2b:["$","tr","Database License",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Database License"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":[["$","b",null,{"children":"CC"}],[" (",["$","a",null,{"href":"https://www.ghga.de/Downloads/GHGA_Licensing.pdf","target":"_blank","rel":"noopener noreferrer","children":"https://www.ghga.de/Downloads/GHGA_Licensing.pdf"}],")"]]}]]}]]}]
+2c:["$","tr","Data Access",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Data Access"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":"restricted"}]]}]]}]
+2d:["$","tr","Data License",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Data License"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":[["$","b",null,{"children":"other"}],[" (",["$","a",null,{"href":"https://www.ghga.de/Downloads/GHGA_Licensing.pdf","target":"_blank","rel":"noopener noreferrer","children":"https://www.ghga.de/Downloads/GHGA_Licensing.pdf"}],")"]]}]]}]]}]
+2e:["$","tr","Data Upload",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Data Upload"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":[["$","b",null,{"children":"restricted"}],[" (Restriction: ","registration",")"]]}]]}]]}]
+2f:["$","tr","Data Upload License",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Data Upload License"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":[["$","b",null,{"children":"Submitting Data"}],[" (",["$","a",null,{"href":"https://docs.ghga.de/user_stories/submission/submitting_data/","target":"_blank","rel":"noopener noreferrer","children":"https://docs.ghga.de/user_stories/submission/submitting_data/"}],")"]]}]]}]]}]
+30:["$","$L14",null,{"sx":{"my":2}}]
+31:["$","$L13",null,{"variant":"h6","children":"FAIRness Assessment:"}]
+32:["$","$L3a",null,{"fairness":{"findability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability","multiple":false,"typeClass":"compound","value":{"persistentIdentifier":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.persistentIdentifier","multiple":false,"typeClass":"primitive","value":"yes"},"richMetadata":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.richMetadata","multiple":false,"typeClass":"primitive","value":"na"},"indexedInSearchEngines":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.indexedInSearchEngines","multiple":false,"typeClass":"primitive","value":"no"},"metadataSchema":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.metadataSchema","multiple":false,"typeClass":"primitive","value":"na"},"metadataPersistence":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.metadataPersistence","multiple":false,"typeClass":"primitive","value":"na"}}},"accessibility":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility","multiple":false,"typeClass":"compound","value":{"retrievalProtocol":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.retrievalProtocol","multiple":false,"typeClass":"primitive","value":"na"},"authenticationRequired":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationRequired","multiple":false,"typeClass":"primitive","value":"no"},"authenticationType":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationType","multiple":false,"typeClass":"primitive","value":"na"},"metadataAlwaysAvailable":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.metadataAlwaysAvailable","multiple":false,"typeClass":"primitive","value":"yes"},"dataAvailability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.dataAvailability","multiple":false,"typeClass":"primitive","value":"na"}}},"interoperability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability","multiple":false,"typeClass":"compound","value":{"knowledgeRepresentation":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.knowledgeRepresentation","multiple":false,"typeClass":"primitive","value":"na"},"vocabulariesUsed":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.vocabulariesUsed","multiple":true,"typeClass":"primitive","value":[]},"qualifiedReferences":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.qualifiedReferences","multiple":false,"typeClass":"primitive","value":"no"},"dataFormats":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.dataFormats","multiple":true,"typeClass":"primitive","value":[]},"apiAvailability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.apiAvailability","multiple":false,"typeClass":"primitive","value":"na"}}},"reusability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability","multiple":false,"typeClass":"compound","value":{"licenseClarity":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.licenseClarity","multiple":false,"typeClass":"primitive","value":"na"},"provenanceInfo":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.provenanceInfo","multiple":false,"typeClass":"primitive","value":"na"},"communityStandards":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.communityStandards","multiple":false,"typeClass":"primitive","value":"no"},"documentationQuality":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.documentationQuality","multiple":false,"typeClass":"primitive","value":"na"},"citationGuidelines":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.citationGuidelines","multiple":false,"typeClass":"primitive","value":"no"}}},"assessmentDate":{"typeName":"MDS_fairagro.fairagroData.FAIRness.assessmentDate","multiple":false,"typeClass":"primitive","value":""},"assessmentMethod":{"typeName":"MDS_fairagro.fairagroData.FAIRness.assessmentMethod","multiple":false,"typeClass":"primitive","value":""},"overallFAIRScore":{"typeName":"MDS_fairagro.fairagroData.FAIRness.overallFAIRScore","multiple":false,"typeClass":"primitive","value":""}}}]
+33:["$","b",null,{"children":"University of Tübingen"}]
+34:["$","br",null,{}]
+35:["Country: ","DEU",["$","br",null,{}]]
+36:["Additional: ","Eberhard Karls Universität Tübingen, Universität Tübingen",["$","br",null,{}]]
+37:["Responsibility: ","general",["$","br",null,{}]]
+38:["URL: ",["$","a",null,{"href":"https://uni-tuebingen.de/en/","target":"_blank","rel":"noopener noreferrer","children":"https://uni-tuebingen.de/en/"}],["$","br",null,{}]]
+39:["Identifier: ","ROR:03a1kwz48, RRID:SCR_011735"]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+3b:I[27201,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+9:null
+e:[["$","title","0",{"children":"Create Next App"}],["$","meta","1",{"name":"description","content":"Generated by create next app"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L3b","3",{}]]

@@ -1,183 +1,40 @@
 1:"$Sreact.fragment"
-2:I[31528,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-3:I[15738,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-4:I[56883,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-5:I[31361,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-6:I[81536,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-7:I[81070,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-e:I[42616,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"OutletBoundary"]
-f:"$Sreact.suspense"
-8:T1518,{
-  "findability": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.findability",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "persistentIdentifier": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.persistentIdentifier",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "yes"
-      },
-      "richMetadata": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.richMetadata",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "indexedInSearchEngines": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.indexedInSearchEngines",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      },
-      "metadataSchema": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.metadataSchema",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "metadataPersistence": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.metadataPersistence",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      }
-    }
-  },
-  "accessibility": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "retrievalProtocol": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.retrievalProtocol",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "authenticationRequired": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationRequired",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      },
-      "authenticationType": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationType",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "metadataAlwaysAvailable": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.metadataAlwaysAvailable",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "yes"
-      },
-      "dataAvailability": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.dataAvailability",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      }
-    }
-  },
-  "interoperability": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "knowledgeRepresentation": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.knowledgeRepresentation",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "vocabulariesUsed": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.vocabulariesUsed",
-        "multiple": true,
-        "typeClass": "primitive",
-        "value": []
-      },
-      "qualifiedReferences": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.qualifiedReferences",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      },
-      "dataFormats": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.dataFormats",
-        "multiple": true,
-        "typeClass": "primitive",
-        "value": []
-      },
-      "apiAvailability": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.apiAvailability",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      }
-    }
-  },
-  "reusability": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "licenseClarity": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.licenseClarity",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "provenanceInfo": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.provenanceInfo",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "communityStandards": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.communityStandards",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      },
-      "documentationQuality": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.documentationQuality",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "citationGuidelines": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.citationGuidelines",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      }
-    }
-  },
-  "assessmentDate": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.assessmentDate",
-    "multiple": false,
-    "typeClass": "primitive",
-    "value": ""
-  },
-  "assessmentMethod": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.assessmentMethod",
-    "multiple": false,
-    "typeClass": "primitive",
-    "value": ""
-  },
-  "overallFAIRScore": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.overallFAIRScore",
-    "multiple": false,
-    "typeClass": "primitive",
-    "value": ""
-  }
-}0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"md","sx":{"py":4},"children":["$","$L3",null,{"sx":{"p":4,"borderRadius":3},"children":[["$","$L4",null,{"variant":"h4","sx":{"fontWeight":"bold","mb":2},"children":"Plant Genomics and Phenomics Research Data Repository"}],["$","$L5",null,{"sx":{"mb":2}}],["$","$L4",null,{"variant":"body1","sx":{"mb":2},"children":"The Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) and German Plant Phenotyping Network (DPPN) has jointly initiated the Plant Genomics and Phenomics Research Data Repository (PGP) as infrastructure to comprehensively publish plant research data. This covers in particular cross-domain datasets that are not being published in central repositories because of its volume or unsupported data scope, like image collections from plant phenotyping and microscopy, unfinished genomes, genotyping data, visualizations of morphological plant models, data from mass spectrometry as well as software and documents."}],["$","$L6",null,{"sx":{"mb":2},"children":[["$","$L4",null,{"variant":"subtitle2","children":"Subject:"}],["$","$L6",null,{"sx":{"display":"flex","flexWrap":"wrap","gap":0.5,"mt":0.5},"children":[["$","$L7","Medicine, Health and Life Sciences",{"label":"Medicine, Health and Life Sciences","size":"small"}],["$","$L7","Other",{"label":"Other","size":"small"}]]}]]}],["$","$L5",null,{"sx":{"my":2}}],["$","$L4",null,{"variant":"h6","children":"FAIRness (raw):"}],["$","pre",null,{"style":{"fontSize":13,"background":"#f7f7f7","padding":8,"borderRadius":4,"maxHeight":300,"overflow":"auto"},"children":"$8"}],"$L9","$La","$undefined"]}]}],["$Lb","$Lc"],"$Ld"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"-wO_D6IgG7OdMpmcSnRyd"}
-9:["$","$L5",null,{"sx":{"my":2}}]
-a:["$","$L4",null,{"variant":"h6","sx":{"mb":2},"children":"Law And Ethics"}]
-b:["$","script","script-0",{"src":"/_next/static/chunks/14v49gximnp7a.js","async":true}]
-c:["$","script","script-1",{"src":"/_next/static/chunks/0tik5o~24_51q.js","async":true}]
-d:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
-10:null
+2:I[66919,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+3:I[66052,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+4:I[53488,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+5:I[23262,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+6:I[36729,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+7:I[5573,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+24:I[31713,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"FairnessTable"]
+25:I[97367,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+26:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"md","sx":{"py":4},"children":["$","$L3",null,{"sx":{"p":4,"borderRadius":3},"children":[["$","$L4",null,{"variant":"h4","sx":{"fontWeight":"bold","mb":2},"children":"Plant Genomics and Phenomics Research Data Repository"}],["$","$L5",null,{"sx":{"mb":2}}],["$","$L4",null,{"variant":"body1","sx":{"mb":2},"children":"The Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) and German Plant Phenotyping Network (DPPN) has jointly initiated the Plant Genomics and Phenomics Research Data Repository (PGP) as infrastructure to comprehensively publish plant research data. This covers in particular cross-domain datasets that are not being published in central repositories because of its volume or unsupported data scope, like image collections from plant phenotyping and microscopy, unfinished genomes, genotyping data, visualizations of morphological plant models, data from mass spectrometry as well as software and documents."}],["$","$L6",null,{"sx":{"mb":2},"children":[["$","$L4",null,{"variant":"subtitle2","children":"Subject:"}],["$","$L6",null,{"sx":{"display":"flex","flexWrap":"wrap","gap":0.5,"mt":0.5},"children":[["$","$L7","Medicine, Health and Life Sciences",{"label":"Medicine, Health and Life Sciences","size":"small"}],["$","$L7","Other",{"label":"Other","size":"small"}]]}]]}],["$","$L6",null,{"sx":{"mb":3},"children":[["$","$L5",null,{"sx":{"my":2}}],["$","$L4",null,{"variant":"h6","sx":{"mb":1},"children":"re3data.org Profile"}],["$","$L6",null,{"component":"table","sx":{"width":"100%","mb":2,"borderCollapse":"collapse","background":"#fafafa","borderRadius":2},"children":["$","tbody",null,{"children":[["$","tr","Repository Name",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Repository Name"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"Plant Genomics and Phenomics Research Data Repository"}]]}],["$","tr","Repository URL",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Repository URL"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":["$","a",null,{"href":"https://edal-pgp.ipk-gatersleben.de/","target":"_blank","rel":"noopener noreferrer","children":"https://edal-pgp.ipk-gatersleben.de/"}]}]]}],["$","tr","re3data.org ID",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"re3data.org ID"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"r3d100011876"}]]}],["$","tr","Description",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Description"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"The Leibniz Institute of Plant Genetics and Crop Plant Research (IPK) and German Plant Phenotyping Network (DPPN) has jointly initiated the Plant Genomics and Phenomics Research Data Repository (PGP) as infrastructure to comprehensively publish plant research data. This covers in particular cross-domain datasets that are not being published in central repositories because of its volume or unsupported data scope, like image collections from plant phenotyping and microscopy, unfinished genomes, genotyping data, visualizations of morphological plant models, data from mass spectrometry as well as software and documents."}]]}],["$","tr","Contact",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Contact"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"arendd@ipk-gatersleben.de, https://edal-pgp.ipk-gatersleben.de/contact.html"}]]}],["$","tr","Start Date",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Start Date"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"2014-07-25"}]]}],["$","tr","Size",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Size"}],"$L8"]}],"$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf","$L10","$L11","$L12","$L13","$L14","$L15","$L16","$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d"]}]}]]}],"$L1e","$L1f","$L20"]}]}],["$L21","$L22"],"$L23"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"vM55lQZvw8OBzjP2c66Fl"}
+8:["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"321 datasets"}]
+9:["$","tr","Content Types",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Content Types"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"Images, Raw data, Scientific and statistical data formats, Software applications, Source code, Standard office documents, other"}]]}]
+a:["$","tr","Languages",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Languages"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"deu, eng"}]]}]
+b:["$","tr","Keywords",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Keywords"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"DNA, biodiversity, bioinformatics, genetic diversity, phenotypic diversity, plant genomics, plant phenotyping"}]]}]
+c:["$","tr","Mission Statement URL",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Mission Statement URL"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":["$","a",null,{"href":"https://edal-pgp.ipk-gatersleben.de/whatis.html","target":"_blank","rel":"noopener noreferrer","children":"https://edal-pgp.ipk-gatersleben.de/whatis.html"}]}]]}]
+d:["$","tr","Provider Type",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Provider Type"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"dataProvider, serviceProvider"}]]}]
+e:["$","tr","Type",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Type"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"disciplinary, institutional"}]]}]
+f:["$","tr","Versioning",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Versioning"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"yes"}]]}]
+10:["$","tr","PID System",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"PID System"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"DOI"}]]}]
+11:["$","tr","Enhanced Publication",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Enhanced Publication"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"yes"}]]}]
+12:["$","tr","Quality Management",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Quality Management"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"yes"}]]}]
+13:["$","tr","Remarks",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Remarks"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"The Federal ex situ Genebank for agricultural and horticultural crops of the IPK Gatersleben forms an essential component for the implementation of both national and international policy on conservation and and sustainable utilization of plant genetic resources. The Genebank Information System (https://www.ipk-gatersleben.de/en/research/genebank) GBIS maps all processes and documents information related to conservation management and the distribution of material. In addition GBIS represents and interface for exchange of data with national and international databases."}]]}]
+14:["$","tr","Entry Date",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Entry Date"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"2015-11-04"}]]}]
+15:["$","tr","Last Update",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Last Update"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"2026-01-27"}]]}]
+16:["$","tr","Institution(s)",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Institution(s)"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"Deutsche Forschungsgemeinschaft"}]," (non-profit)",["$","br",null,{}],["Country: ","DEU",["$","br",null,{}]],["Additional: ","DFG, German Research Foundation",["$","br",null,{}]],["Responsibility: ","funding",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://www.dfg.de/de/foerderung/foerderinitiativen/nfdi","target":"_blank","rel":"noopener noreferrer","children":"https://www.dfg.de/de/foerderung/foerderinitiativen/nfdi"}],["$","br",null,{}]],["Identifier: ","ROR:018mejw64"]]}],["$","div","1",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"German Network for Bioinformatics Infrastructure"}]," (non-profit)",["$","br",null,{}],["Country: ","DEU",["$","br",null,{}]],["Additional: ","de.NBI",["$","br",null,{}]],["Responsibility: ","funding",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://www.denbi.de/","target":"_blank","rel":"noopener noreferrer","children":"https://www.denbi.de/"}],["$","br",null,{}]],false]}],["$","div","2",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"German Plant Phenotyping Network - ACCESS"}]," (non-profit)",["$","br",null,{}],["Country: ","DEU",["$","br",null,{}]],["Additional: ","DPPN, DPPN-Access, Deutsches Pflanzen Phänotypisierungsnetzwerk",["$","br",null,{}]],["Responsibility: ","general",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://dppn.plant-phenotyping-network.de/","target":"_blank","rel":"noopener noreferrer","children":"https://dppn.plant-phenotyping-network.de/"}],["$","br",null,{}]],false]}],["$","div","3",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"Land Sachsen-Anhalt"}]," (non-profit)",["$","br",null,{}],["Country: ","DEU",["$","br",null,{}]],false,["Responsibility: ","funding",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://www.sachsen-anhalt.de/startseite","target":"_blank","rel":"noopener noreferrer","children":"https://www.sachsen-anhalt.de/startseite"}],["$","br",null,{}]],false]}],["$","div","4",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"Leibniz Institute of Plant Genetics and Crop Plant Research"}]," (non-profit)",["$","br",null,{}],["Country: ","DEU",["$","br",null,{}]],["Additional: ","IPK, Leibniz-Institut für Pflanzengenetik und Kulturpflanzenforschung",["$","br",null,{}]],["Responsibility: ","general, technical",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://www.ipk-gatersleben.de/","target":"_blank","rel":"noopener noreferrer","children":"https://www.ipk-gatersleben.de/"}],["$","br",null,{}]],["Identifier: ","ROR:02skbsp27"]]}],["$","div","5",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"NFDI consortium FAIRagro"}]," (non-profit)",["$","br",null,{}],["Country: ","DEU",["$","br",null,{}]],false,["Responsibility: ","funding",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://fairagro.net/en/","target":"_blank","rel":"noopener noreferrer","children":"https://fairagro.net/en/"}],["$","br",null,{}]],false]}]]}]]}]
+17:["$","tr","Policy(s)",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Policy(s)"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"License and Disclaimer"}],[" (",["$","a",null,{"href":"https://edal-pgp.ipk-gatersleben.de/whatis.html","target":"_blank","rel":"noopener noreferrer","children":"https://edal-pgp.ipk-gatersleben.de/whatis.html"}],")"]]}]]}]]}]
+18:["$","tr","Database Access",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Database Access"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":"open"}]]}]]}]
+19:["$","tr","Data Access",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Data Access"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":"open"}]]}]]}]
+1a:["$","tr","Data License",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Data License"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":[["$","b",null,{"children":"CC"}],[" (",["$","a",null,{"href":"https://creativecommons.org/licenses/","target":"_blank","rel":"noopener noreferrer","children":"https://creativecommons.org/licenses/"}],")"]]}],["$","div","1",{"children":[["$","b",null,{"children":"other"}],[" (",["$","a",null,{"href":"https://edal-pgp.ipk-gatersleben.de/whatis.html","target":"_blank","rel":"noopener noreferrer","children":"https://edal-pgp.ipk-gatersleben.de/whatis.html"}],")"]]}]]}]]}]
+1b:["$","tr","Data Upload",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Data Upload"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":[["$","b",null,{"children":"restricted"}],[" (Restriction: ","institutional membership",")"]]}]]}]]}]
+1c:["$","tr","Data Upload License",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Data Upload License"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":[["$","b",null,{"children":"Creative Commons Licenses"}],[" (",["$","a",null,{"href":"https://creativecommons.org/licenses/","target":"_blank","rel":"noopener noreferrer","children":"https://creativecommons.org/licenses/"}],")"]]}],["$","div","1",{"children":[["$","b",null,{"children":"Data Deposit and License Agreement"}],[" (",["$","a",null,{"href":"https://edal-pgp.ipk-gatersleben.de/document/PGP-contract.pdf","target":"_blank","rel":"noopener noreferrer","children":"https://edal-pgp.ipk-gatersleben.de/document/PGP-contract.pdf"}],")"]]}]]}]]}]
+1d:["$","tr","Metadata Standard(s)",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Metadata Standard(s)"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":[["$","b",null,{"children":"DataCite Metadata Schema"}],[" (",["$","a",null,{"href":"http://www.dcc.ac.uk/resources/metadata-standards/datacite-metadata-schema","target":"_blank","rel":"noopener noreferrer","children":"http://www.dcc.ac.uk/resources/metadata-standards/datacite-metadata-schema"}],")"]]}],["$","div","1",{"children":[["$","b",null,{"children":"Dublin Core"}],[" (",["$","a",null,{"href":"http://www.dcc.ac.uk/resources/metadata-standards/dublin-core","target":"_blank","rel":"noopener noreferrer","children":"http://www.dcc.ac.uk/resources/metadata-standards/dublin-core"}],")"]]}]]}]]}]
+1e:["$","$L5",null,{"sx":{"my":2}}]
+1f:["$","$L4",null,{"variant":"h6","children":"FAIRness Assessment:"}]
+20:["$","$L24",null,{"fairness":{"findability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability","multiple":false,"typeClass":"compound","value":{"persistentIdentifier":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.persistentIdentifier","multiple":false,"typeClass":"primitive","value":"yes"},"richMetadata":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.richMetadata","multiple":false,"typeClass":"primitive","value":"na"},"indexedInSearchEngines":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.indexedInSearchEngines","multiple":false,"typeClass":"primitive","value":"no"},"metadataSchema":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.metadataSchema","multiple":false,"typeClass":"primitive","value":"na"},"metadataPersistence":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.metadataPersistence","multiple":false,"typeClass":"primitive","value":"na"}}},"accessibility":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility","multiple":false,"typeClass":"compound","value":{"retrievalProtocol":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.retrievalProtocol","multiple":false,"typeClass":"primitive","value":"na"},"authenticationRequired":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationRequired","multiple":false,"typeClass":"primitive","value":"no"},"authenticationType":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationType","multiple":false,"typeClass":"primitive","value":"na"},"metadataAlwaysAvailable":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.metadataAlwaysAvailable","multiple":false,"typeClass":"primitive","value":"yes"},"dataAvailability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.dataAvailability","multiple":false,"typeClass":"primitive","value":"na"}}},"interoperability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability","multiple":false,"typeClass":"compound","value":{"knowledgeRepresentation":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.knowledgeRepresentation","multiple":false,"typeClass":"primitive","value":"na"},"vocabulariesUsed":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.vocabulariesUsed","multiple":true,"typeClass":"primitive","value":[]},"qualifiedReferences":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.qualifiedReferences","multiple":false,"typeClass":"primitive","value":"no"},"dataFormats":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.dataFormats","multiple":true,"typeClass":"primitive","value":[]},"apiAvailability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.apiAvailability","multiple":false,"typeClass":"primitive","value":"na"}}},"reusability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability","multiple":false,"typeClass":"compound","value":{"licenseClarity":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.licenseClarity","multiple":false,"typeClass":"primitive","value":"na"},"provenanceInfo":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.provenanceInfo","multiple":false,"typeClass":"primitive","value":"na"},"communityStandards":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.communityStandards","multiple":false,"typeClass":"primitive","value":"no"},"documentationQuality":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.documentationQuality","multiple":false,"typeClass":"primitive","value":"na"},"citationGuidelines":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.citationGuidelines","multiple":false,"typeClass":"primitive","value":"no"}}},"assessmentDate":{"typeName":"MDS_fairagro.fairagroData.FAIRness.assessmentDate","multiple":false,"typeClass":"primitive","value":""},"assessmentMethod":{"typeName":"MDS_fairagro.fairagroData.FAIRness.assessmentMethod","multiple":false,"typeClass":"primitive","value":""},"overallFAIRScore":{"typeName":"MDS_fairagro.fairagroData.FAIRness.overallFAIRScore","multiple":false,"typeClass":"primitive","value":""}}}]
+21:["$","script","script-0",{"src":"/_next/static/chunks/0sy-f1nfxssde.js","async":true}]
+22:["$","script","script-1",{"src":"/_next/static/chunks/0r3.hgmrz7e-j.js","async":true}]
+23:["$","$L25",null,{"children":["$","$26",null,{"name":"Next.MetadataOutlet","children":"$@27"}]}]
+27:null

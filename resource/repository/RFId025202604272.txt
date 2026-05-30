@@ -1,196 +1,57 @@
 1:"$Sreact.fragment"
-2:I[42398,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"default"]
-3:I[37260,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"default"]
-5:I[42616,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"OutletBoundary"]
-6:"$Sreact.suspense"
-9:I[42616,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"ViewportBoundary"]
-b:I[42616,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"MetadataBoundary"]
-d:I[1075,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"default",1]
-:HL["/_next/static/chunks/0jd79f9~n-hd2.css","style"]
+2:I[53501,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+3:I[39756,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+4:I[37457,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+5:I[28129,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default"]
+7:I[97367,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+b:I[97367,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"ViewportBoundary"]
+d:I[97367,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"MetadataBoundary"]
+f:I[68027,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"default",1]
+:HL["/_next/static/chunks/0eno30exi88vv.css","style"]
 :HL["/_next/static/media/797e433ab948586e-s.p.09zddjkbdep5a.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/caa3a2e1cccd8315-s.p.09~u27dqhyhd6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"P":null,"c":["","resource","repository","RFId025202604272"],"q":"","i":false,"f":[[["",{"children":["resource",{"children":["repository",{"children":[["rdiId","RFId025202604272","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0jd79f9~n-hd2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0-4hnl1rtpjhy.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L4",[["$","script","script-0",{"src":"/_next/static/chunks/14v49gximnp7a.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0tik5o~24_51q.js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],{},null,false,null]},null,false,"$@8"]},null,false,"$@8"]},null,false,"$@8"]},null,false,null],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$6",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0jd79f9~n-hd2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"-wO_D6IgG7OdMpmcSnRyd"}
-e:[]
-8:"$We"
-f:I[31528,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-10:I[15738,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-11:I[56883,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-12:I[31361,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-14:I[81536,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-15:I[81070,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-13:T55c,The European Nucleotide Archive (ENA) captures and presents information relating to experimental workflows that are based around nucleotide sequencing. A typical workflow includes the isolation and preparation of material for sequencing, a run of a sequencing machine in which sequencing data are produced and a subsequent bioinformatic analysis pipeline. ENA records this information in a data model that covers input information (sample, experimental setup, machine configuration), output machine data (sequence traces, reads and quality scores) and interpreted information (assembly, mapping, functional annotation). 
+0:{"P":null,"c":["","resource","repository","RFId025202604272"],"q":"","i":false,"f":[[["",{"children":["resource",{"children":["repository",{"children":[["rdiId","RFId025202604272","d",null],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0eno30exi88vv.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/019hg-s3c.7d5.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0qfh254pw0lel.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable h-full antialiased","children":["$","body",null,{"className":"min-h-full flex flex-col","children":[["$","$L2",null,{}],["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L5",null,{}]]}]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L6",[["$","script","script-0",{"src":"/_next/static/chunks/0sy-f1nfxssde.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0r3.hgmrz7e-j.js","async":true,"nonce":"$undefined"}]],["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]]}],{},null,false,null]},null,false,"$@a"]},null,false,"$@a"]},null,false,"$@a"]},null,false,null],["$","$1","h",{"children":[null,["$","$Lb",null,{"children":"$Lc"}],["$","div",null,{"hidden":true,"children":["$","$Ld",null,{"children":["$","$8",null,{"name":"Next.Metadata","children":"$Le"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$f",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0eno30exi88vv.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"vM55lQZvw8OBzjP2c66Fl"}
+10:[]
+a:"$W10"
+11:I[66919,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+12:I[66052,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+13:I[53488,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+14:I[23262,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+16:I[36729,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+17:I[5573,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+15:T55c,The European Nucleotide Archive (ENA) captures and presents information relating to experimental workflows that are based around nucleotide sequencing. A typical workflow includes the isolation and preparation of material for sequencing, a run of a sequencing machine in which sequencing data are produced and a subsequent bioinformatic analysis pipeline. ENA records this information in a data model that covers input information (sample, experimental setup, machine configuration), output machine data (sequence traces, reads and quality scores) and interpreted information (assembly, mapping, functional annotation). 
 Data arrive at ENA from a variety of sources. These include submissions of raw data, assembled sequences and annotation from small-scale sequencing efforts, data provision from the major European sequencing centres and routine and comprehensive exchange with our partners in the International Nucleotide Sequence Database Collaboration (INSDC).
-Provision of nucleotide sequence data to ENA or its INSDC partners has become a central and mandatory step in the dissemination of research findings to the scientific community. ENA works with publishers of scientific literature and funding bodies to ensure compliance with these principles and to provide optimal submission systems and data access tools that work seamlessly with the published literature.16:T1518,{
-  "findability": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.findability",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "persistentIdentifier": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.persistentIdentifier",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "yes"
-      },
-      "richMetadata": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.richMetadata",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "indexedInSearchEngines": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.indexedInSearchEngines",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      },
-      "metadataSchema": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.metadataSchema",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "metadataPersistence": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.metadataPersistence",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      }
-    }
-  },
-  "accessibility": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "retrievalProtocol": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.retrievalProtocol",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "authenticationRequired": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationRequired",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      },
-      "authenticationType": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationType",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "metadataAlwaysAvailable": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.metadataAlwaysAvailable",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "yes"
-      },
-      "dataAvailability": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.dataAvailability",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      }
-    }
-  },
-  "interoperability": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "knowledgeRepresentation": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.knowledgeRepresentation",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "vocabulariesUsed": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.vocabulariesUsed",
-        "multiple": true,
-        "typeClass": "primitive",
-        "value": []
-      },
-      "qualifiedReferences": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.qualifiedReferences",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      },
-      "dataFormats": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.dataFormats",
-        "multiple": true,
-        "typeClass": "primitive",
-        "value": []
-      },
-      "apiAvailability": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.apiAvailability",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      }
-    }
-  },
-  "reusability": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "licenseClarity": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.licenseClarity",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "provenanceInfo": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.provenanceInfo",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "communityStandards": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.communityStandards",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      },
-      "documentationQuality": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.documentationQuality",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "citationGuidelines": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.citationGuidelines",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      }
-    }
-  },
-  "assessmentDate": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.assessmentDate",
-    "multiple": false,
-    "typeClass": "primitive",
-    "value": ""
-  },
-  "assessmentMethod": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.assessmentMethod",
-    "multiple": false,
-    "typeClass": "primitive",
-    "value": ""
-  },
-  "overallFAIRScore": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.overallFAIRScore",
-    "multiple": false,
-    "typeClass": "primitive",
-    "value": ""
-  }
-}4:["$","$Lf",null,{"maxWidth":"md","sx":{"py":4},"children":["$","$L10",null,{"sx":{"p":4,"borderRadius":3},"children":[["$","$L11",null,{"variant":"h4","sx":{"fontWeight":"bold","mb":2},"children":"European Nucleotide Archive"}],["$","$L12",null,{"sx":{"mb":2}}],["$","$L11",null,{"variant":"body1","sx":{"mb":2},"children":"$13"}],["$","$L14",null,{"sx":{"mb":2},"children":[["$","$L11",null,{"variant":"subtitle2","children":"Subject:"}],["$","$L14",null,{"sx":{"display":"flex","flexWrap":"wrap","gap":0.5,"mt":0.5},"children":[["$","$L15","Medicine, Health and Life Sciences",{"label":"Medicine, Health and Life Sciences","size":"small"}],["$","$L15","Other",{"label":"Other","size":"small"}]]}]]}],["$","$L12",null,{"sx":{"my":2}}],["$","$L11",null,{"variant":"h6","children":"FAIRness (raw):"}],["$","pre",null,{"style":{"fontSize":13,"background":"#f7f7f7","padding":8,"borderRadius":4,"maxHeight":300,"overflow":"auto"},"children":"$16"}],"$L17","$L18","$undefined"]}]}]
-17:["$","$L12",null,{"sx":{"my":2}}]
-18:["$","$L11",null,{"variant":"h6","sx":{"mb":2},"children":"Law And Ethics"}]
-a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-19:I[45455,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"IconMark"]
-7:null
-c:[["$","title","0",{"children":"Create Next App"}],["$","meta","1",{"name":"description","content":"Generated by create next app"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L19","3",{}]]
+Provision of nucleotide sequence data to ENA or its INSDC partners has become a central and mandatory step in the dissemination of research findings to the scientific community. ENA works with publishers of scientific literature and funding bodies to ensure compliance with these principles and to provide optimal submission systems and data access tools that work seamlessly with the published literature.18:T55c,The European Nucleotide Archive (ENA) captures and presents information relating to experimental workflows that are based around nucleotide sequencing. A typical workflow includes the isolation and preparation of material for sequencing, a run of a sequencing machine in which sequencing data are produced and a subsequent bioinformatic analysis pipeline. ENA records this information in a data model that covers input information (sample, experimental setup, machine configuration), output machine data (sequence traces, reads and quality scores) and interpreted information (assembly, mapping, functional annotation). 
+Data arrive at ENA from a variety of sources. These include submissions of raw data, assembled sequences and annotation from small-scale sequencing efforts, data provision from the major European sequencing centres and routine and comprehensive exchange with our partners in the International Nucleotide Sequence Database Collaboration (INSDC).
+Provision of nucleotide sequence data to ENA or its INSDC partners has become a central and mandatory step in the dissemination of research findings to the scientific community. ENA works with publishers of scientific literature and funding bodies to ensure compliance with these principles and to provide optimal submission systems and data access tools that work seamlessly with the published literature.6:["$","$L11",null,{"maxWidth":"md","sx":{"py":4},"children":["$","$L12",null,{"sx":{"p":4,"borderRadius":3},"children":[["$","$L13",null,{"variant":"h4","sx":{"fontWeight":"bold","mb":2},"children":"European Nucleotide Archive"}],["$","$L14",null,{"sx":{"mb":2}}],["$","$L13",null,{"variant":"body1","sx":{"mb":2},"children":"$15"}],["$","$L16",null,{"sx":{"mb":2},"children":[["$","$L13",null,{"variant":"subtitle2","children":"Subject:"}],["$","$L16",null,{"sx":{"display":"flex","flexWrap":"wrap","gap":0.5,"mt":0.5},"children":[["$","$L17","Medicine, Health and Life Sciences",{"label":"Medicine, Health and Life Sciences","size":"small"}],["$","$L17","Other",{"label":"Other","size":"small"}]]}]]}],["$","$L16",null,{"sx":{"mb":3},"children":[["$","$L14",null,{"sx":{"my":2}}],["$","$L13",null,{"variant":"h6","sx":{"mb":1},"children":"re3data.org Profile"}],["$","$L16",null,{"component":"table","sx":{"width":"100%","mb":2,"borderCollapse":"collapse","background":"#fafafa","borderRadius":2},"children":["$","tbody",null,{"children":[["$","tr","Repository Name",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Repository Name"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"European Nucleotide Archive"}]]}],["$","tr","Repository URL",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Repository URL"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":["$","a",null,{"href":"https://www.ebi.ac.uk/ena/browser/home","target":"_blank","rel":"noopener noreferrer","children":"https://www.ebi.ac.uk/ena/browser/home"}]}]]}],["$","tr","re3data.org ID",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"re3data.org ID"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"r3d100010527"}]]}],["$","tr","Description",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Description"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"$18"}]]}],"$L19","$L1a","$L1b","$L1c","$L1d","$L1e","$L1f","$L20","$L21","$L22","$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e"]}]}]]}],"$L2f","$L30","$L31"]}]}]
+32:I[31713,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"FairnessTable"]
+19:["$","tr","Contact",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Contact"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"https://www.ebi.ac.uk/ena/browser/support"}]]}]
+1a:["$","tr","Start Date",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Start Date"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"2010"}]]}]
+1b:["$","tr","Content Types",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Content Types"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"Networkbased data, Plain text, Raw data, Scientific and statistical data formats, Software applications, Structured graphics, Structured text"}]]}]
+1c:["$","tr","Languages",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Languages"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"eng"}]]}]
+1d:["$","tr","Keywords",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Keywords"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"CRAM, DNA, RNA, epigenomics, genome, human genetics, metagenomics, protein coding, samples, taxonomy data, transcripts"}]]}]
+1e:["$","tr","Mission Statement URL",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Mission Statement URL"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":["$","a",null,{"href":"https://www.ebi.ac.uk/ena/browser/about","target":"_blank","rel":"noopener noreferrer","children":"https://www.ebi.ac.uk/ena/browser/about"}]}]]}]
+1f:["$","tr","Provider Type",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Provider Type"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"dataProvider, serviceProvider"}]]}]
+20:["$","tr","Type",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Type"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"disciplinary"}]]}]
+21:["$","tr","PID System",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"PID System"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"none"}]]}]
+22:["$","tr","Citation Guideline URL",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Citation Guideline URL"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":["$","a",null,{"href":"https://www.ebi.ac.uk/ena/browser/about/citing-ena","target":"_blank","rel":"noopener noreferrer","children":"https://www.ebi.ac.uk/ena/browser/about/citing-ena"}]}]]}]
+23:["$","tr","Quality Management",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Quality Management"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"yes"}]]}]
+24:["$","tr","Remarks",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Remarks"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"Is covered by Elsevier. European Nucleotide Archive is covered by Thomson Reuters Data Citation Index. The ENA is developed and maintained at the EMBL-EBI under the guidance of the INSDC International Advisory Committee and a newly formed Scientific Advisory Board. ENA is part of the International Nucleotide Sequence Database Collaboration, which comprises the DNA DataBank of Japan (DDBJ), the European Molecular Biology Laboratory (EMBL), and GenBank at NCBI.\nThe archive is composed of three main databases: the Sequence Read Archive, the Trace Archive and the EMBL Nucleotide Sequence Database (also known as EMBL-Bank). The ENA has grown out of the EMBL Data Library which was released in 1982 as the first internationally supported resource for nucleotide sequence data\nThe ENA is an ELIXIR Core Data Resource."}]]}]
+25:["$","tr","Entry Date",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Entry Date"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"2013-09-26"}]]}]
+26:["$","tr","Last Update",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Last Update"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"2026-05-08"}]]}]
+27:["$","tr","Institution(s)",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Institution(s)"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"Biotechnology and Biological Sciences Research Council"}]," (non-profit)",["$","br",null,{}],["Country: ","GBR",["$","br",null,{}]],["Additional: ","BBSRC",["$","br",null,{}]],["Responsibility: ","funding",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://www.ukri.org/councils/bbsrc/","target":"_blank","rel":"noopener noreferrer","children":"https://www.ukri.org/councils/bbsrc/"}],["$","br",null,{}]],["Identifier: ","ROR:00cwqg982, RRID:SCR_011118, RRID:nlx_inv_1005015"]]}],["$","div","1",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"European Commission, Research & Innovation, Seventh Framework Programm - FP7"}]," (non-profit)",["$","br",null,{}],["Country: ","EEC",["$","br",null,{}]],["Additional: ","EC-FP7",["$","br",null,{}]],["Responsibility: ","funding",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://wayback.archive-it.org/12090/20191127213419/https:/ec.europa.eu/research/fp7/index_en.cfm","target":"_blank","rel":"noopener noreferrer","children":"https://wayback.archive-it.org/12090/20191127213419/https:/ec.europa.eu/research/fp7/index_en.cfm"}],["$","br",null,{}]],false]}],["$","div","2",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"European Molecular Biology Laboratory - The European Bioinformatics Institute"}]," (non-profit)",["$","br",null,{}],["Country: ","EEC",["$","br",null,{}]],["Additional: ","EMBL-EBI",["$","br",null,{}]],["Responsibility: ","general, technical",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://www.ebi.ac.uk/","target":"_blank","rel":"noopener noreferrer","children":"https://www.ebi.ac.uk/"}],["$","br",null,{}]],["Identifier: ","ROR:02catss52, RRID:SCR_004727, RRID:nlx_72386"]]}],["$","div","3",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"International Nucleotide Sequence Database Collaboration"}]," (non-profit)",["$","br",null,{}],["Country: ","AAA",["$","br",null,{}]],["Additional: ","INSDC",["$","br",null,{}]],["Responsibility: ","general",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://www.insdc.org/","target":"_blank","rel":"noopener noreferrer","children":"https://www.insdc.org/"}],["$","br",null,{}]],["Identifier: ","other:MIR:00000029, other:OMICS_01653, RRID:SCR_011967"]]}],["$","div","4",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"Wellcome Trust Genome Campus"}]," (non-profit)",["$","br",null,{}],["Country: ","GBR",["$","br",null,{}]],false,["Responsibility: ","funding, technical",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://wellcome.org/","target":"_blank","rel":"noopener noreferrer","children":"https://wellcome.org/"}],["$","br",null,{}]],["Identifier: ","ROR:029chgv08, RRID:SCR_001852"]]}]]}]]}]
+28:["$","tr","Policy(s)",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Policy(s)"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"EMBL-EBI terms of use"}],[" (",["$","a",null,{"href":"https://www.ebi.ac.uk/about/terms-of-use/","target":"_blank","rel":"noopener noreferrer","children":"https://www.ebi.ac.uk/about/terms-of-use/"}],")"]]}],["$","div","1",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"ENA and INSDC Policies"}],[" (",["$","a",null,{"href":"https://www.ebi.ac.uk/ena/browser/about/policies","target":"_blank","rel":"noopener noreferrer","children":"https://www.ebi.ac.uk/ena/browser/about/policies"}],")"]]}]]}]]}]
+29:["$","tr","Database Access",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Database Access"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":"open"}]]}]]}]
+2a:["$","tr","Database License",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Database License"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":[["$","b",null,{"children":"Apache License 2.0"}],[" (",["$","a",null,{"href":"https://www.apache.org/licenses/LICENSE-2.0","target":"_blank","rel":"noopener noreferrer","children":"https://www.apache.org/licenses/LICENSE-2.0"}],")"]]}]]}]]}]
+2b:["$","tr","Data Access",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Data Access"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":"open"}]]}]]}]
+2c:["$","tr","Data License",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Data License"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":[["$","b",null,{"children":"CC"}],[" (",["$","a",null,{"href":"https://creativecommons.org/publicdomain/zero/1.0/","target":"_blank","rel":"noopener noreferrer","children":"https://creativecommons.org/publicdomain/zero/1.0/"}],")"]]}]]}]]}]
+2d:["$","tr","Data Upload",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Data Upload"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":[["$","b",null,{"children":"restricted"}],[" (Restriction: ","registration",")"]]}]]}]]}]
+2e:["$","tr","Data Upload License",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Data Upload License"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":[["$","b",null,{"children":"CC"}],[" (",["$","a",null,{"href":"https://creativecommons.org/publicdomain/zero/1.0/","target":"_blank","rel":"noopener noreferrer","children":"https://creativecommons.org/publicdomain/zero/1.0/"}],")"]]}]]}]]}]
+2f:["$","$L14",null,{"sx":{"my":2}}]
+30:["$","$L13",null,{"variant":"h6","children":"FAIRness Assessment:"}]
+31:["$","$L32",null,{"fairness":{"findability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability","multiple":false,"typeClass":"compound","value":{"persistentIdentifier":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.persistentIdentifier","multiple":false,"typeClass":"primitive","value":"yes"},"richMetadata":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.richMetadata","multiple":false,"typeClass":"primitive","value":"na"},"indexedInSearchEngines":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.indexedInSearchEngines","multiple":false,"typeClass":"primitive","value":"no"},"metadataSchema":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.metadataSchema","multiple":false,"typeClass":"primitive","value":"na"},"metadataPersistence":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.metadataPersistence","multiple":false,"typeClass":"primitive","value":"na"}}},"accessibility":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility","multiple":false,"typeClass":"compound","value":{"retrievalProtocol":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.retrievalProtocol","multiple":false,"typeClass":"primitive","value":"na"},"authenticationRequired":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationRequired","multiple":false,"typeClass":"primitive","value":"no"},"authenticationType":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationType","multiple":false,"typeClass":"primitive","value":"na"},"metadataAlwaysAvailable":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.metadataAlwaysAvailable","multiple":false,"typeClass":"primitive","value":"yes"},"dataAvailability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.dataAvailability","multiple":false,"typeClass":"primitive","value":"na"}}},"interoperability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability","multiple":false,"typeClass":"compound","value":{"knowledgeRepresentation":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.knowledgeRepresentation","multiple":false,"typeClass":"primitive","value":"na"},"vocabulariesUsed":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.vocabulariesUsed","multiple":true,"typeClass":"primitive","value":[]},"qualifiedReferences":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.qualifiedReferences","multiple":false,"typeClass":"primitive","value":"no"},"dataFormats":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.dataFormats","multiple":true,"typeClass":"primitive","value":[]},"apiAvailability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.apiAvailability","multiple":false,"typeClass":"primitive","value":"na"}}},"reusability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability","multiple":false,"typeClass":"compound","value":{"licenseClarity":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.licenseClarity","multiple":false,"typeClass":"primitive","value":"na"},"provenanceInfo":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.provenanceInfo","multiple":false,"typeClass":"primitive","value":"na"},"communityStandards":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.communityStandards","multiple":false,"typeClass":"primitive","value":"no"},"documentationQuality":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.documentationQuality","multiple":false,"typeClass":"primitive","value":"na"},"citationGuidelines":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.citationGuidelines","multiple":false,"typeClass":"primitive","value":"no"}}},"assessmentDate":{"typeName":"MDS_fairagro.fairagroData.FAIRness.assessmentDate","multiple":false,"typeClass":"primitive","value":""},"assessmentMethod":{"typeName":"MDS_fairagro.fairagroData.FAIRness.assessmentMethod","multiple":false,"typeClass":"primitive","value":""},"overallFAIRScore":{"typeName":"MDS_fairagro.fairagroData.FAIRness.overallFAIRScore","multiple":false,"typeClass":"primitive","value":""}}}]
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+33:I[27201,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"IconMark"]
+9:null
+e:[["$","title","0",{"children":"Create Next App"}],["$","meta","1",{"name":"description","content":"Generated by create next app"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L33","3",{}]]

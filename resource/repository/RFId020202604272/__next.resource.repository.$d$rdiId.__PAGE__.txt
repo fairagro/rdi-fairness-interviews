@@ -1,183 +1,28 @@
 1:"$Sreact.fragment"
-2:I[31528,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-3:I[15738,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-4:I[56883,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-5:I[31361,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-6:I[81536,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-7:I[81070,["/_next/static/chunks/0-4hnl1rtpjhy.js","/_next/static/chunks/14v49gximnp7a.js","/_next/static/chunks/0tik5o~24_51q.js"],"default"]
-e:I[42616,["/_next/static/chunks/0-4hnl1rtpjhy.js"],"OutletBoundary"]
-f:"$Sreact.suspense"
-8:T1517,{
-  "findability": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.findability",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "persistentIdentifier": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.persistentIdentifier",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "richMetadata": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.richMetadata",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "indexedInSearchEngines": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.indexedInSearchEngines",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      },
-      "metadataSchema": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.metadataSchema",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "metadataPersistence": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.metadataPersistence",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      }
-    }
-  },
-  "accessibility": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "retrievalProtocol": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.retrievalProtocol",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "authenticationRequired": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationRequired",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      },
-      "authenticationType": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationType",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "metadataAlwaysAvailable": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.metadataAlwaysAvailable",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "yes"
-      },
-      "dataAvailability": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.dataAvailability",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      }
-    }
-  },
-  "interoperability": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "knowledgeRepresentation": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.knowledgeRepresentation",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "vocabulariesUsed": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.vocabulariesUsed",
-        "multiple": true,
-        "typeClass": "primitive",
-        "value": []
-      },
-      "qualifiedReferences": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.qualifiedReferences",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      },
-      "dataFormats": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.dataFormats",
-        "multiple": true,
-        "typeClass": "primitive",
-        "value": []
-      },
-      "apiAvailability": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.apiAvailability",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      }
-    }
-  },
-  "reusability": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability",
-    "multiple": false,
-    "typeClass": "compound",
-    "value": {
-      "licenseClarity": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.licenseClarity",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "provenanceInfo": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.provenanceInfo",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "communityStandards": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.communityStandards",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      },
-      "documentationQuality": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.documentationQuality",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "na"
-      },
-      "citationGuidelines": {
-        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.citationGuidelines",
-        "multiple": false,
-        "typeClass": "primitive",
-        "value": "no"
-      }
-    }
-  },
-  "assessmentDate": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.assessmentDate",
-    "multiple": false,
-    "typeClass": "primitive",
-    "value": ""
-  },
-  "assessmentMethod": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.assessmentMethod",
-    "multiple": false,
-    "typeClass": "primitive",
-    "value": ""
-  },
-  "overallFAIRScore": {
-    "typeName": "MDS_fairagro.fairagroData.FAIRness.overallFAIRScore",
-    "multiple": false,
-    "typeClass": "primitive",
-    "value": ""
-  }
-}0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"md","sx":{"py":4},"children":["$","$L3",null,{"sx":{"p":4,"borderRadius":3},"children":[["$","$L4",null,{"variant":"h4","sx":{"fontWeight":"bold","mb":2},"children":"Plant Biotechnology Information Primary Database"}],["$","$L5",null,{"sx":{"mb":2}}],["$","$L4",null,{"variant":"body1","sx":{"mb":2},"children":"The Plant Biotechnology Information Primary Database (PlaBiPD) is a specialized genomic and proteomic resource focused on key crop and model plants. Its current implementation centers on providing integrated sequence and protein data for eight major crop species—sugar beet, grapevine, rapeseed (canola), potato, maize, barley, bread wheat, and false flax—alongside the foundational model plant Arabidopsis thaliana.  PlaBiPD serves as a centralized platform for plant biotechnology research, offering foundational molecular data that supports gene discovery, functional annotation, and cross-species comparative studies aimed at crop improvement."}],["$","$L6",null,{"sx":{"mb":2},"children":[["$","$L4",null,{"variant":"subtitle2","children":"Subject:"}],["$","$L6",null,{"sx":{"display":"flex","flexWrap":"wrap","gap":0.5,"mt":0.5},"children":[["$","$L7","Other",{"label":"Other","size":"small"}]]}]]}],["$","$L5",null,{"sx":{"my":2}}],["$","$L4",null,{"variant":"h6","children":"FAIRness (raw):"}],["$","pre",null,{"style":{"fontSize":13,"background":"#f7f7f7","padding":8,"borderRadius":4,"maxHeight":300,"overflow":"auto"},"children":"$8"}],"$L9","$La","$undefined"]}]}],["$Lb","$Lc"],"$Ld"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"-wO_D6IgG7OdMpmcSnRyd"}
-9:["$","$L5",null,{"sx":{"my":2}}]
-a:["$","$L4",null,{"variant":"h6","sx":{"mb":2},"children":"Law And Ethics"}]
-b:["$","script","script-0",{"src":"/_next/static/chunks/14v49gximnp7a.js","async":true}]
-c:["$","script","script-1",{"src":"/_next/static/chunks/0tik5o~24_51q.js","async":true}]
-d:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
-10:null
+2:I[66919,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+3:I[66052,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+4:I[53488,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+5:I[23262,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+6:I[36729,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+7:I[5573,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"default"]
+18:I[31713,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0sy-f1nfxssde.js","/_next/static/chunks/0r3.hgmrz7e-j.js"],"FairnessTable"]
+19:I[97367,["/_next/static/chunks/019hg-s3c.7d5.js","/_next/static/chunks/0qfh254pw0lel.js","/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+1a:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"md","sx":{"py":4},"children":["$","$L3",null,{"sx":{"p":4,"borderRadius":3},"children":[["$","$L4",null,{"variant":"h4","sx":{"fontWeight":"bold","mb":2},"children":"Plant Biotechnology Information Primary Database"}],["$","$L5",null,{"sx":{"mb":2}}],["$","$L4",null,{"variant":"body1","sx":{"mb":2},"children":"The Plant Biotechnology Information Primary Database (PlaBiPD) is a specialized genomic and proteomic resource focused on key crop and model plants. Its current implementation centers on providing integrated sequence and protein data for eight major crop species—sugar beet, grapevine, rapeseed (canola), potato, maize, barley, bread wheat, and false flax—alongside the foundational model plant Arabidopsis thaliana.  PlaBiPD serves as a centralized platform for plant biotechnology research, offering foundational molecular data that supports gene discovery, functional annotation, and cross-species comparative studies aimed at crop improvement."}],["$","$L6",null,{"sx":{"mb":2},"children":[["$","$L4",null,{"variant":"subtitle2","children":"Subject:"}],["$","$L6",null,{"sx":{"display":"flex","flexWrap":"wrap","gap":0.5,"mt":0.5},"children":[["$","$L7","Other",{"label":"Other","size":"small"}]]}]]}],["$","$L6",null,{"sx":{"mb":3},"children":[["$","$L5",null,{"sx":{"my":2}}],["$","$L4",null,{"variant":"h6","sx":{"mb":1},"children":"re3data.org Profile"}],["$","$L6",null,{"component":"table","sx":{"width":"100%","mb":2,"borderCollapse":"collapse","background":"#fafafa","borderRadius":2},"children":["$","tbody",null,{"children":[["$","tr","Repository Name",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Repository Name"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"Plant Biotechnology Information Primary Database"}]]}],["$","tr","Repository URL",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Repository URL"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":["$","a",null,{"href":"https://www.plabipd.de/","target":"_blank","rel":"noopener noreferrer","children":"https://www.plabipd.de/"}]}]]}],["$","tr","re3data.org ID",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"re3data.org ID"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"r3d100014744"}]]}],["$","tr","Description",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Description"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"The Plant Biotechnology Information Primary Database (PlaBiPD) is a specialized genomic and proteomic resource focused on key crop and model plants. Its current implementation centers on providing integrated sequence and protein data for eight major crop species—sugar beet, grapevine, rapeseed (canola), potato, maize, barley, bread wheat, and false flax—alongside the foundational model plant Arabidopsis thaliana.  PlaBiPD serves as a centralized platform for plant biotechnology research, offering foundational molecular data that supports gene discovery, functional annotation, and cross-species comparative studies aimed at crop improvement."}]]}],["$","tr","Contact",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Contact"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"plabipd@fz-juelich.de"}]]}],["$","tr","Languages",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Languages"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"eng"}]]}],["$","tr","Keywords",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Keywords"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"barley, bread wheat, crop plants, false flax, genome, grapevine, maize, potato, rapeseed, sugar beet"}]]}],"$L8","$L9","$La","$Lb","$Lc","$Ld","$Le","$Lf","$L10","$L11"]}]}]]}],"$L12","$L13","$L14"]}]}],["$L15","$L16"],"$L17"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"vM55lQZvw8OBzjP2c66Fl"}
+8:["$","tr","Mission Statement URL",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Mission Statement URL"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":["$","a",null,{"href":"https://www.plabipd.de/query_view.ep","target":"_blank","rel":"noopener noreferrer","children":"https://www.plabipd.de/query_view.ep"}]}]]}]
+9:["$","tr","Provider Type",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Provider Type"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"dataProvider"}]]}]
+a:["$","tr","Type",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Type"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"disciplinary"}]]}]
+b:["$","tr","Entry Date",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Entry Date"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"2025-12-12"}]]}]
+c:["$","tr","Last Update",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Last Update"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":"2025-12-18"}]]}]
+d:["$","tr","Institution(s)",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Institution(s)"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"Federal Ministry of Research, Technology and Space"}]," (non-profit)",["$","br",null,{}],["Country: ","DEU",["$","br",null,{}]],["Additional: ","BMFTR, Bundesministerium für\n­Forschung, Technologie und Raumfahrt",["$","br",null,{}]],["Responsibility: ","funding",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://www.bmftr.bund.de/DE/Home/home_node.html","target":"_blank","rel":"noopener noreferrer","children":"https://www.bmftr.bund.de/DE/Home/home_node.html"}],["$","br",null,{}]],["Identifier: ","ROR:04pz7b180"]]}],["$","div","1",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"Forschungszentrum Jülich"}]," (non-profit)",["$","br",null,{}],["Country: ","DEU",["$","br",null,{}]],false,["Responsibility: ","general",["$","br",null,{}]],["URL: ",["$","a",null,{"href":"https://www.fz-juelich.de/de","target":"_blank","rel":"noopener noreferrer","children":"https://www.fz-juelich.de/de"}],["$","br",null,{}]],["Identifier: ","ROR:02nv7yv05, RRID:SCR_023416"]]}],["$","div","2",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"Forschungszentrum Jülich, Institute of Biological and Geosciences"}]," (non-profit)",["$","br",null,{}],["Country: ","DEU",["$","br",null,{}]],["Additional: ","Forschungszentrum Jülich, Institut für Bio- und Geowissenschaften, IBG",["$","br",null,{}]],false,["URL: ",["$","a",null,{"href":"https://www.fz-juelich.de/en/ibg","target":"_blank","rel":"noopener noreferrer","children":"https://www.fz-juelich.de/en/ibg"}],["$","br",null,{}]],false]}]]}]]}]
+e:["$","tr","Policy(s)",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Policy(s)"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"style":{"marginBottom":4},"children":[["$","b",null,{"children":"Terms of use"}],[" (",["$","a",null,{"href":"https://www.plabipd.de/mapman_main.html","target":"_blank","rel":"noopener noreferrer","children":"https://www.plabipd.de/mapman_main.html"}],")"]]}]]}]]}]
+f:["$","tr","Database Access",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Database Access"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":"open"}]]}]]}]
+10:["$","tr","Data Access",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Data Access"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":"restricted"}]]}]]}]
+11:["$","tr","Data License",{"children":[["$","td",null,{"style":{"fontWeight":500,"padding":"6px 12px","borderBottom":"1px solid #eee","width":220},"children":"Data License"}],["$","td",null,{"style":{"padding":"6px 12px","borderBottom":"1px solid #eee"},"children":[["$","div","0",{"children":[["$","b",null,{"children":"CC0"}],[" (",["$","a",null,{"href":"https://spdx.org/licenses/CC0-1.0.html","target":"_blank","rel":"noopener noreferrer","children":"https://spdx.org/licenses/CC0-1.0.html"}],")"]]}]]}]]}]
+12:["$","$L5",null,{"sx":{"my":2}}]
+13:["$","$L4",null,{"variant":"h6","children":"FAIRness Assessment:"}]
+14:["$","$L18",null,{"fairness":{"findability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability","multiple":false,"typeClass":"compound","value":{"persistentIdentifier":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.persistentIdentifier","multiple":false,"typeClass":"primitive","value":"na"},"richMetadata":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.richMetadata","multiple":false,"typeClass":"primitive","value":"na"},"indexedInSearchEngines":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.indexedInSearchEngines","multiple":false,"typeClass":"primitive","value":"no"},"metadataSchema":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.metadataSchema","multiple":false,"typeClass":"primitive","value":"na"},"metadataPersistence":{"typeName":"MDS_fairagro.fairagroData.FAIRness.findability.metadataPersistence","multiple":false,"typeClass":"primitive","value":"na"}}},"accessibility":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility","multiple":false,"typeClass":"compound","value":{"retrievalProtocol":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.retrievalProtocol","multiple":false,"typeClass":"primitive","value":"na"},"authenticationRequired":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationRequired","multiple":false,"typeClass":"primitive","value":"no"},"authenticationType":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationType","multiple":false,"typeClass":"primitive","value":"na"},"metadataAlwaysAvailable":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.metadataAlwaysAvailable","multiple":false,"typeClass":"primitive","value":"yes"},"dataAvailability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.accessibility.dataAvailability","multiple":false,"typeClass":"primitive","value":"na"}}},"interoperability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability","multiple":false,"typeClass":"compound","value":{"knowledgeRepresentation":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.knowledgeRepresentation","multiple":false,"typeClass":"primitive","value":"na"},"vocabulariesUsed":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.vocabulariesUsed","multiple":true,"typeClass":"primitive","value":[]},"qualifiedReferences":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.qualifiedReferences","multiple":false,"typeClass":"primitive","value":"no"},"dataFormats":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.dataFormats","multiple":true,"typeClass":"primitive","value":[]},"apiAvailability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.interoperability.apiAvailability","multiple":false,"typeClass":"primitive","value":"na"}}},"reusability":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability","multiple":false,"typeClass":"compound","value":{"licenseClarity":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.licenseClarity","multiple":false,"typeClass":"primitive","value":"na"},"provenanceInfo":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.provenanceInfo","multiple":false,"typeClass":"primitive","value":"na"},"communityStandards":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.communityStandards","multiple":false,"typeClass":"primitive","value":"no"},"documentationQuality":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.documentationQuality","multiple":false,"typeClass":"primitive","value":"na"},"citationGuidelines":{"typeName":"MDS_fairagro.fairagroData.FAIRness.reusability.citationGuidelines","multiple":false,"typeClass":"primitive","value":"no"}}},"assessmentDate":{"typeName":"MDS_fairagro.fairagroData.FAIRness.assessmentDate","multiple":false,"typeClass":"primitive","value":""},"assessmentMethod":{"typeName":"MDS_fairagro.fairagroData.FAIRness.assessmentMethod","multiple":false,"typeClass":"primitive","value":""},"overallFAIRScore":{"typeName":"MDS_fairagro.fairagroData.FAIRness.overallFAIRScore","multiple":false,"typeClass":"primitive","value":""}}}]
+15:["$","script","script-0",{"src":"/_next/static/chunks/0sy-f1nfxssde.js","async":true}]
+16:["$","script","script-1",{"src":"/_next/static/chunks/0r3.hgmrz7e-j.js","async":true}]
+17:["$","$L19",null,{"children":["$","$1a",null,{"name":"Next.MetadataOutlet","children":"$@1b"}]}]
+1b:null
