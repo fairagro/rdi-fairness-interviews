@@ -1,0 +1,10 @@
+{
+  "GBIS/I": {
+    "generalInfo.License": "CC-BY-4.0",
+    "generalInfo.RDItype": "Database"
+  },
+  "Base-search": {
+    "generalInfo.License": "CC0",
+    "generalInfo.RDItype": "Repository"
+  }
+}
