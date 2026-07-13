@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+        var currentPath = window.location.pathname;
+        var cleanPath = currentPath.replace(/^\/rdi-fairness-interviews/, '');
+        var targetUrl = 'https://rdi-fairness-interviews.vercel.app' + cleanPath + window.location.search + window.location.hash;
+        window.location.replace(targetUrl);
+    </script>
+</head>
+<body>
+    <p>Redirecting to official API endpoint...</p>
+</body>
+</html>
