@@ -5,26 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RDI Fairness Interviews</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body, html {
-            height: 100%;
-            width: 100%;
-            overflow: hidden;
-        }
-        
-        iframe {
-            height: 100%;
-            width: 100%;
-            border: none;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body, html { height: 100%; width: 100%; overflow: hidden; background-color: #1e1e1e; color: #d4d4d4; }
+        iframe { height: 100%; width: 100%; border: none; }
+        pre { font-family: 'Courier New', Courier, monospace; background-color: #252526; padding: 15px; border-radius: 4px; border: 1px solid #3c3c3c; overflow-x: auto; white-space: pre-wrap; word-wrap: break-word; margin: 20px; }
+        .status { font-family: sans-serif; color: #6a9955; padding: 20px; font-size: 14px; }
+        .error { color: #f44336; }
     </style>
 </head>
 <body>
-    <iframe src="https://rdi-fairness-interviews.vercel.app/" title="RDI Fairness Interviews"></iframe>
+    <div id="api-container" style="display: none;">
+        <div id="status" class="status">🔄 Fetching resource from secure FAIRagro registry data layer...</div>
+        <div id="output"></div>
+    </div>
+
+    <div id="iframe-container" style="display: none; height: 100%; width: 100%;">
+        <iframe id="fallback-frame" src="" title="RDI Fairness Interviews"></iframe>
+    </div>
+
+    <script>
+        const currentPath = window.location.pathname;
+
+        // CASE 1: It is an API fake route
+        if (currentPath.includes('/api/')) {
+            document.getElementById('api-container').style.display = 'block';
+            
+            const apiIndex = currentPath.indexOf('/api/');
+            const cleanPath = currentPath.substring(apiIndex);
+            const targetUrl = 'https://rdi-fairness-interviews.vercel.app' + cleanPath + window.location.search;
+
+            fetch(targetUrl)
+                .then(response => {
+                    if (!response.ok) throw new Error(`HTTP Error Status: ${response.status}`);
+                    return response.json();
+                })
+                .then(jsonData => {
+                    document.getElementById('status').style.display = 'none';
+                    document.getElementById('output').innerHTML = '<pre>' + JSON.stringify(jsonData, null, 2) + '</pre>';
+                })
+                .catch(err => {
+                    document.getElementById('status').className = 'status error';
+                    document.getElementById('status').innerText = '❌ Failed to load API resource.';
+                    document.getElementById('output').innerHTML = '<pre>Error: ' + err.message + '\nEndpoint: ' + targetUrl + '</pre>';
+                });
+
+        } else {
+            // CASE 2: It's a routing glitch on the main site. Serve the app iframe immediately.
+            document.getElementById('iframe-container').style.display = 'block';
+            
+            // Map the path cleanly over to Vercel so sub-pages work too
+            const repoIndex = currentPath.indexOf('/rdi-fairness-interviews');
+            const relativePath = currentPath.substring(repoIndex + '/rdi-fairness-interviews'.length);
+            
+            document.getElementById('fallback-frame').src = 'https://rdi-fairness-interviews.vercel.app' + relativePath + window.location.search;
+        }
+    </script>
 </body>
 </html>
