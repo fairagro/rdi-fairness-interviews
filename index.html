@@ -3,28 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RDI Fairness Interviews</title>
+    <title>FAIRagro RDI Fairness Framework - API Resource</title>
     <style>
-        * {
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #1e1e1e;
+            color: #d4d4d4;
+            padding: 20px;
             margin: 0;
-            padding: 0;
-            box-sizing: border-box;
         }
-        
-        body, html {
-            height: 100%;
-            width: 100%;
-            overflow: hidden;
+        pre {
+            background-color: #252526;
+            padding: 15px;
+            border-radius: 4px;
+            border: 1px solid #3c3c3c;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
         }
-        
-        iframe {
-            height: 100%;
-            width: 100%;
-            border: none;
+        .status {
+            color: #6a9955;
+            margin-bottom: 15px;
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+        .error {
+            color: #f44336;
         }
     </style>
 </head>
 <body>
-    <iframe src="https://rdi-fairness-interviews.vercel.app/" title="RDI Fairness Interviews"></iframe>
+    <div id="status" class="status">🔄 Fetching resource from secure FAIRagro registry data layer...</div>
+    <div id="output"></div>
+
+    <script>
+        const currentPath = window.location.pathname;
+        
+        // Fix: This regex safely handles both single "/" and accidental double "//" slashes
+        const cleanPath = currentPath.replace(/^\/rdi-fairness-interviews\/+/, '/');
+        const targetUrl = 'https://rdi-fairness-interviews.vercel.app' + cleanPath + window.location.search;
+
+        // Verify this is an API route now that slashes are normalized
+        if (cleanPath.startsWith('/api/')) {
+            fetch(targetUrl)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP Error Status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(jsonData => {
+                    document.getElementById('status').style.display = 'none';
+                    document.getElementById('output').innerHTML = '<pre>' + JSON.stringify(jsonData, null, 2) + '</pre>';
+                })
+                .catch(err => {
+                    document.getElementById('status').className = 'status error';
+                    document.getElementById('status').innerText = '❌ Failed to load API resource.';
+                    document.getElementById('output').innerHTML = '<pre>Error: ' + err.message + '\nEndpoint target: ' + targetUrl + '</pre>';
+                });
+        } else {
+            // Safe Fallback: If it's a completely different broken link, send them to the main page
+            window.location.replace('/rdi-fairness-interviews/');
+        }
+    </script>
 </body>
 </html>
