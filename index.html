@@ -3,81 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAIRagro RDI Fairness Framework - API Resource</title>
+    <title>RDI Fairness Interviews</title>
     <style>
-        body {
-            font-family: 'Courier New', Courier, monospace;
-            background-color: #1e1e1e;
-            color: #d4d4d4;
-            padding: 20px;
+        * {
             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        pre {
-            background-color: #252526;
-            padding: 15px;
-            border-radius: 4px;
-            border: 1px solid #3c3c3c;
-            overflow-x: auto;
-            white-space: pre-wrap;
-            word-wrap: break-word;
+        
+        body, html {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
         }
-        .status {
-            color: #6a9955;
-            margin-bottom: 15px;
-            font-family: sans-serif;
-            font-size: 14px;
-        }
-        .error {
-            color: #f44336;
-        }
-        a {
-            color: #3794ff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
+        
+        iframe {
+            height: 100%;
+            width: 100%;
+            border: none;
         }
     </style>
 </head>
 <body>
-    <div id="status" class="status">🔄 Fetching resource from secure FAIRagro registry data layer...</div>
-    <div id="output"></div>
-
-    <script>
-        const currentPath = window.location.pathname;
-
-        // 1. Robust Check: Look for "/api/" anywhere in the incoming URL path
-        if (currentPath.includes('/api/')) {
-            // Extract everything starting exactly from "/api/" onwards
-            const apiIndex = currentPath.indexOf('/api/');
-            const cleanPath = currentPath.substring(apiIndex);
-            const targetUrl = 'https://rdi-fairness-interviews.vercel.app' + cleanPath + window.location.search;
-
-            fetch(targetUrl)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`HTTP Error Status: ${response.status}`);
-                    }
-                    return response.json();
-                })
-                .then(jsonData => {
-                    // Success: Hide the status message and display clean JSON
-                    document.getElementById('status').style.display = 'none';
-                    document.getElementById('output').innerHTML = '<pre>' + JSON.stringify(jsonData, null, 2) + '</pre>';
-                })
-                .catch(err => {
-                    // Error Handling: If Vercel blocks it or fails, show exactly why
-                    document.getElementById('status').className = 'status error';
-                    document.getElementById('status').innerText = '❌ Failed to load API resource.';
-                    document.getElementById('output').innerHTML = '<pre>Error: ' + err.message + '\nVerify CORS configuration on target: ' + targetUrl + '</pre>';
-                });
-        } else {
-            // 2. Safe Fallback: Defuse the infinite loop. 
-            // If it's a normal broken link, show a clean message rather than a forced JS redirect.
-            document.getElementById('status').className = 'status error';
-            document.getElementById('status').innerText = '🔍 Page Not Found';
-            document.getElementById('output').innerHTML = '<p style="font-family: sans-serif;">The requested page could not be found. <a href="/rdi-fairness-interviews/">Return to the main Dashboard</a></p>';
-        }
-    </script>
+    <iframe src="https://rdi-fairness-interviews.vercel.app/" title="RDI Fairness Interviews"></iframe>
 </body>
 </html>
