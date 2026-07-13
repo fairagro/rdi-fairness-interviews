@@ -30,6 +30,13 @@
         .error {
             color: #f44336;
         }
+        a {
+            color: #3794ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -38,13 +45,14 @@
 
     <script>
         const currentPath = window.location.pathname;
-        
-        // Fix: This regex safely handles both single "/" and accidental double "//" slashes
-        const cleanPath = currentPath.replace(/^\/rdi-fairness-interviews\/+/, '/');
-        const targetUrl = 'https://rdi-fairness-interviews.vercel.app' + cleanPath + window.location.search;
 
-        // Verify this is an API route now that slashes are normalized
-        if (cleanPath.startsWith('/api/')) {
+        // 1. Robust Check: Look for "/api/" anywhere in the incoming URL path
+        if (currentPath.includes('/api/')) {
+            // Extract everything starting exactly from "/api/" onwards
+            const apiIndex = currentPath.indexOf('/api/');
+            const cleanPath = currentPath.substring(apiIndex);
+            const targetUrl = 'https://rdi-fairness-interviews.vercel.app' + cleanPath + window.location.search;
+
             fetch(targetUrl)
                 .then(response => {
                     if (!response.ok) {
@@ -53,17 +61,22 @@
                     return response.json();
                 })
                 .then(jsonData => {
+                    // Success: Hide the status message and display clean JSON
                     document.getElementById('status').style.display = 'none';
                     document.getElementById('output').innerHTML = '<pre>' + JSON.stringify(jsonData, null, 2) + '</pre>';
                 })
                 .catch(err => {
+                    // Error Handling: If Vercel blocks it or fails, show exactly why
                     document.getElementById('status').className = 'status error';
                     document.getElementById('status').innerText = '❌ Failed to load API resource.';
-                    document.getElementById('output').innerHTML = '<pre>Error: ' + err.message + '\nEndpoint target: ' + targetUrl + '</pre>';
+                    document.getElementById('output').innerHTML = '<pre>Error: ' + err.message + '\nVerify CORS configuration on target: ' + targetUrl + '</pre>';
                 });
         } else {
-            // Safe Fallback: If it's a completely different broken link, send them to the main page
-            window.location.replace('/rdi-fairness-interviews/');
+            // 2. Safe Fallback: Defuse the infinite loop. 
+            // If it's a normal broken link, show a clean message rather than a forced JS redirect.
+            document.getElementById('status').className = 'status error';
+            document.getElementById('status').innerText = '🔍 Page Not Found';
+            document.getElementById('output').innerHTML = '<p style="font-family: sans-serif;">The requested page could not be found. <a href="/rdi-fairness-interviews/">Return to the main Dashboard</a></p>';
         }
     </script>
 </body>
