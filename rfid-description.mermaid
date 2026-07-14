@@ -1,0 +1,19 @@
+---
+config:
+  layout: dagre
+---
+flowchart TB
+    ID@{ label: "<font color=\"#C0392B\">RFId</font><font color=\"#117A65\">076</font><font color=\"#2980B9\">202604143</font>" } --> Prefix@{ label: "<b>Prefix</b><br><font color=\"#C0392B\">RFId</font><br>RepoFinder Identifier" } & DbId@{ label: "<b>Database ID</b><br><font color=\"#117A65\">076</font><br>Dataset Database ID" } & Stamp@{ label: "<b>Timestamp</b><br><font color=\"#2980B9\">202604143</font><br>Temporal Marker" }
+
+    ID@{ shape: rect}
+    Prefix@{ shape: rect}
+    DbId@{ shape: rect}
+    Stamp@{ shape: rect}
+     ID:::mainNode
+     Prefix:::prefixNode
+     DbId:::dbNode
+     Stamp:::stampNode
+    classDef mainNode fill:#F4F6F7,stroke:#7F8C8D,stroke-width:2px,color:#2C3E50,font-family:monospace
+    classDef prefixNode fill:#FDEDEC,stroke:#E74C3C,stroke-width:1.5px,color:#78281F,font-family:sans-serif
+    classDef dbNode fill:#E8F8F5,stroke:#117A65,stroke-width:1.5px,color:#0E6251,font-family:sans-serif
+    classDef stampNode fill:#EBF5FB,stroke:#2980B9,stroke-width:1.5px,color:#1B4F72,font-family:sans-serif
