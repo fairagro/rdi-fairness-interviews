@@ -1,0 +1,34 @@
+{
+  "name": "rf-rdis",
+  "version": "1.0.0",
+  "description": "A TypeScript package providing programmatic access to FAIRagro RDI dataset JSON files.",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "author": "Ata Ul Haleem <ataulhaleem@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "data"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ataulhaleem/rf-rdis.git"
+  },
+  "keywords": [
+    "FAIRagro",
+    "RDI",
+    "datasets",
+    "FAIR",
+    "agronomy"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@mui/icons-material": "^9.0.1"
+  }
+}

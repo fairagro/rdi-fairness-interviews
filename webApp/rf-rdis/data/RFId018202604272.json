@@ -1,0 +1,875 @@
+{
+    "datasetVersion": {
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "Deutscher Wetterdienst Open Data Server"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Bundesministerium für Verkehr"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Deutscher Wetterdienst"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "opendata"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "opendata@dwd.de"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The Deutscher Wetterdienst (DWD) Open Data Server is the official open data portal of Germany's national meteorological service. Established under a legal mandate from the German Weather Service Act, its primary purpose is to provide free public access to a vast and diverse collection of weather, climate, and environmental spatial data. The repository serves a wide range of users, from researchers and developers to businesses and the general public, by offering data essential for applications in science, technology, and public information.\n\nThe scope of data is comprehensive and includes:\n\n    Weather Data: Numerical model forecasts, radar data, and current measurements/observations.\n\n    Climate Data: A large archive of historical and processed climate data, accessible via the integrated Climate Data Center (CDC) subtree.\n\n    Specialized Formats: Many datasets are also available through OGC-compatible web services (WMS, WFS) for integration into Geographic Information Systems (GIS).\n\nThe platform operates on the principle of free provision, though it notes that service and availability levels for the open server are not guaranteed. For critical business or operational processes requiring higher data integrity, dedicated service agreements are available. The repository is actively maintained, with news feeds and change logs to inform users of updates and extensions to the data offerings."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Other"
+                        ]
+                    },
+                    {
+                        "typeName": "termsOfUse",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This dataset is made available under standard open terms. Please contact repository for details."
+                    },
+                    {
+                        "typeName": "distributionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2026-01-29"
+                    }
+                ]
+            },
+            "MDS_fairagro": {
+                "displayName": "MDS FAIRagro Consolidated Metadata",
+                "fields": [
+                    {
+                        "typeName": "MDS_fairagro.re3Data",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "orgIdentifier": {
+                                "typeName": "MDS_fairagro.re3Data.orgIdentifier",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "r3d100014753"
+                            },
+                            "repositoryName": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryName",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "Deutscher Wetterdienst Open Data Server"
+                            },
+                            "additionalName": {
+                                "typeName": "MDS_fairagro.re3Data.additionalName",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "DWD Open Data Server"
+                                ]
+                            },
+                            "repositoryURL": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://opendata.dwd.de/"
+                            },
+                            "description": {
+                                "typeName": "MDS_fairagro.re3Data.description",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "The Deutscher Wetterdienst (DWD) Open Data Server is the official open data portal of Germany's national meteorological service. Established under a legal mandate from the German Weather Service Act, its primary purpose is to provide free public access to a vast and diverse collection of weather, climate, and environmental spatial data. The repository serves a wide range of users, from researchers and developers to businesses and the general public, by offering data essential for applications in science, technology, and public information.\n\nThe scope of data is comprehensive and includes:\n\n    Weather Data: Numerical model forecasts, radar data, and current measurements/observations.\n\n    Climate Data: A large archive of historical and processed climate data, accessible via the integrated Climate Data Center (CDC) subtree.\n\n    Specialized Formats: Many datasets are also available through OGC-compatible web services (WMS, WFS) for integration into Geographic Information Systems (GIS).\n\nThe platform operates on the principle of free provision, though it notes that service and availability levels for the open server are not guaranteed. For critical business or operational processes requiring higher data integrity, dedicated service agreements are available. The repository is actively maintained, with news feeds and change logs to inform users of updates and extensions to the data offerings."
+                            },
+                            "repositoryContact": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryContact",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "opendata@dwd.de"
+                                ]
+                            },
+                            "type": {
+                                "typeName": "MDS_fairagro.re3Data.type",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "disciplinary"
+                                ]
+                            },
+                            "repositoryLanguage": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryLanguage",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "eng"
+                                ]
+                            },
+                            "missionStatementURL": {
+                                "typeName": "MDS_fairagro.re3Data.missionStatementURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://www.dwd.de/EN/ourservices/opendata/opendata.html"
+                            },
+                            "providerType": {
+                                "typeName": "MDS_fairagro.re3Data.providerType",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "dataProvider"
+                                ]
+                            },
+                            "keyword": {
+                                "typeName": "MDS_fairagro.re3Data.keyword",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "atmosphere",
+                                    "climate",
+                                    "climatology",
+                                    "model forecasts",
+                                    "radar data",
+                                    "weather"
+                                ]
+                            },
+                            "versioning": {
+                                "typeName": "MDS_fairagro.re3Data.versioning",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "no"
+                            },
+                            "citationGuidelineURL": {
+                                "typeName": "MDS_fairagro.re3Data.citationGuidelineURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://www.dwd.de/EN/service/legal_notice/legal_notice_node.html"
+                            },
+                            "enhancedPublication": {
+                                "typeName": "MDS_fairagro.re3Data.enhancedPublication",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "no"
+                            },
+                            "qualityManagement": {
+                                "typeName": "MDS_fairagro.re3Data.qualityManagement",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "yes"
+                            },
+                            "syndication": {
+                                "typeName": "MDS_fairagro.re3Data.syndication",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://www.dwd.de/SiteGlobals/Functions/RSSFeed/DE/opendata/opendata_lsb.xml"
+                            },
+                            "entryDate": {
+                                "typeName": "MDS_fairagro.re3Data.entryDate",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "2025-12-18"
+                            },
+                            "lastUpdate": {
+                                "typeName": "MDS_fairagro.re3Data.lastUpdate",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "2026-01-29"
+                            },
+                            "institution": {
+                                "typeName": "MDS_fairagro.re3Data.institution",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Bundesministerium für Verkehr"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "BMV",
+                                                "Federal Ministry for Transport"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "funding"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.bmv.de/DE/Home/home.html"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:00e3ns026"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Deutscher Wetterdienst"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "DWD",
+                                                "German Meteorological Service"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general",
+                                                "technical"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.dwd.de"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:02nrqs528"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "policy": {
+                                "typeName": "MDS_fairagro.re3Data.policy",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "policyName": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Copyright"
+                                        },
+                                        "policyURL": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.dwd.de/EN/service/legal_notice/legal_notice.html"
+                                        }
+                                    },
+                                    {
+                                        "policyName": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "README"
+                                        },
+                                        "policyURL": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://opendata.dwd.de/README.txt"
+                                        }
+                                    }
+                                ]
+                            },
+                            "databaseAccess": {
+                                "typeName": "MDS_fairagro.re3Data.databaseAccess",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "databaseAccessType": {
+                                            "typeName": "MDS_fairagro.re3Data.databaseAccess.databaseAccessType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "open"
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataAccess": {
+                                "typeName": "MDS_fairagro.re3Data.dataAccess",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataAccessType": {
+                                            "typeName": "MDS_fairagro.re3Data.dataAccess.dataAccessType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "open"
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataLicense": {
+                                "typeName": "MDS_fairagro.re3Data.dataLicense",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataLicenseName": {
+                                            "typeName": "MDS_fairagro.re3Data.dataLicense.dataLicenseName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "CC"
+                                        },
+                                        "dataLicenseURL": {
+                                            "typeName": "MDS_fairagro.re3Data.dataLicense.dataLicenseURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://opendata.dwd.de/climate_environment/CDC/Terms_of_use.pdf"
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataUpload": {
+                                "typeName": "MDS_fairagro.re3Data.dataUpload",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataUploadType": {
+                                            "typeName": "MDS_fairagro.re3Data.dataUpload.dataUploadType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "closed"
+                                        }
+                                    }
+                                ]
+                            },
+                            "api": {
+                                "typeName": "MDS_fairagro.re3Data.api",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "apiType": {
+                                            "typeName": "MDS_fairagro.re3Data.api.apiType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "FTP"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "typeName": "MDS_fairagro.identifier",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "RFId018202604272"
+                    },
+                    {
+                        "typeName": "MDS_fairagro.fairagroData",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "lawAndEthics": {
+                                "typeName": "MDS_fairagro.fairagroData.lawAndEthics",
+                                "multiple": false,
+                                "typeClass": "compound",
+                                "value": {
+                                    "dataProvider": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.dataProvider",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Deutscher Wetterdienst"
+                                    },
+                                    "instituteType": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.instituteType",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "dataProvider"
+                                    },
+                                    "complianceMeasures": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.complianceMeasures",
+                                        "multiple": true,
+                                        "typeClass": "primitive",
+                                        "value": []
+                                    },
+                                    "dataTypes": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.dataTypes",
+                                        "multiple": true,
+                                        "typeClass": "primitive",
+                                        "value": []
+                                    },
+                                    "applicableRegulations": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.applicableRegulations",
+                                        "multiple": true,
+                                        "typeClass": "primitive",
+                                        "value": []
+                                    },
+                                    "accessRights": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.accessRights",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "partially restricted"
+                                    },
+                                    "embargoPeriod": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.embargoPeriod",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Not specified"
+                                    }
+                                }
+                            },
+                            "technicalInfo": {
+                                "typeName": "MDS_fairagro.fairagroData.technicalInfo",
+                                "multiple": false,
+                                "typeClass": "compound",
+                                "value": {
+                                    "metadataStandards": {
+                                        "typeName": "MDS_fairagro.fairagroData.technicalInfo.metadataStandards",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "standards": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.metadataStandards.standards",
+                                                "multiple": true,
+                                                "typeClass": "compound",
+                                                "value": []
+                                            },
+                                            "interoperabilityLevel": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.metadataStandards.interoperabilityLevel",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "None"
+                                            }
+                                        }
+                                    },
+                                    "accessProtocols": {
+                                        "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "supportedProtocols": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols.supportedProtocols",
+                                                "multiple": true,
+                                                "typeClass": "primitive",
+                                                "value": [
+                                                    "FTP"
+                                                ]
+                                            },
+                                            "authenticationMethods": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols.authenticationMethods",
+                                                "multiple": true,
+                                                "typeClass": "primitive",
+                                                "value": []
+                                            },
+                                            "persistentIdentifiers": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols.persistentIdentifiers",
+                                                "multiple": true,
+                                                "typeClass": "primitive",
+                                                "value": []
+                                            }
+                                        }
+                                    },
+                                    "maintenance": {
+                                        "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "softwareLicense": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance.softwareLicense",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "Unknown"
+                                            },
+                                            "sustainabilityPlan": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance.sustainabilityPlan",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "No Plan"
+                                            },
+                                            "supportServices": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance.supportServices",
+                                                "multiple": true,
+                                                "typeClass": "primitive",
+                                                "value": []
+                                            },
+                                            "updateFrequency": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance.updateFrequency",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "As Needed"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "FAIRness": {
+                                "typeName": "MDS_fairagro.fairagroData.FAIRness",
+                                "multiple": false,
+                                "typeClass": "compound",
+                                "value": {
+                                    "findability": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "persistentIdentifier": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.persistentIdentifier",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            },
+                                            "richMetadata": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.richMetadata",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            },
+                                            "indexedInSearchEngines": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.indexedInSearchEngines",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            },
+                                            "metadataSchema": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.metadataSchema",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            },
+                                            "metadataPersistence": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.metadataPersistence",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            }
+                                        }
+                                    },
+                                    "accessibility": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "retrievalProtocol": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.retrievalProtocol",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            },
+                                            "authenticationRequired": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationRequired",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            },
+                                            "authenticationType": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationType",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            },
+                                            "metadataAlwaysAvailable": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.metadataAlwaysAvailable",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            },
+                                            "dataAvailability": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.dataAvailability",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            }
+                                        }
+                                    },
+                                    "interoperability": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "knowledgeRepresentation": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.knowledgeRepresentation",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            },
+                                            "vocabulariesUsed": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.vocabulariesUsed",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            },
+                                            "qualifiedReferences": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.qualifiedReferences",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            },
+                                            "dataFormats": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.dataFormats",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            },
+                                            "apiAvailability": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.apiAvailability",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            }
+                                        }
+                                    },
+                                    "reusability": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "licenseClarity": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.licenseClarity",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            },
+                                            "provenanceInfo": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.provenanceInfo",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            },
+                                            "communityStandards": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.communityStandards",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            },
+                                            "documentationQuality": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.documentationQuality",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            },
+                                            "citationGuidelines": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.citationGuidelines",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            }
+                                        }
+                                    },
+                                    "assessmentDate": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.assessmentDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": ""
+                                    },
+                                    "assessmentMethod": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.assessmentMethod",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": ""
+                                    },
+                                    "overallFAIRScore": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.overallFAIRScore",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": ""
+                                    }
+                                }
+                            },
+                            "agriculturalContext": {
+                                "typeName": "MDS_fairagro.fairagroData.agriculturalContext",
+                                "multiple": false,
+                                "typeClass": "compound",
+                                "value": {
+                                    "researchDomains": {
+                                        "typeName": "MDS_fairagro.fairagroData.agriculturalContext.researchDomains",
+                                        "multiple": true,
+                                        "typeClass": "primitive",
+                                        "value": []
+                                    },
+                                    "cropTypes": {
+                                        "typeName": "MDS_fairagro.fairagroData.agriculturalContext.cropTypes",
+                                        "multiple": true,
+                                        "typeClass": "primitive",
+                                        "value": []
+                                    },
+                                    "geographicCoverage": {
+                                        "typeName": "MDS_fairagro.fairagroData.agriculturalContext.geographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": ""
+                                    },
+                                    "temporalCoverage": {
+                                        "typeName": "MDS_fairagro.fairagroData.agriculturalContext.temporalCoverage",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "startYear": {
+                                                "typeName": "MDS_fairagro.fairagroData.agriculturalContext.temporalCoverage.startYear",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": ""
+                                            },
+                                            "endYear": {
+                                                "typeName": "MDS_fairagro.fairagroData.agriculturalContext.temporalCoverage.endYear",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": ""
+                                            },
+                                            "temporalResolution": {
+                                                "typeName": "MDS_fairagro.fairagroData.agriculturalContext.temporalCoverage.temporalResolution",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": ""
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "typeName": "MDS_fairagro.collections",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "collectionEntries": {
+                                "typeName": "MDS_fairagro.collections.collectionEntries",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "name": {
+                                            "typeName": "MDS_fairagro.collections.collectionEntries.name",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Environmental Sciences"
+                                        },
+                                        "alias": {
+                                            "typeName": "MDS_fairagro.collections.collectionEntries.alias",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "environmental_sciences"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "versionNumber": "MDS FAIRagro v0.1",
+        "datasetPersistentId": "perma:repository/RFId018202604272",
+        "identifier": "RFId018202604272",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    }
+}

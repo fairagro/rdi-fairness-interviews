@@ -1,0 +1,1262 @@
+{
+    "datasetVersion": {
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "TERENO Data Discovery Portal"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Forschungszentrum Jülich"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "GFZ Helmholtz Centre for Geosciences"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "German Aerospace Center"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Helmholtz Centre for Environmental Research"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Helmholtz Zentrum München, Deutsches Forschungszentrum für Gesundheit und Umwelt"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Karlsruhe Institute of Technology"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
+                                }
+                            },
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "Karlsruhe Institute of Technology, Institute of Meteorology and Climate Research - Atmospheric Environmental Research"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "DEU"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "support-tereno"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "support-tereno@tereno.net"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "This portal applicaton brings together the data collected and published via OGC Web-services from the individual observatories and provides access of the data to the public. Therefore, it serves as a database node to provide scientists and decision makers with reliable and well accessible data and data products."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Medicine, Health and Life Sciences",
+                            "Other"
+                        ]
+                    },
+                    {
+                        "typeName": "termsOfUse",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "This dataset is made available under standard open terms. Please contact repository for details."
+                    },
+                    {
+                        "typeName": "distributionDate",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "2025-12-03"
+                    }
+                ]
+            },
+            "MDS_fairagro": {
+                "displayName": "MDS FAIRagro Consolidated Metadata",
+                "fields": [
+                    {
+                        "typeName": "MDS_fairagro.re3Data",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "orgIdentifier": {
+                                "typeName": "MDS_fairagro.re3Data.orgIdentifier",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "r3d100011471"
+                            },
+                            "repositoryName": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryName",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "TERENO Data Discovery Portal"
+                            },
+                            "additionalName": {
+                                "typeName": "MDS_fairagro.re3Data.additionalName",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "Terrestrial Environmental Observatories Data Discovery Portal"
+                                ]
+                            },
+                            "repositoryURL": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://ddp.tereno.net/ddp/"
+                            },
+                            "description": {
+                                "typeName": "MDS_fairagro.re3Data.description",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "This portal applicaton brings together the data collected and published via OGC Web-services from the individual observatories and provides access of the data to the public. Therefore, it serves as a database node to provide scientists and decision makers with reliable and well accessible data and data products."
+                            },
+                            "repositoryContact": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryContact",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "support-tereno@tereno.net"
+                                ]
+                            },
+                            "type": {
+                                "typeName": "MDS_fairagro.re3Data.type",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "disciplinary"
+                                ]
+                            },
+                            "repositoryLanguage": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryLanguage",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "eng"
+                                ]
+                            },
+                            "subject": {
+                                "typeName": "MDS_fairagro.re3Data.subject",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "2 Life Sciences",
+                                    "203 Zoology",
+                                    "20303 Animal Ecology, Biodiversity and Ecosystem Research",
+                                    "21 Biology",
+                                    "3 Natural Sciences",
+                                    "31 Chemistry",
+                                    "34 Geosciences (including Geography)"
+                                ]
+                            },
+                            "missionStatementURL": {
+                                "typeName": "MDS_fairagro.re3Data.missionStatementURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://ddp.tereno.net/ddp/#"
+                            },
+                            "contentType": {
+                                "typeName": "MDS_fairagro.re3Data.contentType",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "Images",
+                                    "Scientific and statistical data formats"
+                                ]
+                            },
+                            "providerType": {
+                                "typeName": "MDS_fairagro.re3Data.providerType",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "serviceProvider"
+                                ]
+                            },
+                            "keyword": {
+                                "typeName": "MDS_fairagro.re3Data.keyword",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "climate change",
+                                    "ecology",
+                                    "ecosystem",
+                                    "hydrology",
+                                    "mining"
+                                ]
+                            },
+                            "pidSystem": {
+                                "typeName": "MDS_fairagro.re3Data.pidSystem",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "DOI",
+                                    "PURL",
+                                    "hdl"
+                                ]
+                            },
+                            "citationGuidelineURL": {
+                                "typeName": "MDS_fairagro.re3Data.citationGuidelineURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://ddp.tereno.net/ddp/docs/TERENO-Data%20Policy%20V2.0.pdf"
+                            },
+                            "enhancedPublication": {
+                                "typeName": "MDS_fairagro.re3Data.enhancedPublication",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "no"
+                            },
+                            "qualityManagement": {
+                                "typeName": "MDS_fairagro.re3Data.qualityManagement",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "yes"
+                            },
+                            "remarks": {
+                                "typeName": "MDS_fairagro.re3Data.remarks",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "The disclaimer \"Use of data from the Tereno project\" of the repository will only be shown when clicking on the e-mail button to receive data via e-mail."
+                            },
+                            "entryDate": {
+                                "typeName": "MDS_fairagro.re3Data.entryDate",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "2015-05-26"
+                            },
+                            "lastUpdate": {
+                                "typeName": "MDS_fairagro.re3Data.lastUpdate",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "2025-12-03"
+                            },
+                            "institution": {
+                                "typeName": "MDS_fairagro.re3Data.institution",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Forschungszentrum Jülich"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "FZJ",
+                                                "Jülich Research Centre"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general",
+                                                "technical"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.fz-juelich.de/en"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:02nv7yv05",
+                                                "RRID:SCR_023416"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "GFZ Helmholtz Centre for Geosciences"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "GFZ",
+                                                "GFZ Helmholtz-Zentrum für Geoforschung"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.gfz.de/en/"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:04z8jg394"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "German Aerospace Center"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "DLR",
+                                                "Deutsches Zentrum für Luft- und Raumfahrt"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.dlr.de/en/"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:04bwf3e34"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Helmholtz Centre for Environmental Research"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "Helmholtz-Zentrum für Umweltforschung - UFZ",
+                                                "UFZ"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.ufz.de/index.php?en=33573"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:000h6jb29"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Helmholtz Zentrum München, Deutsches Forschungszentrum für Gesundheit und Umwelt"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "HMGU",
+                                                "Helmholtz Zentrum München"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.helmholtz-munich.de/en"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:00cfam450",
+                                                "RRID:SCR_011282",
+                                                "RRID:nlx_152050"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Karlsruhe Institute of Technology"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "KIT",
+                                                "Karlsruher Institut für Technologie"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.kit.edu/english/"
+                                        },
+                                        "institutionIdentifier": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionIdentifier",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "ROR:04t3en479",
+                                                "RRID:SCR_001552",
+                                                "RRID:nlx_48421"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Karlsruhe Institute of Technology, Institute of Meteorology and Climate Research - Atmospheric Environmental Research"
+                                        },
+                                        "institutionAdditionalName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionAdditionalName",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "IMK-IFU",
+                                                "Karlsruher Institut für Technologie, Institut für Meteorologie und Klimaforschung - Atmosphärische Umweltforschung"
+                                            ]
+                                        },
+                                        "institutionCountry": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionCountry",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "DEU"
+                                        },
+                                        "responsibilityType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.responsibilityType",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "general"
+                                            ]
+                                        },
+                                        "institutionType": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "non-profit"
+                                        },
+                                        "institutionURL": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.imk-ifu.kit.edu/index.php"
+                                        }
+                                    }
+                                ]
+                            },
+                            "policy": {
+                                "typeName": "MDS_fairagro.re3Data.policy",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "policyName": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "TERENO Data Policy"
+                                        },
+                                        "policyURL": {
+                                            "typeName": "MDS_fairagro.re3Data.policy.policyURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://ddp.tereno.net/ddp/docs/TERENO-Data%20Policy%20V2.0.pdf"
+                                        }
+                                    }
+                                ]
+                            },
+                            "databaseAccess": {
+                                "typeName": "MDS_fairagro.re3Data.databaseAccess",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "databaseAccessType": {
+                                            "typeName": "MDS_fairagro.re3Data.databaseAccess.databaseAccessType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "open"
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataAccess": {
+                                "typeName": "MDS_fairagro.re3Data.dataAccess",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataAccessType": {
+                                            "typeName": "MDS_fairagro.re3Data.dataAccess.dataAccessType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "embargoed"
+                                        }
+                                    },
+                                    {
+                                        "dataAccessType": {
+                                            "typeName": "MDS_fairagro.re3Data.dataAccess.dataAccessType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "open"
+                                        }
+                                    },
+                                    {
+                                        "dataAccessType": {
+                                            "typeName": "MDS_fairagro.re3Data.dataAccess.dataAccessType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "restricted"
+                                        },
+                                        "dataAccessRestriction": {
+                                            "typeName": "MDS_fairagro.re3Data.dataAccess.dataAccessRestriction",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "registration"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataLicense": {
+                                "typeName": "MDS_fairagro.re3Data.dataLicense",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataLicenseName": {
+                                            "typeName": "MDS_fairagro.re3Data.dataLicense.dataLicenseName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "other"
+                                        },
+                                        "dataLicenseURL": {
+                                            "typeName": "MDS_fairagro.re3Data.dataLicense.dataLicenseURL",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "https://www.tereno.net/ddp/docs/TERENO-Data%20Policy%20V2.0.pdf"
+                                        }
+                                    }
+                                ]
+                            },
+                            "dataUpload": {
+                                "typeName": "MDS_fairagro.re3Data.dataUpload",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "dataUploadType": {
+                                            "typeName": "MDS_fairagro.re3Data.dataUpload.dataUploadType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "restricted"
+                                        },
+                                        "dataUploadRestriction": {
+                                            "typeName": "MDS_fairagro.re3Data.dataUpload.dataUploadRestriction",
+                                            "multiple": true,
+                                            "typeClass": "primitive",
+                                            "value": [
+                                                "institutional membership"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "software": {
+                                "typeName": "MDS_fairagro.re3Data.software",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "softwareName": {
+                                            "typeName": "MDS_fairagro.re3Data.software.softwareName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "unknown"
+                                        }
+                                    }
+                                ]
+                            },
+                            "api": {
+                                "typeName": "MDS_fairagro.re3Data.api",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "apiType": {
+                                            "typeName": "MDS_fairagro.re3Data.api.apiType",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "NetCDF"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "typeName": "MDS_fairagro.identifier",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "RFId016202604272"
+                    },
+                    {
+                        "typeName": "MDS_fairagro.fairagroData",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "lawAndEthics": {
+                                "typeName": "MDS_fairagro.fairagroData.lawAndEthics",
+                                "multiple": false,
+                                "typeClass": "compound",
+                                "value": {
+                                    "dataProvider": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.dataProvider",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "TERENO Coordination Board, which is a group of four coordinators from the research centres FZJ, UFZ, KIT and GFZ."
+                                    },
+                                    "instituteType": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.instituteType",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "serviceProvider"
+                                    },
+                                    "complianceMeasures": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.complianceMeasures",
+                                        "multiple": true,
+                                        "typeClass": "primitive",
+                                        "value": []
+                                    },
+                                    "dataTypes": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.dataTypes",
+                                        "multiple": true,
+                                        "typeClass": "primitive",
+                                        "value": [
+                                            "Images",
+                                            "Scientific and statistical data formats"
+                                        ]
+                                    },
+                                    "applicableRegulations": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.applicableRegulations",
+                                        "multiple": true,
+                                        "typeClass": "primitive",
+                                        "value": []
+                                    },
+                                    "accessRights": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.accessRights",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "partially restricted"
+                                    },
+                                    "embargoPeriod": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.embargoPeriod",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Not specified"
+                                    }
+                                }
+                            },
+                            "technicalInfo": {
+                                "typeName": "MDS_fairagro.fairagroData.technicalInfo",
+                                "multiple": false,
+                                "typeClass": "compound",
+                                "value": {
+                                    "metadataStandards": {
+                                        "typeName": "MDS_fairagro.fairagroData.technicalInfo.metadataStandards",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "standards": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.metadataStandards.standards",
+                                                "multiple": true,
+                                                "typeClass": "compound",
+                                                "value": []
+                                            },
+                                            "interoperabilityLevel": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.metadataStandards.interoperabilityLevel",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "DOI"
+                                            }
+                                        }
+                                    },
+                                    "accessProtocols": {
+                                        "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "supportedProtocols": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols.supportedProtocols",
+                                                "multiple": true,
+                                                "typeClass": "primitive",
+                                                "value": [
+                                                    "NetCDF"
+                                                ]
+                                            },
+                                            "authenticationMethods": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols.authenticationMethods",
+                                                "multiple": true,
+                                                "typeClass": "primitive",
+                                                "value": []
+                                            },
+                                            "persistentIdentifiers": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols.persistentIdentifiers",
+                                                "multiple": true,
+                                                "typeClass": "primitive",
+                                                "value": []
+                                            }
+                                        }
+                                    },
+                                    "maintenance": {
+                                        "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "softwareLicense": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance.softwareLicense",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "Unknown"
+                                            },
+                                            "sustainabilityPlan": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance.sustainabilityPlan",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "No Plan"
+                                            },
+                                            "supportServices": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance.supportServices",
+                                                "multiple": true,
+                                                "typeClass": "primitive",
+                                                "value": [
+                                                    "unknown"
+                                                ]
+                                            },
+                                            "updateFrequency": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance.updateFrequency",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "As Needed"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "FAIRness": {
+                                "typeName": "MDS_fairagro.fairagroData.FAIRness",
+                                "multiple": false,
+                                "typeClass": "compound",
+                                "value": {
+                                    "findability": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "persistentIdentifier": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.persistentIdentifier",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            },
+                                            "richMetadata": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.richMetadata",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            },
+                                            "indexedInSearchEngines": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.indexedInSearchEngines",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            },
+                                            "metadataSchema": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.metadataSchema",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            },
+                                            "metadataPersistence": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.metadataPersistence",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "na"
+                                            }
+                                        }
+                                    },
+                                    "accessibility": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "retrievalProtocol": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.retrievalProtocol",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            },
+                                            "authenticationRequired": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationRequired",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            },
+                                            "authenticationType": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationType",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            },
+                                            "metadataAlwaysAvailable": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.metadataAlwaysAvailable",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            },
+                                            "dataAvailability": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.dataAvailability",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            }
+                                        }
+                                    },
+                                    "interoperability": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "knowledgeRepresentation": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.knowledgeRepresentation",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            },
+                                            "vocabulariesUsed": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.vocabulariesUsed",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            },
+                                            "qualifiedReferences": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.qualifiedReferences",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            },
+                                            "dataFormats": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.dataFormats",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            },
+                                            "apiAvailability": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.apiAvailability",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            }
+                                        }
+                                    },
+                                    "reusability": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "licenseClarity": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.licenseClarity",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            },
+                                            "provenanceInfo": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.provenanceInfo",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            },
+                                            "communityStandards": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.communityStandards",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            },
+                                            "documentationQuality": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.documentationQuality",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            },
+                                            "citationGuidelines": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.citationGuidelines",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            }
+                                        }
+                                    },
+                                    "assessmentDate": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.assessmentDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": ""
+                                    },
+                                    "assessmentMethod": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.assessmentMethod",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": ""
+                                    },
+                                    "overallFAIRScore": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.overallFAIRScore",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": ""
+                                    }
+                                }
+                            },
+                            "agriculturalContext": {
+                                "typeName": "MDS_fairagro.fairagroData.agriculturalContext",
+                                "multiple": false,
+                                "typeClass": "compound",
+                                "value": {
+                                    "researchDomains": {
+                                        "typeName": "MDS_fairagro.fairagroData.agriculturalContext.researchDomains",
+                                        "multiple": true,
+                                        "typeClass": "primitive",
+                                        "value": []
+                                    },
+                                    "cropTypes": {
+                                        "typeName": "MDS_fairagro.fairagroData.agriculturalContext.cropTypes",
+                                        "multiple": true,
+                                        "typeClass": "primitive",
+                                        "value": []
+                                    },
+                                    "geographicCoverage": {
+                                        "typeName": "MDS_fairagro.fairagroData.agriculturalContext.geographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": ""
+                                    },
+                                    "temporalCoverage": {
+                                        "typeName": "MDS_fairagro.fairagroData.agriculturalContext.temporalCoverage",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "startYear": {
+                                                "typeName": "MDS_fairagro.fairagroData.agriculturalContext.temporalCoverage.startYear",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": ""
+                                            },
+                                            "endYear": {
+                                                "typeName": "MDS_fairagro.fairagroData.agriculturalContext.temporalCoverage.endYear",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": ""
+                                            },
+                                            "temporalResolution": {
+                                                "typeName": "MDS_fairagro.fairagroData.agriculturalContext.temporalCoverage.temporalResolution",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": ""
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "typeName": "MDS_fairagro.collections",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "collectionEntries": {
+                                "typeName": "MDS_fairagro.collections.collectionEntries",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "name": {
+                                            "typeName": "MDS_fairagro.collections.collectionEntries.name",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Environmental Sciences"
+                                        },
+                                        "alias": {
+                                            "typeName": "MDS_fairagro.collections.collectionEntries.alias",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "environmental_sciences"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "versionNumber": "MDS FAIRagro v0.1",
+        "datasetPersistentId": "perma:repository/RFId016202604272",
+        "identifier": "RFId016202604272",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    }
+}

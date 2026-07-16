@@ -1,0 +1,599 @@
+{
+    "datasetVersion": {
+        "metadataBlocks": {
+            "citation": {
+                "displayName": "Citation Metadata",
+                "fields": [
+                    {
+                        "typeName": "title",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "PLANTdataHUB"
+                    },
+                    {
+                        "typeName": "author",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "authorName": {
+                                    "typeName": "authorName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "unspecified"
+                                },
+                                "authorAffiliation": {
+                                    "typeName": "authorAffiliation",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "PLANTdataHUB"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "datasetContact",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "datasetContactName": {
+                                    "typeName": "datasetContactName",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "unspecified"
+                                },
+                                "datasetContactEmail": {
+                                    "typeName": "datasetContactEmail",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "info@nfdi4plants.org"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "dsDescription",
+                        "multiple": true,
+                        "typeClass": "compound",
+                        "value": [
+                            {
+                                "dsDescriptionValue": {
+                                    "typeName": "dsDescriptionValue",
+                                    "multiple": false,
+                                    "typeClass": "primitive",
+                                    "value": "The PLANTdataHUB platform provides a resource, enabling modern RDM for the plant community with state-of-the art knowledge organization. It combines existing free and open-source platforms and standards to store and organizes ARCs in a central repository. Moreover, it supports ARCs with facilities for automated quality control, data interrogation, and collaboration workflows. PLANTdataHUB is also a software-as-a-service blueprint, and instances can be realized at any level (personal, institutional, or global) that is convenient for the supported research process, while retaining full interoperability with the central instance and each other. In this manuscript, we describe the architecture of the PLANTdataHUB and explore the design choices underlying it."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "typeName": "subject",
+                        "multiple": true,
+                        "typeClass": "controlledVocabulary",
+                        "value": [
+                            "Medicine, Health and Life Sciences",
+                            "Agricultural Sciences"
+                        ]
+                    },
+                    {
+                        "typeName": "termsOfUse",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "unspecified"
+                    }
+                ]
+            },
+            "MDS_fairagro": {
+                "displayName": "MDS FAIRagro Consolidated Metadata",
+                "fields": [
+                    {
+                        "typeName": "MDS_fairagro.re3Data",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "orgIdentifier": {
+                                "typeName": "MDS_fairagro.re3Data.orgIdentifier",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "RFId057202604272"
+                            },
+                            "repositoryName": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryName",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "PLANTdataHUB"
+                            },
+                            "repositoryURL": {
+                                "typeName": "MDS_fairagro.re3Data.repositoryURL",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "https://git.nfdi4plants.org/explore"
+                            },
+                            "description": {
+                                "typeName": "MDS_fairagro.re3Data.description",
+                                "multiple": false,
+                                "typeClass": "primitive",
+                                "value": "The PLANTdataHUB platform provides a resource, enabling modern RDM for the plant community with state-of-the art knowledge organization. It combines existing free and open-source platforms and standards to store and organizes ARCs in a central repository. Moreover, it supports ARCs with facilities for automated quality control, data interrogation, and collaboration workflows. PLANTdataHUB is also a software-as-a-service blueprint, and instances can be realized at any level (personal, institutional, or global) that is convenient for the supported research process, while retaining full interoperability with the central instance and each other. In this manuscript, we describe the architecture of the PLANTdataHUB and explore the design choices underlying it."
+                            },
+                            "type": {
+                                "typeName": "MDS_fairagro.re3Data.type",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "unspecified"
+                                ]
+                            },
+                            "subject": {
+                                "typeName": "MDS_fairagro.re3Data.subject",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "Life Sciences",
+                                    "Agricultural Sciences"
+                                ]
+                            },
+                            "keyword": {
+                                "typeName": "MDS_fairagro.re3Data.keyword",
+                                "multiple": true,
+                                "typeClass": "primitive",
+                                "value": [
+                                    "DataPLANT",
+                                    "Life Sciences",
+                                    "Life Sciences",
+                                    "Agricultural Sciences"
+                                ]
+                            },
+                            "institution": {
+                                "typeName": "MDS_fairagro.re3Data.institution",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "institutionName": {
+                                            "typeName": "MDS_fairagro.re3Data.institution.institutionName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "University of Freiburg"
+                                        }
+                                    }
+                                ]
+                            },
+                            "databaseLicense": {
+                                "typeName": "MDS_fairagro.re3Data.databaseLicense",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "databaseLicenseName": {
+                                            "typeName": "MDS_fairagro.re3Data.databaseLicense.databaseLicenseName",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "unspecified"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "typeName": "MDS_fairagro.fairagroData",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "lawAndEthics": {
+                                "typeName": "MDS_fairagro.fairagroData.lawAndEthics",
+                                "multiple": false,
+                                "typeClass": "compound",
+                                "value": {
+                                    "dataProvider": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.dataProvider",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "University of Freiburg"
+                                    },
+                                    "instituteType": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.instituteType",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Not specified"
+                                    },
+                                    "complianceMeasures": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.complianceMeasures",
+                                        "multiple": true,
+                                        "typeClass": "primitive",
+                                        "value": []
+                                    },
+                                    "dataTypes": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.dataTypes",
+                                        "multiple": true,
+                                        "typeClass": "primitive",
+                                        "value": []
+                                    },
+                                    "applicableRegulations": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.applicableRegulations",
+                                        "multiple": true,
+                                        "typeClass": "primitive",
+                                        "value": []
+                                    },
+                                    "accessRights": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.accessRights",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Not specified"
+                                    },
+                                    "embargoPeriod": {
+                                        "typeName": "MDS_fairagro.fairagroData.lawAndEthics.embargoPeriod",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": "Not specified"
+                                    }
+                                }
+                            },
+                            "technicalInfo": {
+                                "typeName": "MDS_fairagro.fairagroData.technicalInfo",
+                                "multiple": false,
+                                "typeClass": "compound",
+                                "value": {
+                                    "metadataStandards": {
+                                        "typeName": "MDS_fairagro.fairagroData.technicalInfo.metadataStandards",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "standards": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.metadataStandards.standards",
+                                                "multiple": true,
+                                                "typeClass": "compound",
+                                                "value": []
+                                            },
+                                            "interoperabilityLevel": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.metadataStandards.interoperabilityLevel",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "None"
+                                            }
+                                        }
+                                    },
+                                    "accessProtocols": {
+                                        "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "supportedProtocols": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols.supportedProtocols",
+                                                "multiple": true,
+                                                "typeClass": "primitive",
+                                                "value": []
+                                            },
+                                            "authenticationMethods": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols.authenticationMethods",
+                                                "multiple": true,
+                                                "typeClass": "primitive",
+                                                "value": []
+                                            },
+                                            "persistentIdentifiers": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.accessProtocols.persistentIdentifiers",
+                                                "multiple": true,
+                                                "typeClass": "primitive",
+                                                "value": []
+                                            }
+                                        }
+                                    },
+                                    "maintenance": {
+                                        "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "softwareLicense": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance.softwareLicense",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "Unknown"
+                                            },
+                                            "sustainabilityPlan": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance.sustainabilityPlan",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "No Plan"
+                                            },
+                                            "supportServices": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance.supportServices",
+                                                "multiple": true,
+                                                "typeClass": "primitive",
+                                                "value": []
+                                            },
+                                            "updateFrequency": {
+                                                "typeName": "MDS_fairagro.fairagroData.technicalInfo.maintenance.updateFrequency",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "As Needed"
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "FAIRness": {
+                                "typeName": "MDS_fairagro.fairagroData.FAIRness",
+                                "multiple": false,
+                                "typeClass": "compound",
+                                "value": {
+                                    "findability": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.findability",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "persistentIdentifier": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.persistentIdentifier",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "na"
+                                            },
+                                            "richMetadata": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.richMetadata",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "na"
+                                            },
+                                            "indexedInSearchEngines": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.indexedInSearchEngines",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            },
+                                            "metadataSchema": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.metadataSchema",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "na"
+                                            },
+                                            "metadataPersistence": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.findability.metadataPersistence",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "na"
+                                            }
+                                        }
+                                    },
+                                    "accessibility": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "retrievalProtocol": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.retrievalProtocol",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "na"
+                                            },
+                                            "authenticationRequired": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationRequired",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            },
+                                            "authenticationType": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.authenticationType",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "na"
+                                            },
+                                            "metadataAlwaysAvailable": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.metadataAlwaysAvailable",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "yes"
+                                            },
+                                            "dataAvailability": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.accessibility.dataAvailability",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "na"
+                                            }
+                                        }
+                                    },
+                                    "interoperability": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "knowledgeRepresentation": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.knowledgeRepresentation",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "na"
+                                            },
+                                            "vocabulariesUsed": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.vocabulariesUsed",
+                                                "multiple": true,
+                                                "typeClass": "primitive",
+                                                "value": []
+                                            },
+                                            "qualifiedReferences": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.qualifiedReferences",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            },
+                                            "dataFormats": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.dataFormats",
+                                                "multiple": true,
+                                                "typeClass": "primitive",
+                                                "value": []
+                                            },
+                                            "apiAvailability": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.interoperability.apiAvailability",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "na"
+                                            }
+                                        }
+                                    },
+                                    "reusability": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "licenseClarity": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.licenseClarity",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "na"
+                                            },
+                                            "provenanceInfo": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.provenanceInfo",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "na"
+                                            },
+                                            "communityStandards": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.communityStandards",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            },
+                                            "documentationQuality": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.documentationQuality",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "na"
+                                            },
+                                            "citationGuidelines": {
+                                                "typeName": "MDS_fairagro.fairagroData.FAIRness.reusability.citationGuidelines",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": "no"
+                                            }
+                                        }
+                                    },
+                                    "assessmentDate": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.assessmentDate",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": ""
+                                    },
+                                    "assessmentMethod": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.assessmentMethod",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": ""
+                                    },
+                                    "overallFAIRScore": {
+                                        "typeName": "MDS_fairagro.fairagroData.FAIRness.overallFAIRScore",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": ""
+                                    }
+                                }
+                            },
+                            "agriculturalContext": {
+                                "typeName": "MDS_fairagro.fairagroData.agriculturalContext",
+                                "multiple": false,
+                                "typeClass": "compound",
+                                "value": {
+                                    "researchDomains": {
+                                        "typeName": "MDS_fairagro.fairagroData.agriculturalContext.researchDomains",
+                                        "multiple": true,
+                                        "typeClass": "primitive",
+                                        "value": []
+                                    },
+                                    "cropTypes": {
+                                        "typeName": "MDS_fairagro.fairagroData.agriculturalContext.cropTypes",
+                                        "multiple": true,
+                                        "typeClass": "primitive",
+                                        "value": []
+                                    },
+                                    "geographicCoverage": {
+                                        "typeName": "MDS_fairagro.fairagroData.agriculturalContext.geographicCoverage",
+                                        "multiple": false,
+                                        "typeClass": "primitive",
+                                        "value": ""
+                                    },
+                                    "temporalCoverage": {
+                                        "typeName": "MDS_fairagro.fairagroData.agriculturalContext.temporalCoverage",
+                                        "multiple": false,
+                                        "typeClass": "compound",
+                                        "value": {
+                                            "startYear": {
+                                                "typeName": "MDS_fairagro.fairagroData.agriculturalContext.temporalCoverage.startYear",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": ""
+                                            },
+                                            "endYear": {
+                                                "typeName": "MDS_fairagro.fairagroData.agriculturalContext.temporalCoverage.endYear",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": ""
+                                            },
+                                            "temporalResolution": {
+                                                "typeName": "MDS_fairagro.fairagroData.agriculturalContext.temporalCoverage.temporalResolution",
+                                                "multiple": false,
+                                                "typeClass": "primitive",
+                                                "value": ""
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "typeName": "MDS_fairagro.identifier",
+                        "multiple": false,
+                        "typeClass": "primitive",
+                        "value": "RFId057202604272"
+                    },
+                    {
+                        "typeName": "MDS_fairagro.collections",
+                        "multiple": false,
+                        "typeClass": "compound",
+                        "value": {
+                            "collectionEntries": {
+                                "typeName": "MDS_fairagro.collections.collectionEntries",
+                                "multiple": true,
+                                "typeClass": "compound",
+                                "value": [
+                                    {
+                                        "name": {
+                                            "typeName": "MDS_fairagro.collections.collectionEntries.name",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Agricultural Sciences"
+                                        },
+                                        "alias": {
+                                            "typeName": "MDS_fairagro.collections.collectionEntries.alias",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "agricultural_sciences"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "typeName": "MDS_fairagro.collections.collectionEntries.name",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "Life Sciences"
+                                        },
+                                        "alias": {
+                                            "typeName": "MDS_fairagro.collections.collectionEntries.alias",
+                                            "multiple": false,
+                                            "typeClass": "primitive",
+                                            "value": "life_sciences"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "versionNumber": "MDS FAIRagro v0.1",
+        "datasetPersistentId": "perma:repository/RFId057202604272",
+        "identifier": "RFId057202604272",
+        "license": {
+            "name": "CC0 1.0",
+            "uri": "http://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    }
+}
