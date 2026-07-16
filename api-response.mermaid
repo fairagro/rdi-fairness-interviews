@@ -1,0 +1,66 @@
+---
+config:
+  layout: fixed
+---
+flowchart LR
+    Reuse@{ label: "<div style=\"width:280px; text-align:left;\"><b>reusability: object</b><br>• <i>title:</i> \"Reusability\"<br>• <i>display_name:</i> \"Reusability\"<br>• <i>description:</i> \"Assessment of how...\"<br>• <i>type:</i> \"object\"<br>• licenseClarity<br>• provenanceInfo<br>• communityStandards<br>• documentationQuality<br>• <b>citationGuidelines [Focus]</b></div>" } -. Detailed Schema .-> FocusNode@{ label: "<div style=\"width:280px; text-align:left;\"><b>❝ Focus Property Detail</b><br><i>citationGuidelines</i><br>• <b>value:</b> false<br>• <b>type:</b> \"boolean\"<br>• <b>title:</b> \"Citation Guidelines\"<br>• <b>display_name:</b> \"Citation Guidelines\"<br>• <b>description:</b> \"Clear citation guidelines ensure proper attribution and reproducibility...\"<br>• <b>additional_information:</b> \"Confirms explicit inclusion of sample reference text, BibTeX handles...\"<br>• <b>placeholder:</b> \"Toggle if structured tracking reference snippets...\"</div>" }
+    n1[" "] L_n1_n2_0@--> n2[" "]
+    n3[" "] --> n4[" "]
+    n5[" "] --> n6[" "]
+    n7[" "] --> n8[" "]
+    n9[" "] --> n10[" "]
+    n11[" "] --> n12[" "]
+    n13[" "] --> n14[" "]
+    n15[" "] --> n16[" "]
+    Assessment@{ label: "<div style=\"width:280px; text-align:left;\"><b>fairnessAssessment: CreativeWork</b><br>• @type: \"CreativeWork\"<br>• name: \"FAIRness Assessment\"<br>• description: \"FAIR Principles...\"</div>" }
+    Find@{ label: "<div style=\"width:280px; text-align:left;\"><b>Findability: object</b><br>• <i>title:</i> \"Findability\"<br>• <i>display_name:</i> \"Findability\"<br>• <i>description:</i> \"Assessment of how...\"<br>• <i>type:</i> \"object\"<br>• persistentIdentifier<br>• richMetadata<br>• indexedInSearchEngines<br>• metadataSchema<br>• metadataPersistence</div>" }
+    Root@{ label: "<div style=\"width:280px; text-align:left;\"><b>Root: DataRepository</b><br>• @context (Schema.org)<br>• @id / url (URIs)<br>• identifier (ID)<br>• name<br>• metadataStandard</div>" }
+    Access@{ label: "<div style=\"width:280px; text-align:left;\"><b>accessibility: object</b><br>• <i>title:</i> \"Accessibility\"<br>• <i>display_name:</i> \"Accessibility\"<br>• <i>description:</i> \"Assessment of how...\"<br>• <i>type:</i> \"object\"<br>• retrievalProtocol<br>• authenticationRequired<br>• authenticationType<br>• metadataAlwaysAvailable<br>• dataAvailability</div>" }
+    Inter@{ label: "<div style=\"width:280px; text-align:left;\"><b>interoperability: object</b><br>• <i>title:</i> \"Interoperability\"<br>• <i>display_name:</i> \"Interoperability\"<br>• <i>description:</i> \"Assessment of how...\"<br>• <i>type:</i> \"object\"<br>• knowledgeRepresentation<br>• vocabulariesUsed<br>• qualifiedReferences<br>• dataFormats<br>• apiAvailability</div>" }
+    Date@{ label: "<div style=\"width:280px; text-align:left;\"><b>assessmentDate</b><br>• value: null / \"YYYY-MM-DD\"<br>• type: \"string\"</div>" }
+    Method@{ label: "<div style=\"width:280px; text-align:left;\"><b>assessmentMethod</b><br>• value: null<br>• type: \"string\"</div>" }
+    Score@{ label: "<div style=\"width:280px; text-align:left;\"><b>overallFAIRScore</b><br>• value: null / number<br>• type: \"number\"</div>" }
+
+    Reuse@{ shape: rect}
+    FocusNode@{ shape: rect}
+    n1@{ shape: anchor}
+    n2@{ shape: anchor}
+    n3@{ shape: anchor}
+    n4@{ shape: anchor}
+    n5@{ shape: anchor}
+    n6@{ shape: anchor}
+    n7@{ shape: anchor}
+    n8@{ shape: anchor}
+    n9@{ shape: anchor}
+    n10@{ shape: anchor}
+    n11@{ shape: anchor}
+    n12@{ shape: anchor}
+    n13@{ shape: anchor}
+    n14@{ shape: anchor}
+    n15@{ shape: anchor}
+    n16@{ shape: anchor}
+    Assessment@{ shape: rect}
+    Find@{ shape: rect}
+    Root@{ shape: rect}
+    Access@{ shape: rect}
+    Inter@{ shape: rect}
+    Date@{ shape: rect}
+    Method@{ shape: rect}
+    Score@{ shape: rect}
+     Reuse:::pillar
+     FocusNode:::focus
+     Assessment:::assessment
+     Find:::pillar
+     Root:::root
+     Access:::pillar
+     Inter:::pillar
+     Date:::field
+     Method:::field
+     Score:::field
+    classDef root fill:#e1f2df,stroke:#6abf5c,stroke-width:2px,color:#333
+    classDef assessment fill:#e0f7f6,stroke:#0f9884,stroke-width:2px,color:#333
+    classDef pillar fill:#fde8e3,stroke:#f26e5f,stroke-width:1.5px,color:#333
+    classDef field fill:#f9f9f9,stroke:#a8a9ad,stroke-width:1px,stroke-dasharray: 5 5,color:#555
+    classDef focus fill:#fffbeb,stroke:#f59e0b,stroke-width:4px,color:#333
+
+    L_n1_n2_0@{ curve: linear }
