@@ -1,0 +1,182 @@
+[
+  {
+    "key": "1",
+    "label": "Persistent Identifier",
+    "icon": "InfoIcon",
+    "rdaCode": "RDA-F1-01D",
+    "pillar": "FINDABILITY",
+    "description": "Does your service assign persistent identifiers to datasets?",
+    "definition": "Persistent identifiers (PIDs) uniquely and permanently identify digital objects, enabling reliable tracking and access to datasets over time."
+  },
+  {
+    "key": "2",
+    "label": "Rich Metadata",
+    "icon": "PublicIcon",
+    "rdaCode": "RDA-F2-01M",
+    "pillar": "FINDABILITY",
+    "description": "Does your service provide rich metadata?",
+    "definition": "Rich metadata includes comprehensive descriptive, structural, and administrative information about data, facilitating discovery and reusability."
+  },
+  {
+    "key": "3",
+    "label": "Indexed In Search Engines",
+    "icon": "SearchIcon",
+    "rdaCode": "RDA-F4-01M",
+    "pillar": "FINDABILITY",
+    "description": "Is your metadata indexed in major search engines?",
+    "definition": "Metadata indexing in search engines ensures that datasets are discoverable through standard web search tools and data discovery services."
+  },
+  {
+    "key": "4",
+    "label": "Metadata Schema",
+    "icon": "SchemaIcon",
+    "rdaCode": "N/A",
+    "pillar": "FINDABILITY",
+    "description": "Does your database use formal or standard metadata schemas?",
+    "definition": "Standard metadata schemas provide structured formats for describing data, enabling interoperability and consistent interpretation across systems."
+  },
+  {
+    "key": "5",
+    "label": "Metadata Persistence",
+    "icon": "StorageIcon",
+    "rdaCode": "RDA-F1-01M",
+    "pillar": "FINDABILITY",
+    "description": "Is your metadata persistently available over time?",
+    "definition": "Metadata persistence ensures that descriptive information about datasets remains accessible and unchanged throughout the data lifecycle."
+  },
+  {
+    "key": "6",
+    "label": "Retrieval Protocol",
+    "icon": "CloudDownloadIcon",
+    "rdaCode": "RDA-A1-04D",
+    "pillar": "ACCESSIBILITY",
+    "description": "Is there a standard protocol available for data retrieval?",
+    "definition": "Standard retrieval protocols (e.g., HTTP, FTP, OAI-PMH) enable reliable and predictable access to data using established technical standards."
+  },
+  {
+    "key": "7",
+    "label": "Authentication Required",
+    "icon": "LockIcon",
+    "rdaCode": "RDA-A1.2-02D",
+    "pillar": "ACCESSIBILITY",
+    "description": "Does your database require authentication for data access?",
+    "definition": "Authentication mechanisms verify user identity before granting access to data, supporting both open and restricted access scenarios."
+  },
+  {
+    "key": "8",
+    "label": "Authentication Type",
+    "icon": "VpnKeyIcon",
+    "rdaCode": "RDA-A1-04D",
+    "pillar": "ACCESSIBILITY",
+    "description": "If yes, what type of authentication is used?",
+    "definition": "Different authentication types (e.g., username/password, OAuth, certificates) provide varying levels of security and usability for data access."
+  },
+  {
+    "key": "9",
+    "label": "Metadata Always Available",
+    "icon": "EventAvailableIcon",
+    "rdaCode": "RDA-A2-01M",
+    "pillar": "ACCESSIBILITY",
+    "description": "Is metadata always accessible, even if the data is restricted?",
+    "definition": "Metadata availability independent of data access allows discovery and understanding of restricted datasets, supporting transparency and informed decisions."
+  },
+  {
+    "key": "10",
+    "label": "Data Availability",
+    "icon": "CloudDoneIcon",
+    "rdaCode": "RDA-A1.1-01D",
+    "pillar": "ACCESSIBILITY",
+    "description": "Is the actual data accessible (open or controlled access)?",
+    "definition": "Data availability ensures that datasets are retrievable through documented, standardized access mechanisms supporting both open and controlled access policies."
+  },
+  {
+    "key": "11",
+    "label": "Knowledge Representation",
+    "icon": "HubIcon",
+    "rdaCode": "RDA-I1-02M/D",
+    "pillar": "INTEROPERABILITY",
+    "description": "Do you use formal knowledge representation (e.g., ontologies, RDF)?",
+    "definition": "Formal knowledge representation using ontologies and semantic languages enables machine-interpretable descriptions of data relationships and meanings."
+  },
+  {
+    "key": "12",
+    "label": "Vocabularies Used",
+    "icon": "LibraryBooksIcon",
+    "rdaCode": "RDA-I2-02M/D",
+    "pillar": "INTEROPERABILITY",
+    "description": "Do you enforce the use of controlled vocabularies for data submission?",
+    "definition": "Controlled vocabularies and standard terminologies ensure consistent representation of concepts, improving data integration and semantic interoperability."
+  },
+  {
+    "key": "13",
+    "label": "Qualified References",
+    "icon": "LinkIcon",
+    "rdaCode": "RDA-I3-03M/D",
+    "pillar": "INTEROPERABILITY",
+    "description": "Do you validate and qualify references (e.g., external IDs) before data submission?",
+    "definition": "Qualified references with resolvable identifiers enable linking between datasets and external resources, enhancing data connectivity and context."
+  },
+  {
+    "key": "14",
+    "label": "Api Availability",
+    "icon": "ApiIcon",
+    "rdaCode": "RDA-A1-05D",
+    "pillar": "INTEROPERABILITY",
+    "description": "Do you provide a dedicated API for data access?",
+    "definition": "Application Programming Interfaces (APIs) provide programmatic access to data, enabling automated integration with other systems and workflows."
+  },
+  {
+    "key": "15",
+    "label": "Data Formats",
+    "icon": "InsertDriveFileIcon",
+    "rdaCode": "RDA-I1-01M",
+    "pillar": "INTEROPERABILITY",
+    "description": "Do you use standardized data formats in your database or API?",
+    "definition": "Standardized, non-proprietary data formats ensure data portability and compatibility across different tools and systems."
+  },
+  {
+    "key": "16",
+    "label": "License Clarity",
+    "icon": "GavelIcon",
+    "rdaCode": "RDA-R1.1-01M",
+    "pillar": "REUSABILITY",
+    "description": "Does your database clearly state licenses for data reuse?",
+    "definition": "Clear licensing information informs users about permitted uses, modifications, and redistribution of data, supporting legal compliance and responsible reuse."
+  },
+  {
+    "key": "17",
+    "label": "Provenance Info",
+    "icon": "HistoryEduIcon",
+    "rdaCode": "RDA-R1.2-01M",
+    "pillar": "REUSABILITY",
+    "description": "Do you provide provenance information?",
+    "definition": "Provenance documentation tracks the origin, processing history, and transformations applied to data, supporting validation and trustworthiness assessment."
+  },
+  {
+    "key": "18",
+    "label": "Community Standards",
+    "icon": "GroupsIcon",
+    "rdaCode": "RDA-R1.3-01D",
+    "pillar": "REUSABILITY",
+    "description": "Do your data formats adhere to community standards?",
+    "definition": "Community-adopted standards ensure data compatibility within research domains and facilitate domain-specific tool integration and reuse."
+  },
+  {
+    "key": "19",
+    "label": "Documentation Quality",
+    "icon": "DescriptionIcon",
+    "rdaCode": "N/A",
+    "pillar": "REUSABILITY",
+    "description": "Do you provide documentation for using your database?",
+    "definition": "Comprehensive documentation enables users to understand data structure, methodology, limitations, and proper usage for accurate interpretation and reuse."
+  },
+  {
+    "key": "20",
+    "label": "Citation Guidelines",
+    "icon": "FormatQuoteIcon",
+    "rdaCode": "N/A",
+    "pillar": "REUSABILITY",
+    "description": "Have you clearly stated citation guidelines?",
+    "definition": "Clear citation guidelines ensure proper attribution and reproducibility, supporting research integrity and acknowledgment of data contributions."
+  }
+]

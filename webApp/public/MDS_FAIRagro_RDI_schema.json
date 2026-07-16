@@ -1,0 +1,1326 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "FAIRagro Minimal Metadata Schema",
+  "description": "JSON-schema representing the FAIRagro Minimal Metadata Schema",
+  "type": "object",
+  "version": "0.3",
+  "versionDate": "2024-10-07",
+  "properties": {
+    "datasetPersistentId": {
+      "type": "string",
+      "description": "Primary identifier of the dataset within the FAIRagro Search Hub (Dataverse specific)",
+      "display_name": "Dataset Persistent Id",
+      "title": "Dataset Persistent ID",
+      "additional_information": "",
+      "placeholder": ""
+    },
+    "identifier": {
+      "type": "string",
+      "description": "Primary identifier of the dataset within the FAIRagro Search Hub",
+      "display_name": "Identifier",
+      "title": "identifier",
+      "additional_information": "",
+      "placeholder": ""
+    },
+    "collections": {
+      "type": "object",
+      "display_name": "Collections",
+      "title": "collections",
+      "additional_information": "",
+      "placeholder": "",
+      "description": "An object containing list of collections, a dataset can be attributed to.",
+      "properties": {
+        "collectionEntries": {
+          "type": "array",
+          "description": "An object containing list of collections the dataset can be attributed to.",
+          "display_name": "Collection Entries",
+          "title": "Collections",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "description": "Name of the collection to which the dataset is assigned",
+                "display_name": "Name",
+                "title": "Collection Name",
+                "additional_information": "",
+                "placeholder": ""
+              },
+              "alias": {
+                "type": "string",
+                "description": "Another identifier uniquely identifies the collection",
+                "display_name": "Alias",
+                "title": "Collection Alias",
+                "additional_information": "",
+                "placeholder": ""
+              },
+              "datasetsSearchCollectionId": {
+                "type": "string",
+                "description": "Another identifier uniquely identifies the collection in the datasets search hub",
+                "display_name": "Datasets Search Collection Id",
+                "title": "datasetsSearchCollectionId",
+                "additional_information": "",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      }
+    },
+    "re3Data": {
+      "type": "object",
+      "description": "A set of metadata for the re3data.org repository",
+      "display_name": "Re3 Data",
+      "title": "re3data.org metadata",
+      "additional_information": "",
+      "placeholder": "",
+      "required": ["orgIdentifier"],
+      "properties": {
+        "orgIdentifier": {
+          "title": "orgIdentifier",
+          "type": "string",
+          "description": "The RDR identifiers provided by re3data (wrapper element).",
+          "display_name": "Org Identifier",
+          "additional_information": "",
+          "placeholder": ""
+        },
+        "repositoryName": {
+          "title": "repositoryName",
+          "type": "string",
+          "description": "The full name of the RDR.",
+          "display_name": "Repository Name",
+          "additional_information": "",
+          "placeholder": ""
+        },
+        "additionalName": {
+          "title": "additionalName",
+          "type": "array",
+          "description": "The alternative name or acronym for the RDR.",
+          "display_name": "Additional Name",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "string"
+          }
+        },
+        "repositoryURL": {
+          "title": "repositoryU RL",
+          "type": "string",
+          "description": "The URL of the RDR.",
+          "display_name": "Repository Url",
+          "additional_information": "",
+          "placeholder": ""
+        },
+        "repositoryIdentifier": {
+          "title": "repositoryIdentifier",
+          "type": "array",
+          "description": "An identifier that refers to the RDR or a record describing the RDR (wrapper element).",
+          "display_name": "Repository Identifier",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "string"
+          }
+        },
+        "description": {
+          "title": "Description",
+          "type": "string",
+          "description": "Textual description of the repository.",
+          "display_name": "Description",
+          "additional_information": "",
+          "placeholder": ""
+        },
+        "repositoryContact": {
+          "title": "repositoryContact",
+          "type": "array",
+          "description": "Contact information for the repository.",
+          "display_name": "Repository Contact",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "string"
+          }
+        },
+        "type": {
+          "title": "Type",
+          "type": "array",
+          "description": "Type of repository.",
+          "display_name": "Type",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "string"
+          }
+        },
+        "size": {
+          "title": "Size",
+          "type": "string",
+          "description": "Size of the repository data.",
+          "display_name": "Size",
+          "additional_information": "",
+          "placeholder": ""
+        },
+        "startDate": {
+          "title": "startDate",
+          "type": "string",
+          "description": "Date when the repository started operations.",
+          "display_name": "Start Date",
+          "additional_information": "",
+          "placeholder": ""
+        },
+        "repositoryLanguage": {
+          "title": "repositoryLanguage",
+          "type": "array",
+          "description": "The language of the user interface of the RDR.",
+          "display_name": "Repository Language",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "string"
+          }
+        },
+        "subject": {
+          "title": "Subject",
+          "type": "array",
+          "description": "The disciplinary focus of the RDR (wrapper element).",
+          "display_name": "Subject",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "string"
+          }
+        },
+        "missionStatementURL": {
+          "title": "missionStatement URL",
+          "type": "string",
+          "description": "URL to the repository's mission statement.",
+          "display_name": "Mission Statement Url",
+          "additional_information": "",
+          "placeholder": ""
+        },
+        "contentType": {
+          "title": "contentType",
+          "type": "array",
+          "description": "All types of resources available in the RDR (wrapper element).",
+          "display_name": "Content Type",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "string"
+          }
+        },
+        "providerType": {
+          "title": "providerType",
+          "type": "array",
+          "description": "The type of provider.",
+          "display_name": "Provider Type",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "string"
+          }
+        },
+        "keyword": {
+          "title": "Keyword",
+          "type": "array",
+          "description": "English keyword(s) describing the subject focus of the RDR.",
+          "display_name": "Keyword",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "string"
+          }
+        },
+        "institution": {
+          "title": "Institution",
+          "type": "array",
+          "description": "All institutions being responsible for funding, creating and/or running the RDR (wrapper element).",
+          "display_name": "Institution",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "object",
+            "properties": {
+              "institutionName": {
+                "title": "institutionName",
+                "type": "string",
+                "description": "The name of the responsible institution.",
+                "display_name": "Institution Name",
+                "additional_information": "",
+                "placeholder": ""
+              },
+              "institutionCountry": {
+                "title": "institutionCountry",
+                "type": "string",
+                "description": "The location of the responsible institution.",
+                "display_name": "Institution Country",
+                "additional_information": "",
+                "placeholder": ""
+              },
+              "responsibilityType": {
+                "title": "responsibilityType",
+                "type": "array",
+                "description": "The type of responsibility for each responsible institution.",
+                "display_name": "Responsibility Type",
+                "additional_information": "",
+                "placeholder": "",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "institutionType": {
+                "title": "institutionType",
+                "type": "string",
+                "description": "The type of responsible institution.",
+                "display_name": "Institution Type",
+                "additional_information": "",
+                "placeholder": ""
+              },
+              "institutionURL": {
+                "title": "institutionU RL",
+                "type": "string",
+                "description": "Field 'institutionURL' assigned by re3Data.repository.institution.items.'",
+                "display_name": "Institution Url",
+                "additional_information": "",
+                "placeholder": ""
+              },
+              "institutionIdentifier": {
+                "title": "institutionIdentifier",
+                "type": "array",
+                "description": "The identifier for the responsible institution (wrapper element).",
+                "display_name": "Institution Identifier",
+                "additional_information": "",
+                "placeholder": "",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "institutionAdditionalName": {
+                "title": "institutionAdditional Name",
+                "type": "array",
+                "description": "The alternative name or acronym for the responsible institution.",
+                "display_name": "Institution Additional Name",
+                "additional_information": "",
+                "placeholder": "",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "responsibilityEndDate": {
+                "title": "responsibilityEnd Date",
+                "type": "string",
+                "description": "The end date of the period of responsibility.",
+                "display_name": "Responsibility End Date",
+                "additional_information": "",
+                "placeholder": ""
+              },
+              "responsibilityStartDate": {
+                "title": "responsibilityStart Date",
+                "type": "string",
+                "description": "The start date of the period of responsibility.",
+                "display_name": "Responsibility Start Date",
+                "additional_information": "",
+                "placeholder": ""
+              }
+            }
+          }
+        },
+        "policy": {
+          "title": "Policy",
+          "type": "array",
+          "description": "Policies providing information concerning the usage of the RDR (wrapper element).",
+          "display_name": "Policy",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "object",
+            "properties": {
+              "policyName": {
+                "title": "policyName",
+                "type": "string",
+                "description": "The name of the policy.",
+                "display_name": "Policy Name",
+                "additional_information": "",
+                "placeholder": ""
+              },
+              "policyURL": {
+                "title": "policyU RL",
+                "type": "string",
+                "description": "Field 'policyURL' assigned by re3Data.repository.policy.items.'",
+                "display_name": "Policy Url",
+                "additional_information": "",
+                "placeholder": ""
+              }
+            }
+          }
+        },
+        "databaseAccess": {
+          "title": "databaseAccess",
+          "type": "array",
+          "description": "The access regulation to the RDR metadata (wrapper element).",
+          "display_name": "Database Access",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "object",
+            "properties": {
+              "databaseAccessType": {
+                "title": "databaseAccess Type",
+                "type": "string",
+                "description": "The type of access to the RDR metadata.",
+                "display_name": "Database Access Type",
+                "additional_information": "",
+                "placeholder": ""
+              }
+            }
+          }
+        },
+        "databaseLicense": {
+          "title": "databaseLicense",
+          "type": "array",
+          "description": "The license of the RDR metadata (wrapper element).",
+          "display_name": "Database License",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "object",
+            "properties": {
+              "databaseLicenseName": {
+                "title": "databaseLicense Name",
+                "type": "string",
+                "description": "The name of the database license.",
+                "display_name": "Database License Name",
+                "additional_information": "",
+                "placeholder": ""
+              },
+              "databaseLicenseURL": {
+                "title": "databaseLicense URL",
+                "type": "string",
+                "description": "Field 'databaseLicenseURL' assigned by re3Data.repository.databaseLicense.items.'",
+                "display_name": "Database License Url",
+                "additional_information": "",
+                "placeholder": ""
+              }
+            }
+          }
+        },
+        "dataAccess": {
+          "title": "dataAccess",
+          "type": "array",
+          "description": "The access regulation to the research data sets provided by the RDR (wrapper element).",
+          "display_name": "Data Access",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "object",
+            "properties": {
+              "dataAccessType": {
+                "title": "dataAccess Type",
+                "type": "string",
+                "description": "The type of access to research data.",
+                "display_name": "Data Access Type",
+                "additional_information": "",
+                "placeholder": ""
+              },
+              "dataAccessRestriction": {
+                "title": "dataAccess Restriction",
+                "type": "array",
+                "description": "All existing access restrictions to the research data sets (required if restricted is chosen).",
+                "display_name": "Data Access Restriction",
+                "additional_information": "",
+                "placeholder": "",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "dataLicense": {
+          "title": "dataLicense",
+          "type": "array",
+          "description": "The license of the research data provided by the RDR (wrapper element).",
+          "display_name": "Data License",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "object",
+            "properties": {
+              "dataLicenseName": {
+                "title": "dataLicense Name",
+                "type": "string",
+                "description": "The name of the data license.",
+                "display_name": "Data License Name",
+                "additional_information": "",
+                "placeholder": ""
+              },
+              "dataLicenseURL": {
+                "title": "dataLicense URL",
+                "type": "string",
+                "description": "Field 'dataLicenseURL' assigned by re3Data.repository.dataLicense.items.'",
+                "display_name": "Data License Url",
+                "additional_information": "",
+                "placeholder": ""
+              }
+            }
+          }
+        },
+        "dataUpload": {
+          "title": "dataUpload",
+          "type": "array",
+          "description": "The regulation for submitting research data to the RDR (wrapper element).",
+          "display_name": "Data Upload",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "object",
+            "properties": {
+              "dataUploadType": {
+                "title": "dataUpload Type",
+                "type": "string",
+                "description": "The type of the data upload.",
+                "display_name": "Data Upload Type",
+                "additional_information": "",
+                "placeholder": ""
+              },
+              "dataUploadRestriction": {
+                "title": "dataUpload Restriction",
+                "type": "array",
+                "description": "All existing restrictions to the data upload (required if restricted is chosen).",
+                "display_name": "Data Upload Restriction",
+                "additional_information": "",
+                "placeholder": "",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "dataUploadLicense": {
+          "title": "dataUpload License",
+          "type": "array",
+          "description": "The license for data upload (wrapper element).",
+          "display_name": "Data Upload License",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "object",
+            "properties": {
+              "dataUploadLicenseName": {
+                "title": "dataUpload License Name",
+                "type": "string",
+                "description": "The name of the data upload license.",
+                "display_name": "Data Upload License Name",
+                "additional_information": "",
+                "placeholder": ""
+              },
+              "dataUploadLicenseURL": {
+                "title": "dataUpload License URL",
+                "type": "string",
+                "description": "Field 'dataUploadLicenseURL' assigned by re3Data.repository.dataUploadLicense.items.'",
+                "display_name": "Data Upload License Url",
+                "additional_information": "",
+                "placeholder": ""
+              }
+            }
+          }
+        },
+        "software": {
+          "title": "Software",
+          "type": "array",
+          "description": "The name of the software that is used to run the RDR.",
+          "display_name": "Software",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "object",
+            "properties": {
+              "softwareName": {
+                "title": "softwareName",
+                "type": "string",
+                "description": "Field 'softwareName' assigned by re3Data.repository.software.items.'",
+                "display_name": "Software Name",
+                "additional_information": "",
+                "placeholder": ""
+              }
+            }
+          }
+        },
+        "versioning": {
+          "title": "Versioning",
+          "type": "string",
+          "description": "The RDR supports versioning of research data.",
+          "display_name": "Versioning",
+          "additional_information": "",
+          "placeholder": ""
+        },
+        "api": {
+          "title": "Api",
+          "type": "array",
+          "description": "The API supported by the RDR (wrapper element).",
+          "display_name": "Api",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "object",
+            "properties": {
+              "apiType": {
+                "title": "apiType",
+                "type": "string",
+                "description": "The type of the API.",
+                "display_name": "Api Type",
+                "additional_information": "",
+                "placeholder": ""
+              }
+            }
+          }
+        },
+        "pidSystem": {
+          "title": "pidSystem",
+          "type": "array",
+          "description": "The persistent identifier system that is used/provided by the RDR for research data.",
+          "display_name": "Pid System",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "string"
+          }
+        },
+        "citationGuidelineURL": {
+          "title": "citationGuideline URL",
+          "type": "string",
+          "description": "URL to citation guidelines.",
+          "display_name": "Citation Guideline Url",
+          "additional_information": "",
+          "placeholder": ""
+        },
+        "enhancedPublication": {
+          "title": "enhancedPublication",
+          "type": "string",
+          "description": "The RDR offers the interlinking between publications and data.",
+          "display_name": "Enhanced Publication",
+          "additional_information": "",
+          "placeholder": ""
+        },
+        "qualityManagement": {
+          "title": "qualityManagement",
+          "type": "string",
+          "description": "Information on quality management at the RDR (wrapper element).",
+          "display_name": "Quality Management",
+          "additional_information": "",
+          "placeholder": ""
+        },
+        "remarks": {
+          "title": "Remarks",
+          "type": "string",
+          "description": "Additional remarks.",
+          "display_name": "Remarks",
+          "additional_information": "",
+          "placeholder": ""
+        },
+        "entryDate": {
+          "title": "entryDate",
+          "type": "string",
+          "description": "The date the RDR was first indexed in re3data.",
+          "display_name": "Entry Date",
+          "additional_information": "",
+          "placeholder": ""
+        },
+        "lastUpdate": {
+          "title": "lastUpdate",
+          "type": "string",
+          "description": "The date the metadata of the RDR was updated.",
+          "display_name": "Last Update",
+          "additional_information": "",
+          "placeholder": ""
+        },
+        "metadataStandard": {
+          "title": "metadataStandard",
+          "type": "array",
+          "description": "The metadata standard the RDR complies with (wrapper element).",
+          "display_name": "Metadata Standard",
+          "additional_information": "",
+          "placeholder": "",
+          "items": {
+            "type": "object",
+            "properties": {
+              "metadataStandardName": {
+                "title": "metadataStandard Name",
+                "type": "string",
+                "description": "The name of the metadata standard.",
+                "display_name": "Metadata Standard Name",
+                "additional_information": "",
+                "placeholder": ""
+              },
+              "metadataStandardURL": {
+                "title": "metadataStandard URL",
+                "type": "string",
+                "description": "Field 'metadataStandardURL' assigned by re3Data.repository.metadataStandard.items.'",
+                "display_name": "Metadata Standard Url",
+                "additional_information": "",
+                "placeholder": ""
+              }
+            }
+          }
+        },
+        "aidSystem": {
+          "title": "aidSystem",
+          "type": "string",
+          "description": "The author identifier system that is used by the RDR.",
+          "display_name": "Aid System",
+          "additional_information": "",
+          "placeholder": ""
+        },
+        "certificate": {
+          "title": "Certificate",
+          "type": "string",
+          "description": "The certificate, accreditation or standard the RDR complies with (wrapper element).",
+          "display_name": "Certificate",
+          "additional_information": "",
+          "placeholder": ""
+        },
+        "syndication": {
+          "title": "Syndication",
+          "type": "string",
+          "description": "The alerting service the RDR offers (wrapper element).",
+          "display_name": "Syndication",
+          "additional_information": "",
+          "placeholder": ""
+        }
+      }
+    },
+    "fairagroData": {
+      "type": "object",
+      "description": "Project-specific metadata for FAIRagro agricultural research data",
+      "display_name": "Fairagro Data",
+      "title": "FAIRagro Metadata",
+      "properties": {
+        "lawAndEthics": {
+          "type": "object",
+          "description": "Legal and ethical considerations for data sharing and usage",
+          "display_name": "Law And Ethics",
+          "title": "Legal & Ethical Framework",
+          "properties": {
+            "dataProvider": {
+              "title": "Data Provider",
+              "type": "string",
+              "description": "Name of the organization or individual providing the data",
+              "display_name": "Data Provider"
+            },
+            "instituteType": {
+              "title": "Institute Type",
+              "type": "string",
+              "description": "Type of organization (e.g., research institute, university, government agency)",
+              "display_name": "Institute Type",
+              "enum": [
+                "Research Institute",
+                "University",
+                "Government Agency",
+                "Private Company",
+                "NGO",
+                "International Organization",
+                "Other"
+              ]
+            },
+            "complianceMeasures": {
+              "title": "Compliance Measures",
+              "type": "array",
+              "description": "Measures taken to ensure legal/ethical compliance",
+              "display_name": "Compliance Measures",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "GDPR Compliance",
+                  "Ethics Committee Approval",
+                  "Informed Consent",
+                  "Data Anonymization",
+                  "Access Controls",
+                  "Data Use Agreements"
+                ]
+              }
+            },
+            "dataTypes": {
+              "title": "Data Types",
+              "type": "array",
+              "description": "Types of data included in the dataset",
+              "display_name": "Data Types",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "Experimental Data",
+                  "Observational Data",
+                  "Survey Data",
+                  "Genomic Data",
+                  "Sensor Data",
+                  "Geospatial Data",
+                  "Model Output",
+                  "Literature Data",
+                  "Other"
+                ]
+              }
+            },
+            "applicableRegulations": {
+              "title": "Applicable Regulations",
+              "type": "array",
+              "description": "Legal regulations and norms that apply to this data",
+              "display_name": "Applicable Regulations",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "GDPR",
+                  "Nagoya Protocol",
+                  "FAIR Principles",
+                  "OECD Principles",
+                  "National Data Protection Laws",
+                  "Institutional Policies"
+                ]
+              }
+            },
+            "accessRights": {
+              "title": "Access Rights",
+              "type": "string",
+              "description": "Type of access granted to the data",
+              "display_name": "Access Rights",
+              "enum": [
+                "Open Access",
+                "Embargoed Access",
+                "Restricted Access",
+                "Controlled Access",
+                "On Request"
+              ]
+            },
+            "embargoPeriod": {
+              "title": "Embargo Period",
+              "type": "string",
+              "description": "If applicable, period during which data is embargoed (e.g., '6 months', '2 years')",
+              "display_name": "Embargo Period"
+            }
+          }
+        },
+        "technicalInfo": {
+          "type": "object",
+          "description": "Technical specifications and capabilities of the repository/dataset",
+          "display_name": "Technical Info",
+          "title": "Technical Specifications",
+          "properties": {
+            "metadataStandards": {
+              "title": "Metadata Standards",
+              "type": "object",
+              "description": "Metadata standards supported by the repository",
+              "display_name": "Metadata Standards",
+              "properties": {
+                "standards": {
+                  "type": "array",
+                  "description": "List of metadata standards implemented",
+                  "display_name": "Standards",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "standard": {
+                        "type": "string",
+                        "enum": [
+                          "MCPD",
+                          "Dublin Core",
+                          "DataCite",
+                          "INSPIRE",
+                          "MIAPPE",
+                          "MODS",
+                          "OGC",
+                          "OAIS",
+                          "schema.org",
+                          "Other"
+                        ]
+                      },
+                      "version": {
+                        "type": "string",
+                        "description": "Version of the standard implemented"
+                      },
+                      "level": {
+                        "type": "string",
+                        "description": "Implementation level",
+                        "enum": ["Full", "Partial", "Basic"]
+                      }
+                    },
+                    "required": ["standard"]
+                  }
+                },
+                "interoperabilityLevel": {
+                  "type": "string",
+                  "description": "Overall interoperability capability",
+                  "display_name": "Interoperability Level",
+                  "enum": ["Basic", "Intermediate", "Advanced", "Full"]
+                }
+              }
+            },
+            "accessProtocols": {
+              "title": "Access Protocols",
+              "type": "object",
+              "description": "Protocols and methods for data access and retrieval",
+              "display_name": "Access Protocols",
+              "properties": {
+                "supportedProtocols": {
+                  "type": "array",
+                  "description": "Protocols supported for data/metadata access",
+                  "display_name": "Supported Protocols",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "OAI-PMH",
+                      "REST API",
+                      "SOAP",
+                      "CSW",
+                      "OpenSearch",
+                      "WMS",
+                      "WFS",
+                      "SPARQL",
+                      "FTP",
+                      "Other"
+                    ]
+                  }
+                },
+                "authenticationMethods": {
+                  "type": "array",
+                  "description": "Supported authentication and authorization methods",
+                  "display_name": "Authentication Methods",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "Basic Auth",
+                      "OAuth2",
+                      "SAML",
+                      "Elixir AAI",
+                      "ORCID",
+                      "Institutional Login",
+                      "API Key",
+                      "None"
+                    ]
+                  }
+                },
+                "persistentIdentifiers": {
+                  "type": "array",
+                  "description": "Types of persistent identifiers supported",
+                  "display_name": "Persistent Identifiers",
+                  "items": {
+                    "type": "string",
+                    "enum": ["DOI", "Handle", "ARK", "PURL", "URN", "Other"]
+                  }
+                }
+              }
+            },
+            "maintenance": {
+              "title": "Maintenance & Sustainability",
+              "type": "object",
+              "description": "Information about system maintenance and long-term sustainability",
+              "display_name": "Maintenance",
+              "properties": {
+                "softwareLicense": {
+                  "type": "string",
+                  "description": "License of the repository software",
+                  "display_name": "Software License",
+                  "enum": ["Open Source", "Proprietary", "Mixed", "Unknown"]
+                },
+                "sustainabilityPlan": {
+                  "type": "string",
+                  "description": "Plan for long-term sustainability",
+                  "display_name": "Sustainability Plan",
+                  "enum": [
+                    "Fully Funded",
+                    "Partially Funded",
+                    "Grant-Based",
+                    "Institutional Support",
+                    "Community Support",
+                    "No Plan"
+                  ]
+                },
+                "supportServices": {
+                  "type": "array",
+                  "description": "Support services available to users",
+                  "display_name": "Support Services",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "Helpdesk",
+                      "Technical Support",
+                      "Documentation",
+                      "Training",
+                      "Consultation",
+                      "Community Forum"
+                    ]
+                  }
+                },
+                "updateFrequency": {
+                  "type": "string",
+                  "description": "How frequently the system is updated/maintained",
+                  "display_name": "Update Frequency",
+                  "enum": [
+                    "Continuous",
+                    "Weekly",
+                    "Monthly",
+                    "Quarterly",
+                    "Yearly",
+                    "As Needed"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "FAIRness": {
+          "type": "object",
+          "description": "FAIR Principles implementation assessment",
+          "display_name": "FAIRness Assessment Matrix",
+          "title": "FAIR Implementation Assessment",
+          "ui_control": "fieldset",
+          "properties": {
+            "findability": {
+              "title": "Findability",
+              "type": "object",
+              "description": "Assessment of how easily data can be found by both humans and computers",
+              "display_name": "Findability",
+              "ui_control": "category_block",
+              "properties": {
+                "persistentIdentifier": {
+                  "title": "Persistent Identifier",
+                  "type": "boolean",
+                  "description": "Persistent identifiers (PIDs) uniquely and permanently identify digital objects, enabling reliable tracking and access to datasets over time. (RDA-F1-01D)",
+                  "display_name": "Persistent Identifier",
+                  "ui_control": "switch",
+                  "placeholder": "Toggle to confirm persistent identifier implementation...",
+                  "additional_information": "High preference given to globally resolvable systems like DOIs or Handles over regional or local identifier patterns."
+                },
+                "richMetadata": {
+                  "title": "Rich Metadata",
+                  "type": "boolean",
+                  "description": "Rich metadata includes comprehensive descriptive, structural, and administrative information about data, facilitating discovery and reusability. (RDA-F2-01M)",
+                  "display_name": "Rich Metadata",
+                  "ui_control": "switch",
+                  "placeholder": "Toggle to confirm rich metadata depth...",
+                  "additional_information": "Evaluates whether metadata goes beyond basic transactional identity to document contextual parameters."
+                },
+                "indexedInSearchEngines": {
+                  "title": "Indexed in Search Engines",
+                  "type": "boolean",
+                  "description": "Metadata indexing in search engines ensures that datasets are discoverable through standard web search tools and data discovery services. (RDA-F4-01M)",
+                  "display_name": "Indexed In Search Engines",
+                  "ui_control": "switch",
+                  "placeholder": "Toggle to confirm search engine crawl indexing...",
+                  "additional_information": "Requires exposure via sitemaps, schema.org tags, or open API routing protocols."
+                },
+                "metadataSchema": {
+                  "title": "Metadata Schema",
+                  "type": "boolean",
+                  "description": "Standard metadata schemas provide structured formats for describing data, enabling interoperability and consistent interpretation across systems.",
+                  "display_name": "Metadata Schema",
+                  "ui_control": "switch",
+                  "placeholder": "Toggle to confirm standardized metadata schema alignment...",
+                  "additional_information": "Prefer domain-specific structures accepted within international agricultural and infrastructure workflows."
+                },
+                "metadataPersistence": {
+                  "title": "Metadata Persistence",
+                  "type": "boolean",
+                  "description": "Metadata persistence ensures that descriptive information about datasets remains accessible and unchanged throughout the data lifecycle. (RDA-F1-01M)",
+                  "display_name": "Metadata Persistence",
+                  "ui_control": "switch",
+                  "placeholder": "Toggle to confirm metadata preservation guarantee...",
+                  "additional_information": "Guarantees that descriptive information persists even if the source data payload is decommissioned."
+                }
+              }
+            },
+            "accessibility": {
+              "title": "Accessibility",
+              "type": "object",
+              "description": "Assessment of how data can be retrieved and accessed",
+              "display_name": "Accessibility",
+              "ui_control": "category_block",
+              "properties": {
+                "retrievalProtocol": {
+                  "title": "Retrieval Protocol",
+                  "type": "boolean",
+                  "description": "Standard retrieval protocols (e.g., HTTP, FTP, OAI-PMH) enable reliable and predictable access to data using established technical standards. (RDA-A1-04D)",
+                  "display_name": "Retrieval Protocol",
+                  "ui_control": "switch",
+                  "placeholder": "Toggle to confirm standardized retrieval protocol usage...",
+                  "additional_information": "Standard free open communication network systems include HTTP/HTTPS, FTP/SFTP, OAI-PMH, or REST protocols."
+                },
+                "authenticationRequired": {
+                  "title": "Authentication Required",
+                  "type": "boolean",
+                  "description": "Authentication mechanisms verify user identity before granting access to data, supporting both open and restricted access scenarios. (RDA-A1.2-02D)",
+                  "display_name": "Authentication Required",
+                  "ui_control": "switch",
+                  "placeholder": "Is access identity gating currently operational?",
+                  "additional_information": "Checking this true indicates authorization checking is required prior to resource extraction."
+                },
+                "authenticationType": {
+                  "title": "Authentication Type",
+                  "type": "boolean",
+                  "description": "Different authentication types (e.g., username/password, OAuth, certificates) provide varying levels of security and usability for data access. (RDA-A1-04D)",
+                  "display_name": "Authentication Type",
+                  "ui_control": "switch",
+                  "placeholder": "Toggle to confirm standardized identity verification...",
+                  "additional_information": "Open references indicate public extraction, while standardized implies OAuth2, Shibboleth, or API Tokens."
+                },
+                "metadataAlwaysAvailable": {
+                  "title": "Metadata Always Available",
+                  "type": "boolean",
+                  "description": "Metadata availability independent of data access allows discovery and understanding of restricted datasets, supporting transparency and informed decisions. (RDA-A2-01M)",
+                  "display_name": "Metadata Always Available",
+                  "ui_control": "switch",
+                  "placeholder": "Is record index persistently readable if payload is secure?",
+                  "additional_information": "Critical for legal and descriptive preservation when payload file packages are strictly confidential."
+                },
+                "dataAvailability": {
+                  "title": "Data Availability",
+                  "type": "boolean",
+                  "description": "Data availability ensures that datasets are retrievable through documented, standardized access mechanisms supporting both open and controlled access policies. (RDA-A1.1-01D)",
+                  "display_name": "Data Availability",
+                  "ui_control": "switch",
+                  "placeholder": "Toggle to confirm functional up-time expectations...",
+                  "additional_information": "Measures ongoing availability and stability of source archive host servers."
+                }
+              }
+            },
+            "interoperability": {
+              "title": "Interoperability",
+              "type": "object",
+              "description": "Assessment of how data can be integrated with other data",
+              "display_name": "Interoperability",
+              "ui_control": "category_block",
+              "properties": {
+                "knowledgeRepresentation": {
+                  "title": "Knowledge Representation",
+                  "type": "boolean",
+                  "description": "Formal knowledge representation using ontologies and semantic languages enables machine-interpretable descriptions of data relationships and meanings. (RDA-I1-02M/D)",
+                  "display_name": "Knowledge Representation",
+                  "ui_control": "switch",
+                  "placeholder": "Toggle to confirm semantic language classification...",
+                  "additional_information": "Requires usage of structured machine languages like RDF, OWL, or JSON-LD graphs over flat data definitions."
+                },
+                "vocabulariesUsed": {
+                  "title": "Vocabularies Used",
+                  "type": "boolean",
+                  "description": "Controlled vocabularies and standard terminologies ensure consistent representation of concepts, improving data integration and semantic interoperability. (RDA-I2-02M/D)",
+                  "display_name": "Vocabularies Used",
+                  "ui_control": "switch",
+                  "placeholder": "Toggle to confirm controlled vocabulary usage...",
+                  "additional_information": "Confirms use of international semantic authority classifications like AGROVOC, Crop Ontology, or ENVO."
+                },
+                "qualifiedReferences": {
+                  "title": "Qualified References",
+                  "type": "boolean",
+                  "description": "Qualified references with resolvable identifiers enable linking between datasets and external resources, enhancing data connectivity and context. (RDA-I3-03M/D)",
+                  "display_name": "Qualified References",
+                  "ui_control": "switch",
+                  "placeholder": "Toggle if dataset points explicitly to external semantic relations...",
+                  "additional_information": "Validates if contextual links point to related resources using structured predicates instead of simple string entries."
+                },
+                "dataFormats": {
+                  "title": "Data Formats",
+                  "type": "boolean",
+                  "description": "Standardized, non-proprietary data formats ensure data portability and compatibility across different tools and systems. (RDA-I1-01M)",
+                  "display_name": "Data Formats",
+                  "ui_control": "switch",
+                  "placeholder": "Toggle to confirm open structural schema formats...",
+                  "additional_information": "Prioritize open structural schemas over encrypted or vendor-locked single-application binary encodings."
+                },
+                "apiAvailability": {
+                  "title": "API Availability",
+                  "type": "boolean",
+                  "description": "Application Programming Interfaces (APIs) provide programmatic access to data, enabling automated integration with other systems and workflows. (RDA-A1-05D)",
+                  "display_name": "Api Availability",
+                  "ui_control": "switch",
+                  "placeholder": "Toggle to confirm programmatic automated endpoint access...",
+                  "additional_information": "Confirms presence of web access interfaces supporting machine discovery (e.g., OpenAPI, GraphQL, OAI-PMH)."
+                }
+              }
+            },
+            "reusability": {
+              "title": "Reusability",
+              "type": "object",
+              "description": "Assessment of how well data can be reused",
+              "display_name": "Reusability",
+              "ui_control": "category_block",
+              "properties": {
+                "licenseClarity": {
+                  "title": "License Clarity",
+                  "type": "boolean",
+                  "description": "Clear licensing information informs users about permitted uses, modifications, and redistribution of data, supporting legal compliance and responsible reuse. (RDA-R1.1-01M)",
+                  "display_name": "License Clarity",
+                  "ui_control": "switch",
+                  "placeholder": "Toggle to confirm clear digital copyright usage permissions...",
+                  "additional_information": "Requires standardized, machine-readable digital licenses (e.g., Creative Commons licenses)."
+                },
+                "provenanceInfo": {
+                  "title": "Provenance Info",
+                  "type": "boolean",
+                  "description": "Provenance documentation tracks the origin, processing history, and transformations applied to data, supporting validation and trustworthiness assessment. (RDA-R1.2-01M)",
+                  "display_name": "Provenance Info",
+                  "ui_control": "switch",
+                  "placeholder": "Toggle to confirm lineage recording validation...",
+                  "additional_information": "Confirms whether generation workflows, source transformation tools, and modification histories are documented."
+                },
+                "communityStandards": {
+                  "title": "Community Standards",
+                  "type": "boolean",
+                  "description": "Community-adopted standards ensure data compatibility within research domains and facilitate domain-specific tool integration and reuse. (RDA-R1.3-01D)",
+                  "display_name": "Community Standards",
+                  "ui_control": "switch",
+                  "placeholder": "Does structure fit regional target peer agreements?",
+                  "additional_information": "Validates compliance with established workflows defined by standard consensus groups within specific scientific domains."
+                },
+                "documentationQuality": {
+                  "title": "Documentation Quality",
+                  "type": "boolean",
+                  "description": "Comprehensive documentation enables users to understand data structure, methodology, limitations, and proper usage for accurate interpretation and reuse.",
+                  "display_name": "Documentation Quality",
+                  "ui_control": "switch",
+                  "placeholder": "Toggle to confirm contextual documentation availability...",
+                  "additional_information": "Measures user readability thresholds for accompanying items such as data dictionaries, readmes, and methods descriptions."
+                },
+                "citationGuidelines": {
+                  "title": "Citation Guidelines",
+                  "type": "boolean",
+                  "description": "Clear citation guidelines ensure proper attribution and reproducibility, supporting research integrity and acknowledgment of data contributions.",
+                  "display_name": "Citation Guidelines",
+                  "ui_control": "switch",
+                  "placeholder": "Toggle if structured tracking reference snippets are provided...",
+                  "additional_information": "Confirms explicit inclusion of sample reference text, BibTeX handles, or index formatting styles."
+                }
+              }
+            },
+            "assessmentDate": {
+              "title": "Assessment Date",
+              "type": "string",
+              "format": "date",
+              "description": "Date when FAIRness assessment was conducted",
+              "display_name": "Assessment Date",
+              "ui_control": "datepicker",
+              "placeholder": "YYYY-MM-DD",
+              "additional_information": "Automatically set upon finishing processing operations."
+            },
+            "assessmentMethod": {
+              "title": "Assessment Method",
+              "type": "string",
+              "description": "Method used for FAIRness assessment",
+              "display_name": "Assessment Method",
+              "ui_control": "select",
+              "placeholder": "Identify entity executing target metric checks...",
+              "additional_information": "Documents whether the metric data was provided by repository self-reporting or verified by an automated checking tool.",
+              "enum": [
+                "Self-Assessment",
+                "Peer-Review",
+                "Automated Tool",
+                "Expert Evaluation",
+                "Mixed Methods"
+              ]
+            },
+            "overallFAIRScore": {
+              "title": "Overall FAIR Score",
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100,
+              "description": "Overall FAIRness score (0-100)",
+              "display_name": "Overall Fair Score",
+              "ui_control": "gauge_display",
+              "placeholder": "0 - 100%",
+              "additional_information": "Calculated value weighting individual categories uniformly based on relative evaluation response flags."
+            }
+          }
+        },
+        "agriculturalContext": {
+          "type": "object",
+          "description": "Domain-specific context for agricultural data",
+          "display_name": "Agricultural Context",
+          "title": "Agricultural Context",
+          "properties": {
+            "researchDomains": {
+              "type": "array",
+              "description": "Agricultural research domains covered",
+              "display_name": "Research Domains",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "Soil Sciences",
+                  "Plant Cultivation",
+                  "Agricultural Technology",
+                  "Plant Nutrition",
+                  "Agricultural Ecology",
+                  "Plant Genetics",
+                  "Plant Breeding",
+                  "Phytomedicine",
+                  "Agricultural Economics",
+                  "Animal Husbandry",
+                  "Animal Nutrition",
+                  "Veterinary Science",
+                  "Food Security",
+                  "Sustainable Agriculture",
+                  "Climate Resilience"
+                ]
+              }
+            },
+            "cropTypes": {
+              "type": "array",
+              "description": "Types of crops covered by the data",
+              "display_name": "Crop Types",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "Cereals",
+                  "Legumes",
+                  "Vegetables",
+                  "Fruits",
+                  "Oil Crops",
+                  "Root Crops",
+                  "Forage Crops",
+                  "Medicinal Plants",
+                  "Ornamental Plants",
+                  "Multiple",
+                  "Not Applicable"
+                ]
+              }
+            },
+            "geographicCoverage": {
+              "type": "string",
+              "description": "Geographic scope of the data",
+              "display_name": "Geographic Coverage",
+              "enum": ["Local", "Regional", "National", "Continental", "Global"]
+            },
+            "temporalCoverage": {
+              "type": "object",
+              "description": "Temporal scope of the data",
+              "display_name": "Temporal Coverage",
+              "properties": {
+                "startYear": {
+                  "type": "integer",
+                  "description": "Start year of data collection"
+                },
+                "endYear": {
+                  "type": "integer",
+                  "description": "End year of data collection"
+                },
+                "temporalResolution": {
+                  "type": "string",
+                  "description": "Resolution of temporal data",
+                  "enum": [
+                    "Daily",
+                    "Weekly",
+                    "Monthly",
+                    "Seasonal",
+                    "Yearly",
+                    "Event-based",
+                    "Irregular"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": ["re3Data"]
+}
