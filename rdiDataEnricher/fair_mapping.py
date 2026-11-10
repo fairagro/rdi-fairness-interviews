@@ -1,396 +1,365 @@
 """
-FAIR Principles Mapping from re3data XML fields to NFDI_RDIs CSV columns.
+FAIR metric values derived from re3data records (registry-derived profiles).
 
-This module defines how re3data repository metadata maps to FAIR compliance attributes.
+Revision of 2026-11-05 (manuscript revision, Reviewer 2 #8, Reviewer 3 #3/#4):
 
-IMPORTANT METHODOLOGY NOTE (Updated for Publication Accuracy):
-============================================================================
-This mapping distinguishes between three types of FAIR attributes:
+Scoring policy for every metric
+-------------------------------
+  True            the re3data element that carries the evidence is present and satisfies the rule
+                  (compliance supported by evidence)
+  False           the element is present but does not satisfy the rule, or carries an explicit
+                  negative value such as pidSystem = "none" (non-compliance supported by evidence)
+  None            the element is absent from the record, or the metric is not represented in the
+                  re3data schema at all  ->  "not assessed": the cell stays empty and the metric is
+                  excluded from every denominator. Absence of evidence is never scored as non-compliance.
+  NOT_APPLICABLE  conditional metric that does not apply to the repository (authentication type for a
+                  repository that uses no authentication for data access); excluded from denominators.
 
-1. RE3DATA-NATIVE (7 attributes):
-   - Direct extraction from explicit re3data fields (pidSystem, metadataStandard, 
-     dataAccess, api, dataLicense, etc.)
-   - These can be directly documented from re3data registry data
-   - Examples: persistentIdentifier (from pidSystem), apiAvailability (from api element)
+Provenance classes (source_type)
+--------------------------------
+  re3data-native    the value is read from a re3data element whose meaning coincides with the metric
+                    (pidSystem, metadataStandard, api, databaseAccess, dataAccess, dataLicense,
+                    citationGuidelineURL)
+  re3data-inferred  the value is a heuristic on a present element (count of standards, keyword match,
+                    API type); the heuristic is stated in `rule`
+  fairagro-novel    the property is not represented in the re3data schema; only an operator interview
+                    can provide it. Always None here.
 
-2. RE3DATA-INFERRED (8 attributes):
-   - Inferred through pattern matching in related re3data fields
-   - These require interpretation/inference logic to populate
-   - Examples: authenticationType (keyword search in policy), 
-     knowledgeRepresentation (RDF/XML/OWL keywords in metadataStandard)
-   - ⚠️ IMPORTANT: These are educated inferences, not explicit re3data documentation
-
-3. FAIRAGRO-NOVEL (5 attributes):
-   - Brand new FAIR assessment concepts NOT documented in re3data schema
-   - These CANNOT be populated from re3data; require manual RDI operator assessment
-   - Examples: metadataPersistence, provenanceInfo, communityStandards, 
-     documentationQuality, and others requiring human judgment
-   - Status: Populated with NULL/NA values; reserved for manual enrichment workflow
-
-This mapping enables semi-automated enrichment where possible, while preserving
-space for human-assessed FAIRness dimensions beyond re3data's scope.
-============================================================================
+Earlier versions of this module scored several metrics as False when the relevant element was simply
+absent (retrieval protocol, metadata availability, provenance, ...) and inferred four properties from
+elements that do not carry them (the registry's own subject classification, the length of the
+description). Those rules were removed; see the manuscript's Supplementary Table 5.
 """
 
-from typing import Dict, List, Tuple, Any
+from typing import Dict, List, Tuple, Any, Optional, Union
 
-# Mapping of FAIR attributes to re3data fields that indicate compliance
+# Third assessment state, written literally into the CSV and the JSON records.
+NOT_APPLICABLE = "not applicable"
+
+# re3data dataAccessRestriction values that document an authentication/authorisation
+# procedure with a named, standard mechanism (registered account, institutional login).
+NAMED_AUTH_RESTRICTIONS = {"registration", "institutional membership"}
+
+# re3data apiType values that denote a standardised retrieval protocol.
+STANDARD_API_TYPES = {"rest", "oai-pmh", "ftp", "sparql", "soap", "opendap", "netcdf", "sword", "ogc"}
+
+# Keywords in a metadata standard's name that imply a formal, machine-readable representation.
+FORMAL_REPRESENTATION_KEYWORDS = ("rdf", "owl", "xml", "json", "schema", "data cube", "skos")
+
+
 FAIR_MAPPING = {
-    # FINDABILITY (5 attributes: 2 native + 2 inferred + 1 novel)
+    # FINDABILITY
     'FAIRness.findability.persistentIdentifier': {
-        're3data_fields': ['pidSystem'],
-        'logic': 'presence',  # True if field is present and non-empty
-        'description': 'Persistent identifier system present',
-        'source_type': 're3data-native',  # Directly from pidSystem
-        'publication_note': 'Direct extraction from re3data pidSystem element'
+        're3data_fields': ['pidSystem'], 'logic': 'pid_system', 'source_type': 're3data-native',
+        'description': 'Persistent identifiers assigned to datasets',
+        'rule': 'met if pidSystem names at least one identifier system other than "none" (DOI, hdl, URN, ARK, PURL, IGSN, other); '
+                'not met if pidSystem is "none"; not assessed if the element is absent',
     },
     'FAIRness.findability.metadataSchema': {
-        're3data_fields': ['metadataStandard'],
-        'logic': 'presence',
-        'description': 'Formal metadata schema defined',
-        'source_type': 're3data-native',  # Directly from metadataStandard
-        'publication_note': 'Direct extraction from re3data metadataStandard element'
+        're3data_fields': ['metadataStandard'], 'logic': 'standard_present', 'source_type': 're3data-native',
+        'description': 'Formal or standard metadata schema used',
+        'rule': 'met if at least one metadataStandard is named; not met if the only value is "none"; not assessed if the element is absent',
     },
     'FAIRness.findability.richMetadata': {
-        're3data_fields': ['metadataStandard'],
-        'logic': 'multiple',  # True if multiple standards or rich metadata
-        'description': 'Multiple or rich metadata standards used',
-        'source_type': 're3data-inferred',  # Inferred from count of standards
-        'publication_note': 'Inferred: True if 2+ metadata standards present'
+        're3data_fields': ['metadataStandard'], 'logic': 'standard_count', 'source_type': 're3data-inferred',
+        'description': 'Rich descriptive metadata (proxy: more than one metadata standard)',
+        'rule': 'met if two or more metadataStandard elements are named; not met if exactly one; not assessed if the element is absent',
     },
     'FAIRness.findability.indexedInSearchEngines': {
-        're3data_fields': ['api', 'oai'],
-        'logic': 'harvesting',  # True if OAI-PMH or similar
-        'description': 'Harvesting protocol available (OAI-PMH, etc.)',
-        'source_type': 're3data-inferred',  # Inferred from api/OAI presence
-        'publication_note': 'Inferred: True if OAI-PMH or harvesting API present'
+        're3data_fields': ['api'], 'logic': 'harvesting_api', 'source_type': 're3data-inferred',
+        'description': 'Metadata harvestable by discovery services (proxy: OAI-PMH interface)',
+        'rule': 'met if an api element of type OAI-PMH is listed; not met if api elements are listed but none is OAI-PMH; not assessed if no api element',
     },
     'FAIRness.findability.metadataPersistence': {
-        're3data_fields': ['policy', 'preservation'],
-        'logic': 'policy_presence',
-        'description': 'Retention/preservation policy defined',
-        'source_type': 'fairagro-novel',  # NOT in re3data schema
-        'publication_note': '❌ NOT available in re3data; requires manual RDI operator assessment'
+        're3data_fields': [], 'logic': 'not_represented', 'source_type': 'fairagro-novel',
+        'description': 'Metadata guaranteed to remain available after the data are gone',
+        'rule': 'not represented in the re3data schema; always not assessed',
     },
-    
-    # ACCESSIBILITY (5 attributes: 3 native + 2 inferred)
+
+    # ACCESSIBILITY
     'FAIRness.accessibility.retrievalProtocol': {
-        're3data_fields': ['databaseAccess', 'dataAccess'],
-        'logic': 'access_protocol',
-        'description': 'Open/standardized retrieval protocol',
-        'source_type': 're3data-native',  # Directly from dataAccess
-        'publication_note': 'Direct extraction from re3data dataAccess/databaseAccess elements'
+        're3data_fields': ['api'], 'logic': 'standard_api', 'source_type': 're3data-native',
+        'description': 'Standardised protocol for data retrieval',
+        'rule': 'met if an api element of a standard type is listed (REST, OAI-PMH, FTP, SPARQL, SOAP, OPeNDAP, NetCDF, SWORD, OGC); '
+                'not met if api elements are listed but all are of type "other"; not assessed if no api element',
     },
     'FAIRness.accessibility.dataAvailability': {
-        're3data_fields': ['dataAccess', 'dataAccessRestriction'],
-        'logic': 'availability',
-        'description': 'Data availability status clear',
-        'source_type': 're3data-native',  # Directly from dataAccess
-        'publication_note': 'Direct extraction from re3data dataAccess/restriction elements'
+        're3data_fields': ['dataAccessEntries'], 'logic': 'data_access_documented', 'source_type': 're3data-native',
+        'description': 'Data retrievable through a documented open or controlled mechanism',
+        'rule': 'met if a dataAccess type open, embargoed or restricted is documented; not met if the only type is closed; not assessed if no dataAccess element',
     },
     'FAIRness.accessibility.authenticationRequired': {
-        're3data_fields': ['dataAccessRestriction'],
-        'logic': 'access_restriction',
-        'description': 'Authentication requirements documented',
-        'source_type': 're3data-native',  # Directly from access restrictions
-        'publication_note': 'Direct extraction from re3data dataAccessRestriction element'
+        're3data_fields': ['dataAccessEntries'], 'logic': 'access_regime', 'source_type': 're3data-native',
+        'description': 'Access regime appropriate to the data (RDA-A1.2-01D, conditional)',
+        'rule': 'met if an open or embargoed dataAccess type is documented, or a restricted type carries a registration or '
+                'institutional-membership restriction; not assessed if only restricted or closed tiers without a documented procedure exist',
     },
     'FAIRness.accessibility.authenticationType': {
-        're3data_fields': ['policy', 'dataAccessRestriction'],
-        'logic': 'authentication_detail',
-        'description': 'Specific authentication type documented (OAuth, SAML, LDAP, etc.)',
-        'source_type': 're3data-inferred',  # Keyword search for auth types
-        'publication_note': 'Inferred: True if keywords (oauth, saml, ldap, password, api) found in policy'
+        're3data_fields': ['dataAccessEntries'], 'logic': 'authentication_mechanism', 'source_type': 're3data-native',
+        'description': 'Named standard authentication mechanism where authentication is used',
+        'rule': 'met if a restricted or closed tier carries a registration or institutional-membership restriction; '
+                'not applicable if no restricted or closed tier exists; not assessed if such a tier exists but the mechanism is not named',
     },
     'FAIRness.accessibility.metadataAlwaysAvailable': {
-        're3data_fields': ['dataAccessRestriction'],
-        'logic': 'metadata_unrestricted',
-        'description': 'Metadata accessible even if data restricted',
-        'source_type': 're3data-inferred',  # Inferred from restriction flags
-        'publication_note': 'Inferred: True if "unrestricted" flag present in metadata access'
+        're3data_fields': ['databaseAccess'], 'logic': 'database_open', 'source_type': 're3data-native',
+        'description': 'Metadata accessible irrespective of data access restrictions',
+        'rule': 'met if databaseAccess type is open; not met if restricted or closed; not assessed if the element is absent',
     },
-    
-    # INTEROPERABILITY (5 attributes: 2 native + 3 inferred)
+
+    # INTEROPERABILITY
     'FAIRness.interoperability.dataFormats': {
-        're3data_fields': ['contentType'],
-        'logic': 'multiple_formats',
-        'description': 'Multiple open data formats supported',
-        'source_type': 're3data-native',  # Directly from contentType
-        'publication_note': 'Direct extraction from re3data contentType element'
+        're3data_fields': ['contentType'], 'logic': 'content_type_count', 'source_type': 're3data-inferred',
+        'description': 'Standardised data formats (proxy: more than one content type)',
+        'rule': 'met if two or more contentType elements are listed; not met if exactly one; not assessed if the element is absent',
     },
     'FAIRness.interoperability.apiAvailability': {
-        're3data_fields': ['api'],
-        'logic': 'presence',
-        'description': 'API available for data access/integration',
-        'source_type': 're3data-native',  # Directly from api element
-        'publication_note': 'Direct extraction from re3data api element'
+        're3data_fields': ['api'], 'logic': 'api_present', 'source_type': 're3data-native',
+        'description': 'Dedicated API for data access',
+        'rule': 'met if at least one api element is listed; not assessed if the element is absent',
     },
     'FAIRness.interoperability.knowledgeRepresentation': {
-        're3data_fields': ['metadataStandard'],
-        'logic': 'formal_representation',
-        'description': 'Formal knowledge representation used (RDF, XML Schema, OWL, etc.)',
-        'source_type': 're3data-inferred',  # Keyword search for formal formats
-        'publication_note': 'Inferred: True if keywords (rdf, xml, json, owl, schema) found in metadataStandard'
+        're3data_fields': ['metadataStandard'], 'logic': 'formal_representation', 'source_type': 're3data-inferred',
+        'description': 'Formal, machine-readable knowledge representation (proxy: name of a listed standard)',
+        'rule': 'met if a named metadataStandard implies a formal representation (name contains RDF, OWL, XML, JSON, Schema, Data Cube or SKOS); '
+                'not met if standards are named but none does; not assessed if the element is absent',
     },
     'FAIRness.interoperability.vocabulariesUsed': {
-        're3data_fields': ['metadataStandard', 'subject'],
-        'logic': 'controlled_vocabulary',
-        'description': 'Controlled vocabularies or thesauri used',
-        'source_type': 're3data-inferred',  # Inferred from presence of standards
-        'publication_note': 'Inferred: True if subject/discipline vocabularies present'
+        're3data_fields': [], 'logic': 'not_represented', 'source_type': 'fairagro-novel',
+        'description': 'Controlled vocabularies enforced at submission',
+        'rule': 'not represented in the re3data schema (the registry records its own subject classification, not the repository\'s vocabularies); always not assessed',
     },
     'FAIRness.interoperability.qualifiedReferences': {
-        're3data_fields': ['metadataStandard', 'api'],
-        'logic': 'qualified_reference',
-        'description': 'Qualified references to other entities',
-        'source_type': 're3data-inferred',  # Inferred from structured metadata
-        'publication_note': 'Inferred: True if structured reference elements present in metadata'
+        're3data_fields': [], 'logic': 'not_represented', 'source_type': 'fairagro-novel',
+        'description': 'Qualified references validated at submission',
+        'rule': 'not represented in the re3data schema; always not assessed',
     },
-    
-    # REUSABILITY (5 attributes: 2 native + 3 inferred)
+
+    # REUSABILITY
     'FAIRness.reusability.licenseClarity': {
-        're3data_fields': ['dataLicense'],
-        'logic': 'license_presence',
-        'description': 'Clear license statement for data',
-        'source_type': 're3data-native',  # Directly from dataLicense
-        'publication_note': 'Direct extraction from re3data dataLicense element'
+        're3data_fields': ['dataLicense'], 'logic': 'license_present', 'source_type': 're3data-native',
+        'description': 'Clear reuse licence for the data',
+        'rule': 'met if at least one dataLicense is named; not met if the only value is "none"; not assessed if the element is absent',
     },
     'FAIRness.reusability.citationGuidelines': {
-        're3data_fields': ['pidSystem', 'citationGuidelineUrl'],
-        'logic': 'citation_support',
-        'description': 'Citation guidelines and persistent IDs provided',
-        'source_type': 're3data-native',  # Directly from citation URL + PID
-        'publication_note': 'Direct extraction from re3data citationGuidelineUrl and pidSystem elements'
+        're3data_fields': ['citationGuidelineUrl'], 'logic': 'citation_url', 'source_type': 're3data-native',
+        'description': 'Explicit guidance on how to cite data',
+        'rule': 'met if a citationGuidelineURL is given; not assessed if the element is absent',
     },
     'FAIRness.reusability.provenanceInfo': {
-        're3data_fields': ['policy'],
-        'logic': 'provenance_tracking',
+        're3data_fields': [], 'logic': 'not_represented', 'source_type': 'fairagro-novel',
         'description': 'Provenance information tracked and documented',
-        'source_type': 're3data-inferred',  # Keyword search in policy
-        'publication_note': 'Inferred: True if "provenance" or "tracking" keywords found in policy documentation'
+        'rule': 'not represented in the re3data schema (policy documents are listed by name only); always not assessed',
     },
     'FAIRness.reusability.communityStandards': {
-        're3data_fields': ['subject', 'discipline'],
-        'logic': 'standards_compliance',
-        'description': 'Community-adopted standards and best practices followed',
-        'source_type': 're3data-inferred',  # Inferred from discipline classification
-        'publication_note': 'Inferred: True if discipline/community standards are documented'
+        're3data_fields': [], 'logic': 'not_represented', 'source_type': 'fairagro-novel',
+        'description': 'Data comply with community-adopted standards',
+        'rule': 'not represented in the re3data schema; always not assessed (the metadataStandard element documents metadata '
+                'standards, RDA-R1.3-01M, which metric 4 already reads; it carries no information on the standards the data follow, RDA-R1.3-01D)',
     },
     'FAIRness.reusability.documentationQuality': {
-        're3data_fields': ['repositoryName', 'description'],
-        'logic': 'documentation',
-        'description': 'Comprehensive documentation and guidance available',
-        'source_type': 're3data-inferred',  # Inferred from description richness
-        'publication_note': 'Inferred: True if repository has detailed description documentation'
-    }
+        're3data_fields': [], 'logic': 'not_represented', 'source_type': 'fairagro-novel',
+        'description': 'User documentation of the repository',
+        'rule': 'not represented in the re3data schema; always not assessed',
+    },
 }
 
 
-def infer_fair_value(
-    field_name: str,
-    re3data_dict: Dict[str, Any]
-) -> bool:
+def infer_authentication(entries: List[Dict[str, Any]]) -> Tuple[Optional[bool], Optional[Union[bool, str]]]:
     """
-    Infer FAIR attribute value from re3data repository metadata.
-    
-    IMPORTANT: This function applies different inference strategies based on attribute type:
-    
-    1. RE3DATA-NATIVE (7 attributes):
-       - Direct field presence/extraction (e.g., pidSystem → persistentIdentifier)
-       - Highest confidence; directly documented in re3data schema
-    
-    2. RE3DATA-INFERRED (8 attributes):
-       - Pattern matching and keyword searches in re3data fields
-       - Medium confidence; requires interpretation (e.g., OAI-PMH keyword → harvesting)
-       - ⚠️ These are educated inferences, not explicit documentation
-    
-    3. FAIRAGRO-NOVEL (5 attributes):
-       - Brand new FAIR concepts NOT in re3data schema
-       - These CANNOT be populated here; reserved for manual assessment
-       - Returns None/False; requires separate RDI operator review workflow
-    
-    Args:
-        field_name: FAIR attribute name (e.g., 'FAIRness.findability.persistentIdentifier')
-        re3data_dict: Dictionary of re3data fields extracted from repository XML
-    
-    Returns:
-        True if attribute is evidenced in re3data, False if explicitly not present,
-        None if undetermined or novel attribute requiring manual assessment
-        
-    For publication purposes, check the 'source_type' and 'publication_note' fields
-    in FAIR_MAPPING[field_name] to correctly attribute what comes from re3data
-    vs. what is inferred vs. what requires manual RDI operator assessment.
+    Conditional authentication rule for registry-derived profiles (RDA-A1.2-01D).
+
+    `entries` is the list of re3data <dataAccess> elements as {'type': str, 'restrictions': [str]}
+    (built by Re3DataEnricher.parse_repository_xml as 'dataAccessEntries').
+
+    Returns (metric 7 'authenticationRequired', metric 8 'authenticationType'):
+      metric 7: True  - an open or embargoed data-access type exists (open data need no
+                        authentication), or a restricted type carries a registration /
+                        institutional-membership restriction (protected data reachable through
+                        an authentication and authorisation procedure);
+                None  - no data-access entry, or only restricted/closed tiers whose procedure
+                        is not documented (fee, other, unspecified): not assessed.
+      metric 8: True  - a registration / institutional-membership restriction is documented
+                        (named standard mechanism);
+                NOT_APPLICABLE - no restricted or closed tier: authentication is not used for
+                        data access, so the metric is not applicable (excluded from the denominator);
+                None  - a restricted/closed tier exists but the mechanism is not named: not assessed.
+    """
+    types = {str(e.get('type', '')).strip().lower() for e in entries if e.get('type')}
+    restrictions = {str(r).strip().lower() for e in entries for r in e.get('restrictions', []) if str(r).strip()}
+    if not types:
+        return None, None
+    has_open = bool(types & {'open', 'embargoed'})
+    has_protected = bool(types & {'restricted', 'closed'})
+    named_mechanism = bool(restrictions & NAMED_AUTH_RESTRICTIONS)
+
+    if named_mechanism and has_protected:
+        metric7: Optional[bool] = True
+    elif has_open:
+        metric7 = True
+    else:
+        metric7 = None
+
+    if not has_protected:
+        metric8: Optional[Union[bool, str]] = NOT_APPLICABLE
+    elif named_mechanism:
+        metric8 = True
+    else:
+        metric8 = None
+    return metric7, metric8
+
+
+def _as_list(val: Any) -> List[Any]:
+    if val is None:
+        return []
+    if isinstance(val, list):
+        return [v for v in val if v not in (None, '', {}, [])]
+    if isinstance(val, dict):
+        return [val] if val else []
+    return [val] if str(val).strip() else []
+
+
+def _texts(val: Any) -> List[str]:
+    """Flatten a re3data element (str / dict with 'text' / list of either) into its text values."""
+    out = []
+    for item in _as_list(val):
+        if isinstance(item, dict):
+            t = item.get('text', '')
+            if isinstance(t, str) and t.strip():
+                out.append(t.strip())
+            else:
+                for v in item.values():
+                    if isinstance(v, str) and v.strip() and v is not t:
+                        out.append(v.strip())
+        else:
+            out.append(str(item).strip())
+    return [o for o in out if o]
+
+
+def _api_types(re3data_dict: Dict[str, Any]) -> Optional[List[str]]:
+    """Lower-cased apiType values, or None if the record carries no api element."""
+    if 'api' not in re3data_dict or not _as_list(re3data_dict.get('api')):
+        return None
+    types = []
+    for item in _as_list(re3data_dict.get('api')):
+        if isinstance(item, dict):
+            t = item.get('apiType', '')
+            if isinstance(t, dict):
+                t = t.get('text', '')
+            types.append(str(t).strip().lower())
+        else:
+            types.append(str(item).strip().lower())
+    return types
+
+
+def _standard_names(re3data_dict: Dict[str, Any]) -> Optional[List[str]]:
+    """Names of the listed metadata standards, or None if the record carries no metadataStandard element."""
+    if 'metadataStandard' not in re3data_dict or not _as_list(re3data_dict.get('metadataStandard')):
+        return None
+    names = re3data_dict.get('metadataStandardNames')
+    if not names:
+        names = _texts(re3data_dict.get('metadataStandard'))
+    return [str(n).strip() for n in names if str(n).strip()]
+
+
+def infer_fair_value(field_name: str, re3data_dict: Dict[str, Any]) -> Optional[Union[bool, str]]:
+    """
+    Registry-derived value of one metric (see module docstring for the policy).
+
+    Returns True / False / None (not assessed) / NOT_APPLICABLE.
     """
     if field_name not in FAIR_MAPPING:
         return None
-    
-    mapping = FAIR_MAPPING[field_name]
-    re3data_fields = mapping.get('re3data_fields', [])
-    logic = mapping.get('logic', 'presence')
-    source_type = mapping.get('source_type', 'unknown')
-    
-    # Collect relevant field values
-    present_values = {}
-    for field in re3data_fields:
-        if field in re3data_dict:
-            val = re3data_dict[field]
-            if val and not (isinstance(val, (list, dict)) and len(val) == 0):
-                present_values[field] = val
-    
-    # Apply logic based on source type and inference pattern
-    if logic == 'presence':
-        # True if at least one field is present
-        return len(present_values) > 0
-    
-    elif logic == 'multiple':
-        # True if multiple instances or rich data
-        count = sum(
-            len(v) if isinstance(v, list) else 1
-            for v in present_values.values()
-        )
-        return count >= 2
-    
-    elif logic == 'harvesting':
-        # True if OAI-PMH or similar harvesting available
-        for field, val in present_values.items():
-            if isinstance(val, list):
-                for item in val:
-                    if isinstance(item, dict):
-                        for k, v in item.items():
-                            if 'oai' in str(v).lower() or 'harvest' in str(v).lower():
-                                return True
-            elif isinstance(val, str):
-                if 'oai' in val.lower() or 'harvest' in val.lower():
-                    return True
-        return False
-    
-    elif logic == 'access_protocol':
-        # True if standard access protocol present
-        for field, val in present_values.items():
-            if isinstance(val, list):
-                for item in val:
-                    if isinstance(item, dict) and 'type' in item:
-                        type_val = str(item['type']).lower()
-                        if any(proto in type_val for proto in ['http', 'oai', 'ftp', 'rest', 'sparql']):
-                            return True
-        return False
-    
-    elif logic == 'access_restriction':
-        # True if restrictions are documented
-        return len(present_values) > 0
-    
-    elif logic == 'authentication_detail':
-        # True if specific auth type is documented
-        for field, val in present_values.items():
-            if isinstance(val, list):
-                for item in val:
-                    if isinstance(item, dict):
-                        for k, v in item.items():
-                            if any(auth in str(v).lower() for auth in ['ldap', 'oauth', 'saml', 'password', 'api']):
-                                return True
-        return False
-    
-    elif logic == 'metadata_unrestricted':
-        # True if metadata access is unrestricted
-        for field, val in present_values.items():
-            if isinstance(val, list):
-                for item in val:
-                    if isinstance(item, str) and 'unrestricted' in item.lower():
-                        return True
-            elif isinstance(val, str) and 'unrestricted' in val.lower():
-                return True
-        return False
-    
-    elif logic == 'availability':
-        # True if availability status is clear
-        return len(present_values) > 0
-    
-    elif logic == 'formal_representation':
-        # True if formal representation (RDF, XML schema, etc.) used
-        for field, val in present_values.items():
-            if isinstance(val, list):
-                for item in val:
-                    if isinstance(item, dict):
-                        for k, v in item.items():
-                            if any(fmt in str(v).lower() for fmt in ['rdf', 'xml', 'json', 'owl', 'schema']):
-                                return True
-        return False
-    
-    elif logic == 'controlled_vocabulary':
-        # True if controlled vocabularies mentioned
-        for field, val in present_values.items():
-            if isinstance(val, list):
-                if len(val) > 0:
-                    return True
-            elif val:
-                return True
-        return False
-    
-    elif logic == 'qualified_reference':
-        # True if qualified references/links present
-        for field, val in present_values.items():
-            if isinstance(val, list):
-                for item in val:
-                    if isinstance(item, dict) and len(item) > 1:
-                        return True
-        return len(present_values) > 0
-    
-    elif logic == 'multiple_formats':
-        # True if multiple formats supported
-        if 'contentType' in present_values:
-            val = present_values['contentType']
-            if isinstance(val, list) and len(val) > 1:
-                return True
-        return False
-    
-    elif logic == 'license_presence':
-        # True if license is clearly stated
-        return len(present_values) > 0
-    
-    elif logic == 'provenance_tracking':
-        # True if provenance is tracked in policy
-        for field, val in present_values.items():
-            if isinstance(val, list):
-                for item in val:
-                    if isinstance(item, dict):
-                        for k, v in item.items():
-                            if 'provenance' in str(v).lower() or 'lineage' in str(v).lower():
-                                return True
-        return False
-    
-    elif logic == 'standards_compliance':
-        # True if community standards mentioned
-        return len(present_values) > 0
-    
-    elif logic == 'documentation':
-        # True if documentation present and descriptive
-        if 'description' in present_values:
-            desc = present_values['description']
-            if isinstance(desc, str) and len(desc) > 50:
-                return True
-        return len(present_values) > 1
-    
-    elif logic == 'citation_support':
-        # True if citation support via PIDs
-        return len(present_values) > 0
-    
+    logic = FAIR_MAPPING[field_name]['logic']
+
+    if logic == 'not_represented':
+        return None
+
+    if logic == 'pid_system':
+        vals = [v.lower() for v in _texts(re3data_dict.get('pidSystem'))]
+        if not vals:
+            return None
+        return any(v != 'none' for v in vals)
+
+    if logic == 'standard_present':
+        names = _standard_names(re3data_dict)
+        if names is None:
+            return None
+        return any(n.lower() != 'none' for n in names)
+
+    if logic == 'standard_count':
+        names = _standard_names(re3data_dict)
+        if names is None:
+            return None
+        return len([n for n in names if n.lower() != 'none']) >= 2
+
+    if logic == 'formal_representation':
+        names = _standard_names(re3data_dict)
+        if names is None:
+            return None
+        return any(k in n.lower() for n in names for k in FORMAL_REPRESENTATION_KEYWORDS)
+
+    if logic == 'harvesting_api':
+        types = _api_types(re3data_dict)
+        if types is None:
+            return None
+        return any('oai' in t for t in types)
+
+    if logic == 'standard_api':
+        types = _api_types(re3data_dict)
+        if types is None:
+            return None
+        return any(t in STANDARD_API_TYPES or t.startswith('oai') for t in types)
+
+    if logic == 'api_present':
+        types = _api_types(re3data_dict)
+        return None if types is None else True
+
+    if logic == 'data_access_documented':
+        entries = re3data_dict.get('dataAccessEntries') or []
+        types = {str(e.get('type', '')).strip().lower() for e in entries if e.get('type')}
+        if not types:
+            return None
+        return bool(types & {'open', 'embargoed', 'restricted'})
+
+    if logic == 'access_regime':
+        return infer_authentication(re3data_dict.get('dataAccessEntries') or [])[0]
+
+    if logic == 'authentication_mechanism':
+        return infer_authentication(re3data_dict.get('dataAccessEntries') or [])[1]
+
+    if logic == 'database_open':
+        vals = [v.lower() for v in _texts(re3data_dict.get('databaseAccess'))]
+        if not vals:
+            return None
+        return 'open' in vals
+
+    if logic == 'content_type_count':
+        vals = _texts(re3data_dict.get('contentType'))
+        if not vals:
+            return None
+        return len(vals) >= 2
+
+    if logic == 'license_present':
+        vals = [v.lower() for v in _texts(re3data_dict.get('dataLicense'))]
+        if not vals:
+            return None
+        return any(v != 'none' for v in vals)
+
+    if logic == 'citation_url':
+        vals = _texts(re3data_dict.get('citationGuidelineUrl', re3data_dict.get('citationGuidelineURL')))
+        return True if vals else None
+
     return None
 
 
 def get_fair_fields() -> List[str]:
-    """Get all FAIR attribute field names."""
+    """All FAIR metric field names, in CSV column order."""
     return list(FAIR_MAPPING.keys())
 
 
 def get_fair_summary() -> Dict[str, List[str]]:
-    """Get FAIR attributes organized by principle."""
-    summary = {
-        'findability': [],
-        'accessibility': [],
-        'interoperability': [],
-        'reusability': []
-    }
+    """FAIR metric field names grouped by principle."""
+    summary = {'findability': [], 'accessibility': [], 'interoperability': [], 'reusability': []}
     for field_name in FAIR_MAPPING.keys():
-        principle = field_name.split('.')[1]  # Extract principle from field name
-        summary[principle].append(field_name)
+        summary[field_name.split('.')[1]].append(field_name)
     return summary

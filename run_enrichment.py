@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 from rdiDataEnricher.search_and_enrich_data import Re3DataEnricher
 from rdiDataEnricher.enrich_from_urls import DataEnricher as URLEnricher
-from rdiDataEnricher.fair_mapping import get_fair_fields, get_fair_summary
+from rdiDataEnricher.fair_mapping import get_fair_fields, get_fair_summary, NOT_APPLICABLE
 import pandas as pd
 import logging
 
@@ -185,6 +185,8 @@ def fill_fairness_fields_from_json(df, dataset_dir='1_dataverse_datasets'):
 	"""
 	Ensure FAIR fields exist and normalize boolean values.
 	Only translates values already present in the DataFrame to boolean (yes/no/true/false/1/0).
+	The literal "not applicable" (board coding of a conditional metric that does not apply)
+	is preserved as-is so that the re3data enrichment does not overwrite it.
 	Does NOT compute new FAIR values - that's done by Re3DataEnricher.
 	"""
 	fairness_fields = get_fair_fields()
@@ -203,6 +205,8 @@ def fill_fairness_fields_from_json(df, dataset_dir='1_dataverse_datasets'):
 			return True
 		if s in {'no', 'n', 'false', '0'}:
 			return False
+		if s == NOT_APPLICABLE:
+			return NOT_APPLICABLE
 		return pd.NA
 
 	for col in fairness_fields:
@@ -235,6 +239,10 @@ for principle, fields in fair_summary.items():
 	}
 
 df = fill_fairness_fields_from_json(df)
+# Provenance of each profile (revision, Reviewer 2 #10 / Reviewer 3 #9): rows that already carry FAIR values
+# come from the operator interview (board-coded); rows filled below come from the re3data record.
+_metric_fields = [f for f in get_fair_fields()]
+_interview_rows = df[_metric_fields].notna().any(axis=1)
 
 # 2. API enrichment
 msg = "\n=== STEP 2: RE3DATA API ENRICHMENT ==="
@@ -301,6 +309,19 @@ else:
 	logger.info(msg)
 	print(msg)
 
+# 4b. Record the assessment method per row
+if 'FAIRness.assessmentMethod' not in df.columns:
+	df['FAIRness.assessmentMethod'] = pd.NA
+df['FAIRness.assessmentMethod'] = df['FAIRness.assessmentMethod'].astype(object)
+_has_values = df[_metric_fields].notna().any(axis=1)
+df.loc[_interview_rows, 'FAIRness.assessmentMethod'] = 'interview'
+df.loc[~_interview_rows & _has_values, 'FAIRness.assessmentMethod'] = 're3data'
+if 'FAIRness.assessmentDate' not in df.columns:
+	df['FAIRness.assessmentDate'] = pd.NA
+df['FAIRness.assessmentDate'] = df['FAIRness.assessmentDate'].astype(object)
+# registry-derived profiles are dated with the retrieval date of the cached re3data records
+df.loc[~_interview_rows & _has_values & df['FAIRness.assessmentDate'].isna(), 'FAIRness.assessmentDate'] = '2026-07-06'
+print(f"✓ assessmentMethod set: {int(_interview_rows.sum())} interview, {int((~_interview_rows & _has_values).sum())} re3data")
 # 5. Generate detailed report
 msg = "\n=== STEP 5: GENERATE REPORT ==="
 logger.info(msg)

@@ -1,0 +1,281 @@
+repository,RFID,re3data,pillar,metric,provenance,operator,registry,category
+BonaRes Repository,RFId001202604272,r3d100013470,findability,persistentIdentifier,re3data-native,True,True,agree (met)
+BonaRes Repository,RFId001202604272,r3d100013470,findability,metadataSchema,re3data-native,True,True,agree (met)
+BonaRes Repository,RFId001202604272,r3d100013470,findability,richMetadata,re3data-inferred,True,True,agree (met)
+BonaRes Repository,RFId001202604272,r3d100013470,findability,indexedInSearchEngines,re3data-inferred,True,,not assessable from registry
+BonaRes Repository,RFId001202604272,r3d100013470,findability,metadataPersistence,fairagro-novel,True,,not assessable from registry
+BonaRes Repository,RFId001202604272,r3d100013470,accessibility,retrievalProtocol,re3data-native,True,,not assessable from registry
+BonaRes Repository,RFId001202604272,r3d100013470,accessibility,dataAvailability,re3data-native,True,True,agree (met)
+BonaRes Repository,RFId001202604272,r3d100013470,accessibility,authenticationRequired,re3data-native,True,True,agree (met)
+BonaRes Repository,RFId001202604272,r3d100013470,accessibility,authenticationType,re3data-native,True,,not assessable from registry
+BonaRes Repository,RFId001202604272,r3d100013470,accessibility,metadataAlwaysAvailable,re3data-native,True,True,agree (met)
+BonaRes Repository,RFId001202604272,r3d100013470,interoperability,dataFormats,re3data-inferred,True,True,agree (met)
+BonaRes Repository,RFId001202604272,r3d100013470,interoperability,apiAvailability,re3data-native,True,,not assessable from registry
+BonaRes Repository,RFId001202604272,r3d100013470,interoperability,knowledgeRepresentation,re3data-inferred,True,True,agree (met)
+BonaRes Repository,RFId001202604272,r3d100013470,interoperability,vocabulariesUsed,fairagro-novel,True,,not assessable from registry
+BonaRes Repository,RFId001202604272,r3d100013470,interoperability,qualifiedReferences,fairagro-novel,True,,not assessable from registry
+BonaRes Repository,RFId001202604272,r3d100013470,reusability,licenseClarity,re3data-native,True,True,agree (met)
+BonaRes Repository,RFId001202604272,r3d100013470,reusability,citationGuidelines,re3data-native,False,True,"registry met, operator not met"
+BonaRes Repository,RFId001202604272,r3d100013470,reusability,provenanceInfo,fairagro-novel,True,,not assessable from registry
+BonaRes Repository,RFId001202604272,r3d100013470,reusability,communityStandards,fairagro-novel,True,,not assessable from registry
+BonaRes Repository,RFId001202604272,r3d100013470,reusability,documentationQuality,fairagro-novel,True,,not assessable from registry
+EDI Data Portal,RFId003202604272,r3d100010272,findability,persistentIdentifier,re3data-native,True,True,agree (met)
+EDI Data Portal,RFId003202604272,r3d100010272,findability,metadataSchema,re3data-native,True,True,agree (met)
+EDI Data Portal,RFId003202604272,r3d100010272,findability,richMetadata,re3data-inferred,True,True,agree (met)
+EDI Data Portal,RFId003202604272,r3d100010272,findability,indexedInSearchEngines,re3data-inferred,True,False,"registry not met, operator met"
+EDI Data Portal,RFId003202604272,r3d100010272,findability,metadataPersistence,fairagro-novel,True,,not assessable from registry
+EDI Data Portal,RFId003202604272,r3d100010272,accessibility,retrievalProtocol,re3data-native,True,True,agree (met)
+EDI Data Portal,RFId003202604272,r3d100010272,accessibility,dataAvailability,re3data-native,True,True,agree (met)
+EDI Data Portal,RFId003202604272,r3d100010272,accessibility,authenticationRequired,re3data-native,True,True,agree (met)
+EDI Data Portal,RFId003202604272,r3d100010272,accessibility,authenticationType,re3data-native,not applicable,True,applicability differs
+EDI Data Portal,RFId003202604272,r3d100010272,accessibility,metadataAlwaysAvailable,re3data-native,True,True,agree (met)
+EDI Data Portal,RFId003202604272,r3d100010272,interoperability,dataFormats,re3data-inferred,False,True,"registry met, operator not met"
+EDI Data Portal,RFId003202604272,r3d100010272,interoperability,apiAvailability,re3data-native,True,True,agree (met)
+EDI Data Portal,RFId003202604272,r3d100010272,interoperability,knowledgeRepresentation,re3data-inferred,True,False,"registry not met, operator met"
+EDI Data Portal,RFId003202604272,r3d100010272,interoperability,vocabulariesUsed,fairagro-novel,False,,not assessable from registry
+EDI Data Portal,RFId003202604272,r3d100010272,interoperability,qualifiedReferences,fairagro-novel,False,,not assessable from registry
+EDI Data Portal,RFId003202604272,r3d100010272,reusability,licenseClarity,re3data-native,True,True,agree (met)
+EDI Data Portal,RFId003202604272,r3d100010272,reusability,citationGuidelines,re3data-native,True,True,agree (met)
+EDI Data Portal,RFId003202604272,r3d100010272,reusability,provenanceInfo,fairagro-novel,True,,not assessable from registry
+EDI Data Portal,RFId003202604272,r3d100010272,reusability,communityStandards,fairagro-novel,False,,not assessable from registry
+EDI Data Portal,RFId003202604272,r3d100010272,reusability,documentationQuality,fairagro-novel,True,,not assessable from registry
+Zenodo,RFId007202604272,r3d100010468,findability,persistentIdentifier,re3data-native,True,True,agree (met)
+Zenodo,RFId007202604272,r3d100010468,findability,metadataSchema,re3data-native,True,True,agree (met)
+Zenodo,RFId007202604272,r3d100010468,findability,richMetadata,re3data-inferred,True,True,agree (met)
+Zenodo,RFId007202604272,r3d100010468,findability,indexedInSearchEngines,re3data-inferred,True,True,agree (met)
+Zenodo,RFId007202604272,r3d100010468,findability,metadataPersistence,fairagro-novel,True,,not assessable from registry
+Zenodo,RFId007202604272,r3d100010468,accessibility,retrievalProtocol,re3data-native,True,True,agree (met)
+Zenodo,RFId007202604272,r3d100010468,accessibility,dataAvailability,re3data-native,True,True,agree (met)
+Zenodo,RFId007202604272,r3d100010468,accessibility,authenticationRequired,re3data-native,True,True,agree (met)
+Zenodo,RFId007202604272,r3d100010468,accessibility,authenticationType,re3data-native,True,True,agree (met)
+Zenodo,RFId007202604272,r3d100010468,accessibility,metadataAlwaysAvailable,re3data-native,True,True,agree (met)
+Zenodo,RFId007202604272,r3d100010468,interoperability,dataFormats,re3data-inferred,True,True,agree (met)
+Zenodo,RFId007202604272,r3d100010468,interoperability,apiAvailability,re3data-native,True,True,agree (met)
+Zenodo,RFId007202604272,r3d100010468,interoperability,knowledgeRepresentation,re3data-inferred,True,True,agree (met)
+Zenodo,RFId007202604272,r3d100010468,interoperability,vocabulariesUsed,fairagro-novel,True,,not assessable from registry
+Zenodo,RFId007202604272,r3d100010468,interoperability,qualifiedReferences,fairagro-novel,False,,not assessable from registry
+Zenodo,RFId007202604272,r3d100010468,reusability,licenseClarity,re3data-native,True,True,agree (met)
+Zenodo,RFId007202604272,r3d100010468,reusability,citationGuidelines,re3data-native,True,True,agree (met)
+Zenodo,RFId007202604272,r3d100010468,reusability,provenanceInfo,fairagro-novel,False,,not assessable from registry
+Zenodo,RFId007202604272,r3d100010468,reusability,communityStandards,fairagro-novel,True,,not assessable from registry
+Zenodo,RFId007202604272,r3d100010468,reusability,documentationQuality,fairagro-novel,True,,not assessable from registry
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,findability,persistentIdentifier,re3data-native,True,True,agree (met)
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,findability,metadataSchema,re3data-native,True,True,agree (met)
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,findability,richMetadata,re3data-inferred,True,False,"registry not met, operator met"
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,findability,indexedInSearchEngines,re3data-inferred,True,,not assessable from registry
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,findability,metadataPersistence,fairagro-novel,True,,not assessable from registry
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,accessibility,retrievalProtocol,re3data-native,True,,not assessable from registry
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,accessibility,dataAvailability,re3data-native,True,True,agree (met)
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,accessibility,authenticationRequired,re3data-native,True,True,agree (met)
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,accessibility,authenticationType,re3data-native,True,True,agree (met)
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,accessibility,metadataAlwaysAvailable,re3data-native,True,True,agree (met)
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,interoperability,dataFormats,re3data-inferred,True,True,agree (met)
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,interoperability,apiAvailability,re3data-native,True,,not assessable from registry
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,interoperability,knowledgeRepresentation,re3data-inferred,True,True,agree (met)
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,interoperability,vocabulariesUsed,fairagro-novel,True,,not assessable from registry
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,interoperability,qualifiedReferences,fairagro-novel,True,,not assessable from registry
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,reusability,licenseClarity,re3data-native,True,True,agree (met)
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,reusability,citationGuidelines,re3data-native,True,,not assessable from registry
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,reusability,provenanceInfo,fairagro-novel,True,,not assessable from registry
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,reusability,communityStandards,fairagro-novel,True,,not assessable from registry
+ZB MED Suchportal Lebenswissenschaften,RFId009202604272,r3d100013036,reusability,documentationQuality,fairagro-novel,True,,not assessable from registry
+Edaphobase,RFId011202604272,r3d100014734,findability,persistentIdentifier,re3data-native,True,True,agree (met)
+Edaphobase,RFId011202604272,r3d100014734,findability,metadataSchema,re3data-native,True,,not assessable from registry
+Edaphobase,RFId011202604272,r3d100014734,findability,richMetadata,re3data-inferred,True,,not assessable from registry
+Edaphobase,RFId011202604272,r3d100014734,findability,indexedInSearchEngines,re3data-inferred,False,False,agree (not met)
+Edaphobase,RFId011202604272,r3d100014734,findability,metadataPersistence,fairagro-novel,True,,not assessable from registry
+Edaphobase,RFId011202604272,r3d100014734,accessibility,retrievalProtocol,re3data-native,True,True,agree (met)
+Edaphobase,RFId011202604272,r3d100014734,accessibility,dataAvailability,re3data-native,True,True,agree (met)
+Edaphobase,RFId011202604272,r3d100014734,accessibility,authenticationRequired,re3data-native,True,True,agree (met)
+Edaphobase,RFId011202604272,r3d100014734,accessibility,authenticationType,re3data-native,True,True,agree (met)
+Edaphobase,RFId011202604272,r3d100014734,accessibility,metadataAlwaysAvailable,re3data-native,True,True,agree (met)
+Edaphobase,RFId011202604272,r3d100014734,interoperability,dataFormats,re3data-inferred,True,,not assessable from registry
+Edaphobase,RFId011202604272,r3d100014734,interoperability,apiAvailability,re3data-native,True,True,agree (met)
+Edaphobase,RFId011202604272,r3d100014734,interoperability,knowledgeRepresentation,re3data-inferred,True,,not assessable from registry
+Edaphobase,RFId011202604272,r3d100014734,interoperability,vocabulariesUsed,fairagro-novel,True,,not assessable from registry
+Edaphobase,RFId011202604272,r3d100014734,interoperability,qualifiedReferences,fairagro-novel,True,,not assessable from registry
+Edaphobase,RFId011202604272,r3d100014734,reusability,licenseClarity,re3data-native,True,True,agree (met)
+Edaphobase,RFId011202604272,r3d100014734,reusability,citationGuidelines,re3data-native,True,True,agree (met)
+Edaphobase,RFId011202604272,r3d100014734,reusability,provenanceInfo,fairagro-novel,True,,not assessable from registry
+Edaphobase,RFId011202604272,r3d100014734,reusability,communityStandards,fairagro-novel,True,,not assessable from registry
+Edaphobase,RFId011202604272,r3d100014734,reusability,documentationQuality,fairagro-novel,True,,not assessable from registry
+OpenAgrar,RFId014202604272,r3d100012467,findability,persistentIdentifier,re3data-native,True,True,agree (met)
+OpenAgrar,RFId014202604272,r3d100012467,findability,metadataSchema,re3data-native,True,True,agree (met)
+OpenAgrar,RFId014202604272,r3d100012467,findability,richMetadata,re3data-inferred,True,False,"registry not met, operator met"
+OpenAgrar,RFId014202604272,r3d100012467,findability,indexedInSearchEngines,re3data-inferred,True,True,agree (met)
+OpenAgrar,RFId014202604272,r3d100012467,findability,metadataPersistence,fairagro-novel,True,,not assessable from registry
+OpenAgrar,RFId014202604272,r3d100012467,accessibility,retrievalProtocol,re3data-native,True,True,agree (met)
+OpenAgrar,RFId014202604272,r3d100012467,accessibility,dataAvailability,re3data-native,True,True,agree (met)
+OpenAgrar,RFId014202604272,r3d100012467,accessibility,authenticationRequired,re3data-native,True,True,agree (met)
+OpenAgrar,RFId014202604272,r3d100012467,accessibility,authenticationType,re3data-native,True,,not assessable from registry
+OpenAgrar,RFId014202604272,r3d100012467,accessibility,metadataAlwaysAvailable,re3data-native,True,True,agree (met)
+OpenAgrar,RFId014202604272,r3d100012467,interoperability,dataFormats,re3data-inferred,True,True,agree (met)
+OpenAgrar,RFId014202604272,r3d100012467,interoperability,apiAvailability,re3data-native,True,True,agree (met)
+OpenAgrar,RFId014202604272,r3d100012467,interoperability,knowledgeRepresentation,re3data-inferred,True,False,"registry not met, operator met"
+OpenAgrar,RFId014202604272,r3d100012467,interoperability,vocabulariesUsed,fairagro-novel,True,,not assessable from registry
+OpenAgrar,RFId014202604272,r3d100012467,interoperability,qualifiedReferences,fairagro-novel,True,,not assessable from registry
+OpenAgrar,RFId014202604272,r3d100012467,reusability,licenseClarity,re3data-native,True,True,agree (met)
+OpenAgrar,RFId014202604272,r3d100012467,reusability,citationGuidelines,re3data-native,True,,not assessable from registry
+OpenAgrar,RFId014202604272,r3d100012467,reusability,provenanceInfo,fairagro-novel,True,,not assessable from registry
+OpenAgrar,RFId014202604272,r3d100012467,reusability,communityStandards,fairagro-novel,True,,not assessable from registry
+OpenAgrar,RFId014202604272,r3d100012467,reusability,documentationQuality,fairagro-novel,False,,not assessable from registry
+Open Data Server,RFId018202604272,r3d100014753,findability,persistentIdentifier,re3data-native,False,,not assessable from registry
+Open Data Server,RFId018202604272,r3d100014753,findability,metadataSchema,re3data-native,True,,not assessable from registry
+Open Data Server,RFId018202604272,r3d100014753,findability,richMetadata,re3data-inferred,True,,not assessable from registry
+Open Data Server,RFId018202604272,r3d100014753,findability,indexedInSearchEngines,re3data-inferred,True,False,"registry not met, operator met"
+Open Data Server,RFId018202604272,r3d100014753,findability,metadataPersistence,fairagro-novel,True,,not assessable from registry
+Open Data Server,RFId018202604272,r3d100014753,accessibility,retrievalProtocol,re3data-native,True,True,agree (met)
+Open Data Server,RFId018202604272,r3d100014753,accessibility,dataAvailability,re3data-native,True,True,agree (met)
+Open Data Server,RFId018202604272,r3d100014753,accessibility,authenticationRequired,re3data-native,True,True,agree (met)
+Open Data Server,RFId018202604272,r3d100014753,accessibility,authenticationType,re3data-native,not applicable,not applicable,agree (not applicable)
+Open Data Server,RFId018202604272,r3d100014753,accessibility,metadataAlwaysAvailable,re3data-native,True,True,agree (met)
+Open Data Server,RFId018202604272,r3d100014753,interoperability,dataFormats,re3data-inferred,True,,not assessable from registry
+Open Data Server,RFId018202604272,r3d100014753,interoperability,apiAvailability,re3data-native,False,True,"registry met, operator not met"
+Open Data Server,RFId018202604272,r3d100014753,interoperability,knowledgeRepresentation,re3data-inferred,False,,not assessable from registry
+Open Data Server,RFId018202604272,r3d100014753,interoperability,vocabulariesUsed,fairagro-novel,True,,not assessable from registry
+Open Data Server,RFId018202604272,r3d100014753,interoperability,qualifiedReferences,fairagro-novel,True,,not assessable from registry
+Open Data Server,RFId018202604272,r3d100014753,reusability,licenseClarity,re3data-native,True,True,agree (met)
+Open Data Server,RFId018202604272,r3d100014753,reusability,citationGuidelines,re3data-native,True,True,agree (met)
+Open Data Server,RFId018202604272,r3d100014753,reusability,provenanceInfo,fairagro-novel,True,,not assessable from registry
+Open Data Server,RFId018202604272,r3d100014753,reusability,communityStandards,fairagro-novel,True,,not assessable from registry
+Open Data Server,RFId018202604272,r3d100014753,reusability,documentationQuality,fairagro-novel,True,,not assessable from registry
+Thünen Atlas,RFId033202604272,r3d100014743,findability,persistentIdentifier,re3data-native,False,False,agree (not met)
+Thünen Atlas,RFId033202604272,r3d100014743,findability,metadataSchema,re3data-native,True,,not assessable from registry
+Thünen Atlas,RFId033202604272,r3d100014743,findability,richMetadata,re3data-inferred,True,,not assessable from registry
+Thünen Atlas,RFId033202604272,r3d100014743,findability,indexedInSearchEngines,re3data-inferred,False,False,agree (not met)
+Thünen Atlas,RFId033202604272,r3d100014743,findability,metadataPersistence,fairagro-novel,False,,not assessable from registry
+Thünen Atlas,RFId033202604272,r3d100014743,accessibility,retrievalProtocol,re3data-native,True,True,agree (met)
+Thünen Atlas,RFId033202604272,r3d100014743,accessibility,dataAvailability,re3data-native,True,True,agree (met)
+Thünen Atlas,RFId033202604272,r3d100014743,accessibility,authenticationRequired,re3data-native,True,True,agree (met)
+Thünen Atlas,RFId033202604272,r3d100014743,accessibility,authenticationType,re3data-native,not applicable,,not assessable from registry
+Thünen Atlas,RFId033202604272,r3d100014743,accessibility,metadataAlwaysAvailable,re3data-native,True,True,agree (met)
+Thünen Atlas,RFId033202604272,r3d100014743,interoperability,dataFormats,re3data-inferred,True,,not assessable from registry
+Thünen Atlas,RFId033202604272,r3d100014743,interoperability,apiAvailability,re3data-native,True,True,agree (met)
+Thünen Atlas,RFId033202604272,r3d100014743,interoperability,knowledgeRepresentation,re3data-inferred,False,,not assessable from registry
+Thünen Atlas,RFId033202604272,r3d100014743,interoperability,vocabulariesUsed,fairagro-novel,False,,not assessable from registry
+Thünen Atlas,RFId033202604272,r3d100014743,interoperability,qualifiedReferences,fairagro-novel,True,,not assessable from registry
+Thünen Atlas,RFId033202604272,r3d100014743,reusability,licenseClarity,re3data-native,True,True,agree (met)
+Thünen Atlas,RFId033202604272,r3d100014743,reusability,citationGuidelines,re3data-native,True,,not assessable from registry
+Thünen Atlas,RFId033202604272,r3d100014743,reusability,provenanceInfo,fairagro-novel,False,,not assessable from registry
+Thünen Atlas,RFId033202604272,r3d100014743,reusability,communityStandards,fairagro-novel,True,,not assessable from registry
+Thünen Atlas,RFId033202604272,r3d100014743,reusability,documentationQuality,fairagro-novel,True,,not assessable from registry
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,findability,persistentIdentifier,re3data-native,True,False,"registry not met, operator met"
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,findability,metadataSchema,re3data-native,True,,not assessable from registry
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,findability,richMetadata,re3data-inferred,True,,not assessable from registry
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,findability,indexedInSearchEngines,re3data-inferred,True,,not assessable from registry
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,findability,metadataPersistence,fairagro-novel,True,,not assessable from registry
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,accessibility,retrievalProtocol,re3data-native,True,,not assessable from registry
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,accessibility,dataAvailability,re3data-native,True,True,agree (met)
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,accessibility,authenticationRequired,re3data-native,True,True,agree (met)
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,accessibility,authenticationType,re3data-native,not applicable,not applicable,agree (not applicable)
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,accessibility,metadataAlwaysAvailable,re3data-native,True,True,agree (met)
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,interoperability,dataFormats,re3data-inferred,True,True,agree (met)
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,interoperability,apiAvailability,re3data-native,True,,not assessable from registry
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,interoperability,knowledgeRepresentation,re3data-inferred,True,,not assessable from registry
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,interoperability,vocabulariesUsed,fairagro-novel,True,,not assessable from registry
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,interoperability,qualifiedReferences,fairagro-novel,True,,not assessable from registry
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,reusability,licenseClarity,re3data-native,True,True,agree (met)
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,reusability,citationGuidelines,re3data-native,True,True,agree (met)
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,reusability,provenanceInfo,fairagro-novel,True,,not assessable from registry
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,reusability,communityStandards,fairagro-novel,True,,not assessable from registry
+BacDive - Bacterial Diversity Database,RFId035202604272,r3d100010219,reusability,documentationQuality,fairagro-novel,True,,not assessable from registry
+PANGAEA,RFId062202604272,r3d100010134,findability,persistentIdentifier,re3data-native,True,True,agree (met)
+PANGAEA,RFId062202604272,r3d100010134,findability,metadataSchema,re3data-native,True,True,agree (met)
+PANGAEA,RFId062202604272,r3d100010134,findability,richMetadata,re3data-inferred,True,True,agree (met)
+PANGAEA,RFId062202604272,r3d100010134,findability,indexedInSearchEngines,re3data-inferred,True,True,agree (met)
+PANGAEA,RFId062202604272,r3d100010134,findability,metadataPersistence,fairagro-novel,True,,not assessable from registry
+PANGAEA,RFId062202604272,r3d100010134,accessibility,retrievalProtocol,re3data-native,True,True,agree (met)
+PANGAEA,RFId062202604272,r3d100010134,accessibility,dataAvailability,re3data-native,True,True,agree (met)
+PANGAEA,RFId062202604272,r3d100010134,accessibility,authenticationRequired,re3data-native,True,True,agree (met)
+PANGAEA,RFId062202604272,r3d100010134,accessibility,authenticationType,re3data-native,not applicable,not applicable,agree (not applicable)
+PANGAEA,RFId062202604272,r3d100010134,accessibility,metadataAlwaysAvailable,re3data-native,True,True,agree (met)
+PANGAEA,RFId062202604272,r3d100010134,interoperability,dataFormats,re3data-inferred,True,True,agree (met)
+PANGAEA,RFId062202604272,r3d100010134,interoperability,apiAvailability,re3data-native,True,True,agree (met)
+PANGAEA,RFId062202604272,r3d100010134,interoperability,knowledgeRepresentation,re3data-inferred,True,False,"registry not met, operator met"
+PANGAEA,RFId062202604272,r3d100010134,interoperability,vocabulariesUsed,fairagro-novel,True,,not assessable from registry
+PANGAEA,RFId062202604272,r3d100010134,interoperability,qualifiedReferences,fairagro-novel,True,,not assessable from registry
+PANGAEA,RFId062202604272,r3d100010134,reusability,licenseClarity,re3data-native,True,True,agree (met)
+PANGAEA,RFId062202604272,r3d100010134,reusability,citationGuidelines,re3data-native,True,True,agree (met)
+PANGAEA,RFId062202604272,r3d100010134,reusability,provenanceInfo,fairagro-novel,True,,not assessable from registry
+PANGAEA,RFId062202604272,r3d100010134,reusability,communityStandards,fairagro-novel,True,,not assessable from registry
+PANGAEA,RFId062202604272,r3d100010134,reusability,documentationQuality,fairagro-novel,True,,not assessable from registry
+RADAR4Chem,RFId066202604272,r3d100014010,findability,persistentIdentifier,re3data-native,True,True,agree (met)
+RADAR4Chem,RFId066202604272,r3d100014010,findability,metadataSchema,re3data-native,True,True,agree (met)
+RADAR4Chem,RFId066202604272,r3d100014010,findability,richMetadata,re3data-inferred,True,True,agree (met)
+RADAR4Chem,RFId066202604272,r3d100014010,findability,indexedInSearchEngines,re3data-inferred,True,True,agree (met)
+RADAR4Chem,RFId066202604272,r3d100014010,findability,metadataPersistence,fairagro-novel,True,,not assessable from registry
+RADAR4Chem,RFId066202604272,r3d100014010,accessibility,retrievalProtocol,re3data-native,True,True,agree (met)
+RADAR4Chem,RFId066202604272,r3d100014010,accessibility,dataAvailability,re3data-native,True,True,agree (met)
+RADAR4Chem,RFId066202604272,r3d100014010,accessibility,authenticationRequired,re3data-native,True,True,agree (met)
+RADAR4Chem,RFId066202604272,r3d100014010,accessibility,authenticationType,re3data-native,not applicable,True,applicability differs
+RADAR4Chem,RFId066202604272,r3d100014010,accessibility,metadataAlwaysAvailable,re3data-native,True,True,agree (met)
+RADAR4Chem,RFId066202604272,r3d100014010,interoperability,dataFormats,re3data-inferred,True,True,agree (met)
+RADAR4Chem,RFId066202604272,r3d100014010,interoperability,apiAvailability,re3data-native,True,True,agree (met)
+RADAR4Chem,RFId066202604272,r3d100014010,interoperability,knowledgeRepresentation,re3data-inferred,True,True,agree (met)
+RADAR4Chem,RFId066202604272,r3d100014010,interoperability,vocabulariesUsed,fairagro-novel,True,,not assessable from registry
+RADAR4Chem,RFId066202604272,r3d100014010,interoperability,qualifiedReferences,fairagro-novel,True,,not assessable from registry
+RADAR4Chem,RFId066202604272,r3d100014010,reusability,licenseClarity,re3data-native,True,True,agree (met)
+RADAR4Chem,RFId066202604272,r3d100014010,reusability,citationGuidelines,re3data-native,True,,not assessable from registry
+RADAR4Chem,RFId066202604272,r3d100014010,reusability,provenanceInfo,fairagro-novel,True,,not assessable from registry
+RADAR4Chem,RFId066202604272,r3d100014010,reusability,communityStandards,fairagro-novel,True,,not assessable from registry
+RADAR4Chem,RFId066202604272,r3d100014010,reusability,documentationQuality,fairagro-novel,True,,not assessable from registry
+Cambridge Structural Database,RFId069202604272,r3d100010197,findability,persistentIdentifier,re3data-native,True,True,agree (met)
+Cambridge Structural Database,RFId069202604272,r3d100010197,findability,metadataSchema,re3data-native,True,True,agree (met)
+Cambridge Structural Database,RFId069202604272,r3d100010197,findability,richMetadata,re3data-inferred,True,False,"registry not met, operator met"
+Cambridge Structural Database,RFId069202604272,r3d100010197,findability,indexedInSearchEngines,re3data-inferred,True,False,"registry not met, operator met"
+Cambridge Structural Database,RFId069202604272,r3d100010197,findability,metadataPersistence,fairagro-novel,True,,not assessable from registry
+Cambridge Structural Database,RFId069202604272,r3d100010197,accessibility,retrievalProtocol,re3data-native,True,True,agree (met)
+Cambridge Structural Database,RFId069202604272,r3d100010197,accessibility,dataAvailability,re3data-native,True,True,agree (met)
+Cambridge Structural Database,RFId069202604272,r3d100010197,accessibility,authenticationRequired,re3data-native,True,True,agree (met)
+Cambridge Structural Database,RFId069202604272,r3d100010197,accessibility,authenticationType,re3data-native,True,True,agree (met)
+Cambridge Structural Database,RFId069202604272,r3d100010197,accessibility,metadataAlwaysAvailable,re3data-native,True,True,agree (met)
+Cambridge Structural Database,RFId069202604272,r3d100010197,interoperability,dataFormats,re3data-inferred,True,True,agree (met)
+Cambridge Structural Database,RFId069202604272,r3d100010197,interoperability,apiAvailability,re3data-native,True,True,agree (met)
+Cambridge Structural Database,RFId069202604272,r3d100010197,interoperability,knowledgeRepresentation,re3data-inferred,True,True,agree (met)
+Cambridge Structural Database,RFId069202604272,r3d100010197,interoperability,vocabulariesUsed,fairagro-novel,True,,not assessable from registry
+Cambridge Structural Database,RFId069202604272,r3d100010197,interoperability,qualifiedReferences,fairagro-novel,True,,not assessable from registry
+Cambridge Structural Database,RFId069202604272,r3d100010197,reusability,licenseClarity,re3data-native,True,True,agree (met)
+Cambridge Structural Database,RFId069202604272,r3d100010197,reusability,citationGuidelines,re3data-native,True,True,agree (met)
+Cambridge Structural Database,RFId069202604272,r3d100010197,reusability,provenanceInfo,fairagro-novel,True,,not assessable from registry
+Cambridge Structural Database,RFId069202604272,r3d100010197,reusability,communityStandards,fairagro-novel,True,,not assessable from registry
+Cambridge Structural Database,RFId069202604272,r3d100010197,reusability,documentationQuality,fairagro-novel,True,,not assessable from registry
+iochem-BD,RFId072202604272,r3d100012553,findability,persistentIdentifier,re3data-native,True,True,agree (met)
+iochem-BD,RFId072202604272,r3d100012553,findability,metadataSchema,re3data-native,True,True,agree (met)
+iochem-BD,RFId072202604272,r3d100012553,findability,richMetadata,re3data-inferred,True,False,"registry not met, operator met"
+iochem-BD,RFId072202604272,r3d100012553,findability,indexedInSearchEngines,re3data-inferred,False,True,"registry met, operator not met"
+iochem-BD,RFId072202604272,r3d100012553,findability,metadataPersistence,fairagro-novel,True,,not assessable from registry
+iochem-BD,RFId072202604272,r3d100012553,accessibility,retrievalProtocol,re3data-native,True,True,agree (met)
+iochem-BD,RFId072202604272,r3d100012553,accessibility,dataAvailability,re3data-native,True,True,agree (met)
+iochem-BD,RFId072202604272,r3d100012553,accessibility,authenticationRequired,re3data-native,True,True,agree (met)
+iochem-BD,RFId072202604272,r3d100012553,accessibility,authenticationType,re3data-native,not applicable,True,applicability differs
+iochem-BD,RFId072202604272,r3d100012553,accessibility,metadataAlwaysAvailable,re3data-native,True,True,agree (met)
+iochem-BD,RFId072202604272,r3d100012553,interoperability,dataFormats,re3data-inferred,True,True,agree (met)
+iochem-BD,RFId072202604272,r3d100012553,interoperability,apiAvailability,re3data-native,True,True,agree (met)
+iochem-BD,RFId072202604272,r3d100012553,interoperability,knowledgeRepresentation,re3data-inferred,False,False,agree (not met)
+iochem-BD,RFId072202604272,r3d100012553,interoperability,vocabulariesUsed,fairagro-novel,False,,not assessable from registry
+iochem-BD,RFId072202604272,r3d100012553,interoperability,qualifiedReferences,fairagro-novel,False,,not assessable from registry
+iochem-BD,RFId072202604272,r3d100012553,reusability,licenseClarity,re3data-native,True,True,agree (met)
+iochem-BD,RFId072202604272,r3d100012553,reusability,citationGuidelines,re3data-native,True,,not assessable from registry
+iochem-BD,RFId072202604272,r3d100012553,reusability,provenanceInfo,fairagro-novel,True,,not assessable from registry
+iochem-BD,RFId072202604272,r3d100012553,reusability,communityStandards,fairagro-novel,True,,not assessable from registry
+iochem-BD,RFId072202604272,r3d100012553,reusability,documentationQuality,fairagro-novel,True,,not assessable from registry
+EUDATA B2SHARE,RFId073202604272,r3d100011394,findability,persistentIdentifier,re3data-native,True,True,agree (met)
+EUDATA B2SHARE,RFId073202604272,r3d100011394,findability,metadataSchema,re3data-native,True,,not assessable from registry
+EUDATA B2SHARE,RFId073202604272,r3d100011394,findability,richMetadata,re3data-inferred,True,,not assessable from registry
+EUDATA B2SHARE,RFId073202604272,r3d100011394,findability,indexedInSearchEngines,re3data-inferred,True,True,agree (met)
+EUDATA B2SHARE,RFId073202604272,r3d100011394,findability,metadataPersistence,fairagro-novel,True,,not assessable from registry
+EUDATA B2SHARE,RFId073202604272,r3d100011394,accessibility,retrievalProtocol,re3data-native,True,True,agree (met)
+EUDATA B2SHARE,RFId073202604272,r3d100011394,accessibility,dataAvailability,re3data-native,True,True,agree (met)
+EUDATA B2SHARE,RFId073202604272,r3d100011394,accessibility,authenticationRequired,re3data-native,True,True,agree (met)
+EUDATA B2SHARE,RFId073202604272,r3d100011394,accessibility,authenticationType,re3data-native,True,True,agree (met)
+EUDATA B2SHARE,RFId073202604272,r3d100011394,accessibility,metadataAlwaysAvailable,re3data-native,True,True,agree (met)
+EUDATA B2SHARE,RFId073202604272,r3d100011394,interoperability,dataFormats,re3data-inferred,True,True,agree (met)
+EUDATA B2SHARE,RFId073202604272,r3d100011394,interoperability,apiAvailability,re3data-native,True,True,agree (met)
+EUDATA B2SHARE,RFId073202604272,r3d100011394,interoperability,knowledgeRepresentation,re3data-inferred,False,,not assessable from registry
+EUDATA B2SHARE,RFId073202604272,r3d100011394,interoperability,vocabulariesUsed,fairagro-novel,True,,not assessable from registry
+EUDATA B2SHARE,RFId073202604272,r3d100011394,interoperability,qualifiedReferences,fairagro-novel,False,,not assessable from registry
+EUDATA B2SHARE,RFId073202604272,r3d100011394,reusability,licenseClarity,re3data-native,True,True,agree (met)
+EUDATA B2SHARE,RFId073202604272,r3d100011394,reusability,citationGuidelines,re3data-native,True,,not assessable from registry
+EUDATA B2SHARE,RFId073202604272,r3d100011394,reusability,provenanceInfo,fairagro-novel,True,,not assessable from registry
+EUDATA B2SHARE,RFId073202604272,r3d100011394,reusability,communityStandards,fairagro-novel,True,,not assessable from registry
+EUDATA B2SHARE,RFId073202604272,r3d100011394,reusability,documentationQuality,fairagro-novel,True,,not assessable from registry

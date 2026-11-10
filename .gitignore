@@ -1,1 +1,5 @@
 frontend
+__pycache__/
+*.pyc
+*.bak-*
+enrichment_run_*.log
